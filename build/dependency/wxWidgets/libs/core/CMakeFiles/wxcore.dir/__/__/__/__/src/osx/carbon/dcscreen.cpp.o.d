@@ -1824,4 +1824,5 @@ dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/__/__/__/__/src/osx/carbon/
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/SecurityHI.framework/Headers/SecCertificateSupport.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers/Help.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/System/Library/Frameworks/Carbon.framework/Frameworks/Help.framework/Headers/AppleHelp.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/include/wx/osx/cocoa/private.h
+  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/include/wx/osx/cocoa/private.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/include/wx/osx/private/available.h
