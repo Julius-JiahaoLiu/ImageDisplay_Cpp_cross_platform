@@ -1,0 +1,64 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"wx_install"
+		],
+		"files" : 
+		[
+			"dependency/wxWidgets/build/cmake/functions.cmake",
+			"dependency/wxWidgets/build/cmake/utils/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"dependency/wxWidgets/lib/wxrc-3.3"
+			],
+			"targetId" : "wxrc::@252b5eb1c898bfa2c6d1",
+			"targetIndex" : 15,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"type" : "code"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "dependency/wxWidgets/utils",
+		"source" : "dependency/wxWidgets/build/cmake/utils"
+	}
+}

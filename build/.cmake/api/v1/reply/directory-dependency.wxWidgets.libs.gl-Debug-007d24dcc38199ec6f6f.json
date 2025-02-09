@@ -1,0 +1,75 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"wx_install",
+			"wx_add_library"
+		],
+		"files" : 
+		[
+			"dependency/wxWidgets/build/cmake/functions.cmake",
+			"dependency/wxWidgets/build/cmake/lib/gl/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 454,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"dependency/wxWidgets/lib/libwx_osx_cocoau_gl-3.3.0.0.0.dylib",
+				"dependency/wxWidgets/lib/libwx_osx_cocoau_gl-3.3.0.dylib"
+			],
+			"targetId" : "wxgl::@d81563a6f16a63bb73ec",
+			"targetIndex" : 6,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"dependency/wxWidgets/lib/libwx_osx_cocoau_gl-3.3.dylib"
+			],
+			"targetId" : "wxgl::@d81563a6f16a63bb73ec",
+			"targetIndex" : 6,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "dependency/wxWidgets/libs/gl",
+		"source" : "dependency/wxWidgets/build/cmake/lib/gl"
+	}
+}

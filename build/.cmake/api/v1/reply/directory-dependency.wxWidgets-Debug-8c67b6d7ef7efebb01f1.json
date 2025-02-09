@@ -1,0 +1,221 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include"
+		],
+		"files" : 
+		[
+			"dependency/wxWidgets/build/cmake/install.cmake",
+			"dependency/wxWidgets/build/cmake/main.cmake",
+			"dependency/wxWidgets/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 103,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 55,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "include/wx-3.3",
+			"paths" : 
+			[
+				"dependency/wxWidgets/include/wx"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/wx/include",
+			"paths" : 
+			[
+				"build/dependency/wxWidgets/lib/wx/include/osx_cocoa-unicode-3.3"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib/wx/config",
+			"paths" : 
+			[
+				"build/dependency/wxWidgets/lib/wx/config/osx_cocoa-unicode-3.3"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/wxWidgets",
+			"exportName" : "wxWidgetsTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "wxbase::@032cd719012c96dbd2f3",
+					"index" : 4
+				},
+				{
+					"id" : "wxnet::@c15d35ae0e313430e146",
+					"index" : 11
+				},
+				{
+					"id" : "wxcore::@420ca51c67e720a69205",
+					"index" : 5
+				},
+				{
+					"id" : "wxadv::@c1ead264ec59a72e4990",
+					"index" : 2
+				},
+				{
+					"id" : "wxaui::@14fcca565eaf24a533c7",
+					"index" : 3
+				},
+				{
+					"id" : "wxhtml::@92910d23cad8c839dc5f",
+					"index" : 7
+				},
+				{
+					"id" : "wxpropgrid::@529e61797314fe08e491",
+					"index" : 13
+				},
+				{
+					"id" : "wxribbon::@6550fc6309ac8f8f1eab",
+					"index" : 17
+				},
+				{
+					"id" : "wxrichtext::@51b773ac0b9e763dd73f",
+					"index" : 18
+				},
+				{
+					"id" : "wxwebview::@bcd04586ba7bcaba64a8",
+					"index" : 22
+				},
+				{
+					"id" : "wxstc::@f577c233284387b45208",
+					"index" : 20
+				},
+				{
+					"id" : "wxxrc::@2b4837b409fe91adec3b",
+					"index" : 24
+				},
+				{
+					"id" : "wxmedia::@1c891c2e5bed927fdf70",
+					"index" : 10
+				},
+				{
+					"id" : "wxgl::@d81563a6f16a63bb73ec",
+					"index" : 6
+				},
+				{
+					"id" : "wxqa::@043fe6c33cf9ea33a103",
+					"index" : 14
+				},
+				{
+					"id" : "wxxml::@0d8c829d155b5dc5aeb2",
+					"index" : 23
+				}
+			],
+			"paths" : 
+			[
+				"dependency/wxWidgets/CMakeFiles/Export/82dea25457d57761b815f3a88ce12492/wxWidgetsTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/wxWidgets",
+			"paths" : 
+			[
+				"build/dependency/wxWidgets/lib/wxWidgetsConfig.cmake",
+				"build/dependency/wxWidgets/lib/wxWidgetsConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "dependency/wxWidgets",
+		"source" : "dependency/wxWidgets"
+	}
+}
