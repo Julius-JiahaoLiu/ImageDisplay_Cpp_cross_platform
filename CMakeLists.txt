@@ -19,8 +19,6 @@ else()
 endif()
 
 add_subdirectory(dependency/wxWidgets)
-# find_package(wxWidgets REQUIRED)
-# include(${wxWidgets_USE_FILE})
 
 # Create executable
 add_executable(MyImageApplication ${SOURCES})
@@ -30,11 +28,5 @@ if(UNIX AND NOT APPLE)
     find_package(X11 REQUIRED)
 endif()
 
-# Add compile options for macOS
-if(APPLE)
-    target_compile_options(MyImageApplication PRIVATE -mmacosx-version-min=10.7 -stdlib=libc++)
-endif()
-
 # Link libraries
 target_link_libraries(MyImageApplication wx::core wx::base ${X11_LIBRARIES})
-# target_link_libraries(MyImageApplication ${wxWidgets_LIBRARIES})

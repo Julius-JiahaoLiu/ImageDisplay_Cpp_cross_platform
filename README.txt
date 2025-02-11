@@ -1,16 +1,9 @@
-This is a cross-platform C++ imageDisplay starter project using wxWidgets. You can use command line tools
-and any editor to work on this project, but the setup instructions that we provided specifically cater
-to Visual Studio Code (VS Code) - https://code.visualstudio.com/ which is a cross platform code editor.
+This is a cross-platform C++ imageDisplay starter project using wxWidgets. 
 
 It contains three folders:
 	1. src: source code, this is where you should put your code
 	2. dependency: this is where the project dependencies reside
 	3. manifest: this is where the manifest file resides, it is specifically used for windows
-
-Normally, you wouldn't need to touch the manifest and dependency folders unless you really know what you are doing!
-
-To avoid possible OS compatibility issues, we don't provide pre-compiled binaries for dependencies,
-but the build script (CMakeLists.txt) has been provided. 
 
 Currently there is only one Main.cpp file in the src folder, you can add more files if you want,
 but you need to modify the CMakeLists.txt file accordingly. The main file is well commented,
@@ -18,9 +11,9 @@ read it and it should be easy to understand how to modify it for your own purpos
 
 IMPORTANT
 
-To build and run the project, open the ImageDisplay_C++_cross_platform folder as the root folder
-in VS Code. You should not open the parent folder (CSCI-576-starter-code) in VS code if you are
-trying to build this C++ project.
+My assignment is implemented and tested on an Apple M1 Silicon mac, using Mac OS 15.3 (24D60) with clang version 19.1.7 compiler.
+The dependency/wxWidgets/src/osx/carbon/dcscreen.cpp is outdated, incuring errors in CMake: Build. 
+I have replace it with a newer version (https://github.com/wxWidgets/wxWidgets/blob/7e32de0e7eb8df37f3cf3c78d4f736fc7111f899/src/osx/carbon/dcscreen.cpp).
 
 
 Build and Run
@@ -118,16 +111,8 @@ Build and Run
 	After that, continue building using "CMake: Build".
 
 
-
-For Linux users, this starter code is only tested on Ubuntu 22.04 with default gcc compiler.
-For windows users, this starter code is only tested on Windows 10 with mingw-w64 gcc 12.2.0 compiler.
-For mac users, this starter code is tested on an Apple Silicon mac, using Mac OS 13.4.1 with clang version 14.0.3 (clang-1403.0.22.14.1) compiler.
-
 If you run into intellisense issues, we recommend the following steps.
 	1. Command Palette > Type in "C/C++: Restart IntelliSense for Active File" and run it
 	2. If it still doesn't work, you can try to reset the intellisense database.
 	3. If still doesn't work, you can try to restart vscode.
 	4. If still does not work, then you may have some problems in intellisense configuration.
-
-From my perspective, choosing cmake as the intellisense configuration provider is the best choice
-to setup intellisense to index dependency headers.
