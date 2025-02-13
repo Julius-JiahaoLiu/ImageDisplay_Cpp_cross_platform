@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "dependency/wxWidgets/lib/libwx_osx_cocoau_qa-3.3.dylib"
+			"path" : "dependency/wxWidgets/lib/libwx_osx_cocoau_stc-3.3.dylib"
 		}
 	],
 	"backtrace" : 2,
@@ -21,15 +21,17 @@
 			"wx_set_common_target_properties",
 			"target_compile_definitions",
 			"wx_target_enable_precomp",
+			"wx_lib_compile_definitions",
 			"target_include_directories",
+			"wx_lib_include_directories",
 			"target_precompile_headers"
 		],
 		"files" : 
 		[
 			"dependency/wxWidgets/build/cmake/functions.cmake",
-			"dependency/wxWidgets/build/cmake/lib/qa/CMakeLists.txt",
-			"dependency/wxWidgets/build/cmake/lib/core/CMakeLists.txt",
+			"dependency/wxWidgets/build/cmake/lib/stc/CMakeLists.txt",
 			"dependency/wxWidgets/build/cmake/lib/base/CMakeLists.txt",
+			"dependency/wxWidgets/build/cmake/lib/core/CMakeLists.txt",
 			"dependency/wxWidgets/build/cmake/pch.cmake"
 		],
 		"nodes" : 
@@ -40,7 +42,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 12,
+				"line" : 18,
 				"parent" : 0
 			},
 			{
@@ -76,7 +78,7 @@
 			{
 				"command" : 6,
 				"file" : 1,
-				"line" : 13,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
@@ -86,37 +88,37 @@
 				"parent" : 7
 			},
 			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 388,
+				"parent" : 5
+			},
+			{
 				"file" : 2
 			},
 			{
 				"command" : 6,
 				"file" : 2,
-				"line" : 79,
-				"parent" : 9
+				"line" : 52,
+				"parent" : 10
 			},
 			{
 				"command" : 4,
 				"file" : 0,
 				"line" : 476,
-				"parent" : 10
+				"parent" : 11
 			},
 			{
 				"command" : 6,
 				"file" : 2,
-				"line" : 81,
-				"parent" : 9
+				"line" : 57,
+				"parent" : 10
 			},
 			{
 				"command" : 4,
 				"file" : 0,
 				"line" : 476,
-				"parent" : 12
-			},
-			{
-				"command" : 4,
-				"file" : 0,
-				"line" : 388,
-				"parent" : 5
+				"parent" : 13
 			},
 			{
 				"file" : 3
@@ -124,7 +126,7 @@
 			{
 				"command" : 6,
 				"file" : 3,
-				"line" : 52,
+				"line" : 79,
 				"parent" : 15
 			},
 			{
@@ -136,7 +138,7 @@
 			{
 				"command" : 6,
 				"file" : 3,
-				"line" : 57,
+				"line" : 81,
 				"parent" : 15
 			},
 			{
@@ -212,19 +214,43 @@
 				"parent" : 5
 			},
 			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 512,
+				"parent" : 31
+			},
+			{
 				"command" : 9,
 				"file" : 0,
 				"line" : 310,
 				"parent" : 5
 			},
 			{
-				"command" : 11,
+				"command" : 13,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 500,
+				"parent" : 34
+			},
+			{
+				"command" : 12,
 				"file" : 0,
 				"line" : 324,
 				"parent" : 5
 			},
 			{
-				"command" : 12,
+				"command" : 14,
 				"file" : 4,
 				"line" : 33,
 				"parent" : 27
@@ -276,7 +302,7 @@
 					"fragment" : "-pthread"
 				},
 				{
-					"fragment" : "-Winvalid-pch -Xclang -emit-pch -Xclang -include -Xclang \"/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/cmake_pch.hxx\" -x c++-header"
+					"fragment" : "-Winvalid-pch -Xclang -emit-pch -Xclang -include -Xclang \"/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/cmake_pch.hxx\" -x c++-header"
 				}
 			],
 			"defines" : 
@@ -287,11 +313,11 @@
 				},
 				{
 					"backtrace" : 24,
-					"define" : "WXDLLNAME=wx_osx_cocoau_qa-3.3"
+					"define" : "WXDLLNAME=wx_osx_cocoau_stc-3.3"
 				},
 				{
 					"backtrace" : 25,
-					"define" : "WXMAKINGDLL_QA"
+					"define" : "WXMAKINGDLL_STC"
 				},
 				{
 					"backtrace" : 26,
@@ -318,25 +344,49 @@
 					"define" : "__WXOSX__"
 				},
 				{
-					"backtrace" : 31,
+					"backtrace" : 32,
+					"define" : "__WX__"
+				},
+				{
+					"backtrace" : 33,
 					"define" : "wxUSE_BASE=0"
 				},
 				{
-					"backtrace" : 31,
+					"backtrace" : 33,
 					"define" : "wxUSE_GUI=1"
 				},
 				{
-					"define" : "wxqa_EXPORTS"
+					"define" : "wxstc_EXPORTS"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 32,
+					"backtrace" : 35,
 					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/lib/wx/include/osx_cocoa-unicode-3.3"
 				},
 				{
-					"backtrace" : 32,
+					"backtrace" : 35,
+					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/stc/scintilla/include"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/stc/scintilla/src"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/stc/lexilla/access"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/stc/lexilla/include"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/stc/lexilla/lexlib"
+				},
+				{
+					"backtrace" : 36,
 					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/include"
 				}
 			],
@@ -352,7 +402,7 @@
 			"precompileHeaders" : 
 			[
 				{
-					"backtrace" : 33,
+					"backtrace" : 37,
 					"header" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/include/wx/wxprec.h"
 				}
 			],
@@ -404,7 +454,7 @@
 					"fragment" : "-pthread"
 				},
 				{
-					"fragment" : "-Winvalid-pch -Xclang -include-pch -Xclang \"/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/cmake_pch.hxx.pch\" -Xclang -include -Xclang \"/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/cmake_pch.hxx\""
+					"fragment" : "-Winvalid-pch -Xclang -include-pch -Xclang \"/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/cmake_pch.hxx.pch\" -Xclang -include -Xclang \"/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/cmake_pch.hxx\""
 				}
 			],
 			"defines" : 
@@ -415,11 +465,11 @@
 				},
 				{
 					"backtrace" : 24,
-					"define" : "WXDLLNAME=wx_osx_cocoau_qa-3.3"
+					"define" : "WXDLLNAME=wx_osx_cocoau_stc-3.3"
 				},
 				{
 					"backtrace" : 25,
-					"define" : "WXMAKINGDLL_QA"
+					"define" : "WXMAKINGDLL_STC"
 				},
 				{
 					"backtrace" : 26,
@@ -446,25 +496,49 @@
 					"define" : "__WXOSX__"
 				},
 				{
-					"backtrace" : 31,
+					"backtrace" : 32,
+					"define" : "__WX__"
+				},
+				{
+					"backtrace" : 33,
 					"define" : "wxUSE_BASE=0"
 				},
 				{
-					"backtrace" : 31,
+					"backtrace" : 33,
 					"define" : "wxUSE_GUI=1"
 				},
 				{
-					"define" : "wxqa_EXPORTS"
+					"define" : "wxstc_EXPORTS"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 32,
+					"backtrace" : 35,
 					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/lib/wx/include/osx_cocoa-unicode-3.3"
 				},
 				{
-					"backtrace" : 32,
+					"backtrace" : 35,
+					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/stc/scintilla/include"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/stc/scintilla/src"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/stc/lexilla/access"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/stc/lexilla/include"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/stc/lexilla/lexlib"
+				},
+				{
+					"backtrace" : 36,
 					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/include"
 				}
 			],
@@ -480,37 +554,177 @@
 			"precompileHeaders" : 
 			[
 				{
-					"backtrace" : 33,
+					"backtrace" : 37,
 					"header" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/include/wx/wxprec.h"
 				}
 			],
 			"sourceIndexes" : 
 			[
 				1,
-				2
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fPIC"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "-Wunused-parameter"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "-Wno-deprecated-declarations"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "-Wno-shorten-64-to-32"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "-Wno-ignored-attributes"
+				},
+				{
+					"backtrace" : 22,
+					"fragment" : "-pthread"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 23,
+					"define" : "WXBUILDING"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "WXDLLNAME=wx_osx_cocoau_stc-3.3"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "WXMAKINGDLL_STC"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "WXUSINGDLL"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "WX_PRECOMP"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 30,
+					"define" : "__WXMAC__"
+				},
+				{
+					"backtrace" : 30,
+					"define" : "__WXOSX_COCOA__"
+				},
+				{
+					"backtrace" : 30,
+					"define" : "__WXOSX__"
+				},
+				{
+					"backtrace" : 32,
+					"define" : "__WX__"
+				},
+				{
+					"backtrace" : 33,
+					"define" : "wxUSE_BASE=0"
+				},
+				{
+					"backtrace" : 33,
+					"define" : "wxUSE_GUI=1"
+				},
+				{
+					"define" : "wxstc_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 35,
+					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/lib/wx/include/osx_cocoa-unicode-3.3"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/stc/scintilla/include"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/stc/scintilla/src"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/stc/lexilla/access"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/stc/lexilla/include"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/stc/lexilla/lexlib"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/include"
+				}
+			],
+			"language" : "OBJCXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				7
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 14,
-			"id" : "wxbase::@032cd719012c96dbd2f3"
-		},
-		{
 			"backtrace" : 6,
 			"id" : "wxcore::@420ca51c67e720a69205"
 		},
 		{
 			"backtrace" : 8,
-			"id" : "wxxml::@0d8c829d155b5dc5aeb2"
+			"id" : "wxscintilla::@f577c233284387b45208"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "wxlexilla::@f577c233284387b45208"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "wxbase::@032cd719012c96dbd2f3"
 		}
 	],
 	"folder" : 
 	{
 		"name" : "Libraries"
 	},
-	"id" : "wxqa::@043fe6c33cf9ea33a103",
+	"id" : "wxstc::@f577c233284387b45208",
 	"install" : 
 	{
 		"destinations" : 
@@ -548,58 +762,63 @@
 			},
 			{
 				"backtrace" : 8,
-				"fragment" : "../../lib/libwx_baseu_xml-3.3.0.0.0.dylib",
+				"fragment" : "../../lib/libwxscintilla-3.3.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 11,
-				"fragment" : "-framework AudioToolbox",
+				"backtrace" : 8,
+				"fragment" : "../../lib/libwxlexilla-3.3.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 13,
-				"fragment" : "-framework WebKit",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 14,
+				"backtrace" : 9,
 				"fragment" : "../../lib/libwx_baseu-3.3.0.0.0.dylib",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 17,
+				"backtrace" : 12,
 				"fragment" : "-framework CoreFoundation",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 19,
+				"backtrace" : 14,
 				"fragment" : "-framework Carbon",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 19,
+				"backtrace" : 14,
 				"fragment" : "-framework Cocoa",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 19,
+				"backtrace" : 14,
 				"fragment" : "-framework IOKit",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 19,
+				"backtrace" : 14,
 				"fragment" : "-framework QuartzCore",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "-framework AudioToolbox",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "-framework WebKit",
 				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "wxqa",
-	"nameOnDisk" : "libwx_osx_cocoau_qa-3.3.dylib",
+	"name" : "wxstc",
+	"nameOnDisk" : "libwx_osx_cocoau_stc-3.3.dylib",
 	"paths" : 
 	{
-		"build" : "dependency/wxWidgets/libs/qa",
-		"source" : "dependency/wxWidgets/build/cmake/lib/qa"
+		"build" : "dependency/wxWidgets/libs/stc",
+		"source" : "dependency/wxWidgets/build/cmake/lib/stc"
 	},
 	"sourceGroups" : 
 	[
@@ -608,35 +827,33 @@
 			"sourceIndexes" : 
 			[
 				0,
-				5
+				9
 			]
 		},
 		{
-			"name" : "Common Sources",
+			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				1
-			]
-		},
-		{
-			"name" : "Generic Sources",
-			"sourceIndexes" : 
-			[
-				2
+				1,
+				2,
+				3,
+				4,
+				7
 			]
 		},
 		{
 			"name" : "Common Headers",
 			"sourceIndexes" : 
 			[
-				3
+				5,
+				6
 			]
 		},
 		{
 			"name" : "Setup Headers",
 			"sourceIndexes" : 
 			[
-				4
+				8
 			]
 		}
 	],
@@ -645,34 +862,57 @@
 		{
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
-			"path" : "build/dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/cmake_pch.hxx.cxx",
+			"path" : "build/dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/cmake_pch.hxx.cxx",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 1,
-			"path" : "dependency/wxWidgets/src/common/debugrpt.cpp",
+			"path" : "dependency/wxWidgets/src/stc/stc.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 2,
 			"compileGroupIndex" : 1,
-			"path" : "dependency/wxWidgets/src/generic/dbgrptg.cpp",
+			"path" : "dependency/wxWidgets/src/stc/PlatWX.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "dependency/wxWidgets/src/stc/ScintillaWX.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "dependency/wxWidgets/src/xrc/xh_styledtextctrl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "dependency/wxWidgets/include/wx/stc/stc.h",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 2,
-			"path" : "dependency/wxWidgets/include/wx/debugrpt.h",
-			"sourceGroupIndex" : 3
+			"path" : "dependency/wxWidgets/include/wx/xrc/xh_styledtextctrl.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 2,
+			"path" : "dependency/wxWidgets/src/stc/PlatWXcocoa.mm",
+			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 2,
 			"path" : "build/dependency/wxWidgets/lib/wx/include/osx_cocoa-unicode-3.3/wx/setup.h",
-			"sourceGroupIndex" : 4
+			"sourceGroupIndex" : 3
 		},
 		{
 			"backtrace" : 0,
-			"path" : "build/dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/cmake_pch.hxx",
+			"path" : "build/dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/cmake_pch.hxx",
 			"sourceGroupIndex" : 0
 		}
 	],

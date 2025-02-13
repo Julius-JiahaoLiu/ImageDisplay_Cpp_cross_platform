@@ -1,23 +1,36 @@
-This is a cross-platform C++ imageDisplay starter project using wxWidgets. 
+I used the cross-platform C++ imageDisplay starter project, and implemented and tested on an Apple M1 Silicon mac, using Mac OS 15.3 (24D60) with clang version 19.1.7 compiler!
 
-It contains three folders:
-	1. src: source code, this is where you should put your code
-	2. dependency: this is where the project dependencies reside
-	3. manifest: this is where the manifest file resides, it is specifically used for windows
+My submission contains three files:
+	1. ImageDisplay_C++_cross_platform/Main.cpp: source code, this is the entrance of MyImageApplication.
+	2. ImageDisplay_C++_cross_platform/dependency/wxWidgets/src/osx/carbon/dcscreen.cpp: the provided file in starter code is outdated, incuring errors in CMkae Build.
+		I modified provided file base on this newer version (https://github.com/wxWidgets/wxWidgets/blob/7e32de0e7eb8df37f3cf3c78d4f736fc7111f899/src/osx/carbon/dcscreen.cpp).
+	3. ImageDisplay_C++_cross_platform/README.txt: this instruction file.
 
-Currently there is only one Main.cpp file in the src folder, you can add more files if you want,
-but you need to modify the CMakeLists.txt file accordingly. The main file is well commented,
-read it and it should be easy to understand how to modify it for your own purposes.
+IMPORTANT: I did implemented extra credit part with usage1: ./MyImageApplication imagePath scaleValue quantizationBits
+Of course, my implementation support usage2: ./MyImageApplication imagePath scaleValue quantizationBits pivotValue
 
-IMPORTANT
-
-My assignment is implemented and tested on an Apple M1 Silicon mac, using Mac OS 15.3 (24D60) with clang version 19.1.7 compiler.
-The dependency/wxWidgets/src/osx/carbon/dcscreen.cpp is outdated, incuring errors in CMake: Build. 
-I have replace it with a newer version (https://github.com/wxWidgets/wxWidgets/blob/7e32de0e7eb8df37f3cf3c78d4f736fc7111f899/src/osx/carbon/dcscreen.cpp).
+Detailed explanation:
+For quantization with given pivot value, I first calculate the boundaries of levels for uniform or logarithmic quantization.
+	Then given channel values, use binary search to quickly locate its levels and corresponding quantized value. Calculate the quantization error along the way.
+	Obviously, time complexity of above process would be O[(log2^quantizationBits) * pixels of image]
 
 
-Build and Run
+I have implemented two sultions on the extra credit for optimal pivot searching. 
+	1. suppose there is an unimodal distribution of MSE, i.e. decrease and increase among differnt pivot in [0, 255]
+    	I directly use ternary search for the unique optimal pivot value among all pixel with RGB values.
+		The time complexity of this approach would be O[log256 * (log2^quantizationBits) * pixels of image]
+	2.  Since human vision is more sensitive to brightness (luminance) than color,
+        I first convert each pixel to grayscale using the luminance formula: I = 0.299R + 0.587G + 0.114B
+        Then, create a 256-bin array (histogram[256]) where each bin counts the number of pixels with that intensity.
+        Finally, use Otsu’s method to minimize the intra-class variance between two groups: [0, pivot] and [pivot, 255].
+		The time complexity of this approach would be O(256) + O[(log2^quantizationBits) * pixels of image].
+		Even with faster speed, this solution only works well on images with distinct dark and bright regions, e.g. lake-forest_512_512.rgb.
 
+You can switch between above two solutions by comment out line Main.cpp:153 and uncomment line Main.cpp:160~161.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The following is the original guidance on build and run from the start code:
 
 1. Install GCC Complier
 	
@@ -109,10 +122,3 @@ Build and Run
 
 	On restarting vscode, you may need to configure CMake by running "CMake: Configure"
 	After that, continue building using "CMake: Build".
-
-
-If you run into intellisense issues, we recommend the following steps.
-	1. Command Palette > Type in "C/C++: Restart IntelliSense for Active File" and run it
-	2. If it still doesn't work, you can try to reset the intellisense database.
-	3. If still doesn't work, you can try to restart vscode.
-	4. If still does not work, then you may have some problems in intellisense configuration.

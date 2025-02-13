@@ -156,11 +156,11 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "wxbase::@032cd719012c96dbd2f3"
+			"id" : "wxcore::@420ca51c67e720a69205"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "wxcore::@420ca51c67e720a69205"
+			"id" : "wxbase::@032cd719012c96dbd2f3"
 		}
 	],
 	"id" : "MyImageApplication::@6890427a1f51a3e7e1df",

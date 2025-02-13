@@ -7,6 +7,7 @@
 #include <vector>
 #include <algorithm>
 #include <cfloat>
+#include <numeric>
 
 using namespace std;
 namespace fs = std::filesystem;
@@ -56,10 +57,15 @@ vector<double> quantizeImage(unsigned char *&inData, int width, int height, int 
 
 /* Utility function to search best pivot value bass on MSE
   Suppose the error function is unimodal !!! */
-vector<double> ternarySearchPivot(unsigned char *&inData, int width, int height, int quantizationBits, int &pivot);
+int ternarySearchPivot(unsigned char *&inData, int width, int height, int quantizationBits, int &pivot);
+
+/* Utility function to create a 256-bin array (histogram[256]) where each bin counts the number of pixels with that intensity. */
+vector<int> computeGrayscaleHistogram(unsigned char *&inData, int width, int height);
+
+/* Utility function to find pivot by minimizing the intra-class variance between two groups [0, pivot], [pivot, 255] */
+int findOtsuPivot(const vector<int> &histogram);
 
 /** Definitions */
-
 /**
  * Init method for the app.
  * Here we process the command line arguments and
@@ -132,21 +138,31 @@ MyFrame::MyFrame(const wxString &title, string imagePath, double scaleValue, int
 
   scaleImage(inData, width, height, scaleValue);
 
-  vector<double> errs;
-  if (pivot == -2)
+  if (quantizationBits == 8)
   {
-    errs = ternarySearchPivot(inData, width, height, quantizationBits, pivot);
+    cout << "No need for quantization with 8 bits, otherwise might introduce more error!" << endl;
+    cout << "We keep the original data, so input pivot value is not used and no optimal pivot." << endl;
   }
   else
   {
-    errs = quantizeImage(inData, width, height, quantizationBits, pivot);
-  }
-  if (pivot == -2)
-  {
-    cout << "Because of 8 bits quantization, we keep the original data so pivot value is not used." << endl;
-  }
-  else
-  {
+    if (pivot == -2)
+    {
+      /* Extra Credit Solution 1:
+        suppose unimodal distribution of MSE, i.e. decrease and increase among differnt pivot in [0, 255]
+        we can just use ternary search for the pivot value with minimum MSE */
+      pivot = ternarySearchPivot(inData, width, height, quantizationBits, pivot);
+
+      /* Extra Credit Solution 2:
+        Since human vision is more sensitive to brightness (luminance) than color,
+        first convert each pixel to grayscale using the luminance formula: I = 0.299R + 0.587G + 0.114B
+        Then, create a 256-bin array (histogram[256]) where each bin counts the number of pixels with that intensity.
+        Use Otsu’s method to minimize the intra-class variance between two groups: [0, pivot] and [pivot, 255]. */
+      // vector<int> histogram = computeGrayscaleHistogram(inData, width, height);
+      // pivot = findOtsuPivot(histogram);
+
+      cout << "Optimal pivot value: " << pivot << endl;
+    }
+    vector<double> errs = quantizeImage(inData, width, height, quantizationBits, pivot);
     cout << "MSE: " << errs[0] << ", MAE: " << errs[1] << ", PSNR: " << errs[2] << endl;
   }
 
@@ -346,13 +362,8 @@ vector<double> quantizeImage(unsigned char *&inData, int width, int height, int 
   return {mse, mae, psnr};
 }
 
-vector<double> ternarySearchPivot(unsigned char *&inData, int width, int height, int quantizationBits, int &pivot)
+int ternarySearchPivot(unsigned char *&inData, int width, int height, int quantizationBits, int &pivot)
 {
-  if (quantizationBits == 8)
-  {
-    cout << "No need for quantization with 8 bits, otherwise might introduce more error!" << endl;
-    return {0, 0, 100};
-  }
   int left = 0, right = 255;
   while (right - left > 2)
   {
@@ -380,10 +391,55 @@ vector<double> ternarySearchPivot(unsigned char *&inData, int width, int height,
 
   /* Assume the current middle point is the best.
     There might be minor error difference between left, left+1 and right, that should be acceptable. */
-  pivot = (left + right) / 2;
-  vector<double> errs = quantizeImage(inData, width, height, quantizationBits, pivot);
-  cout << "Best pivot: " << pivot << endl;
-  return errs;
+  return (left + right) / 2;
+}
+
+vector<int> computeGrayscaleHistogram(unsigned char *&inData, int width, int height)
+{
+  vector<int> histogram(256, 0);
+  for (int i = 0; i < width * height; i++)
+  {
+    int r = inData[3 * i];
+    int g = inData[3 * i + 1];
+    int b = inData[3 * i + 2];
+    int gray = static_cast<int>(0.299 * r + 0.587 * g + 0.114 * b); // Convert to grayscale
+    histogram[gray]++;
+  }
+  return histogram;
+}
+
+int findOtsuPivot(const vector<int> &histogram)
+{
+  int totalPixels = accumulate(histogram.begin(), histogram.end(), 0);
+  int totalPixelsDark = 0, totalPixelsBright = 0;
+  double totalIntensity = 0;
+  for (int i = 0; i < 256; i++)
+  {
+    totalIntensity += i * histogram[i];
+  }
+  double intensityDark = 0;
+  double maxVariance = 0;
+  int pivot = 0;
+  for (int i = 0; i < 256; i++)
+  {
+    totalPixelsDark += histogram[i];
+    if (totalPixelsDark == 0)
+    {
+      continue;
+    }
+    totalPixelsBright = totalPixels - totalPixelsDark;
+    intensityDark += i * histogram[i];
+    double intensityBright = totalIntensity - intensityDark;
+    double meanDark = intensityDark / totalPixelsDark;
+    double meanBright = intensityBright / totalPixelsBright;
+    double variance = totalPixelsDark * totalPixelsBright * pow(meanDark - meanBright, 2);
+    if (variance > maxVariance)
+    {
+      maxVariance = variance;
+      pivot = i;
+    }
+  }
+  return pivot;
 }
 
 wxIMPLEMENT_APP(MyApp);

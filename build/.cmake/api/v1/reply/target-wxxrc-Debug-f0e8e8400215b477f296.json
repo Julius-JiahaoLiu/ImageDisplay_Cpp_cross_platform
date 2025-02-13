@@ -561,10 +561,6 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 14,
-			"id" : "wxbase::@032cd719012c96dbd2f3"
-		},
-		{
 			"backtrace" : 8,
 			"id" : "wxcore::@420ca51c67e720a69205"
 		},
@@ -575,6 +571,10 @@
 		{
 			"backtrace" : 6,
 			"id" : "wxxml::@0d8c829d155b5dc5aeb2"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "wxbase::@032cd719012c96dbd2f3"
 		}
 	],
 	"folder" : 
