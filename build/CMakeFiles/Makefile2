@@ -529,8 +529,8 @@ dependency/wxWidgets/utils/clean: dependency/wxWidgets/utils/CMakeFiles/wxrc.dir
 # Target rules for target CMakeFiles/MyImageApplication.dir
 
 # All Build rule for target.
-CMakeFiles/MyImageApplication.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 CMakeFiles/MyImageApplication.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
+CMakeFiles/MyImageApplication.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyImageApplication.dir/build.make CMakeFiles/MyImageApplication.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyImageApplication.dir/build.make CMakeFiles/MyImageApplication.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target MyImageApplication"
@@ -821,8 +821,8 @@ dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/clean:
 # Target rules for target dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir
 
 # All Build rule for target.
-dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
+dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/build.make dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/build.make dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target wxadv"
@@ -854,8 +854,8 @@ dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/clean:
 # Target rules for target dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir
 
 # All Build rule for target.
-dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
+dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=1 "Built target wxaui"
@@ -887,8 +887,8 @@ dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/clean:
 # Target rules for target dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir
 
 # All Build rule for target.
-dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
+dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=51,52,53 "Built target wxhtml"
@@ -920,8 +920,8 @@ dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/clean:
 # Target rules for target dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir
 
 # All Build rule for target.
-dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
+dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=77 "Built target wxpropgrid"
@@ -953,8 +953,8 @@ dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/clean:
 # Target rules for target dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir
 
 # All Build rule for target.
-dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
+dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=81,82 "Built target wxribbon"
@@ -986,10 +986,10 @@ dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/clean:
 # Target rules for target dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir
 
 # All Build rule for target.
+dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
 dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/all: dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/all
 dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/all: dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/all
-dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=83 "Built target wxrichtext"
@@ -1021,8 +1021,8 @@ dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/clean:
 # Target rules for target dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir
 
 # All Build rule for target.
-dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
+dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/build.make dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/build.make dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=92 "Built target wxwebview"
@@ -1118,10 +1118,10 @@ dependency/wxWidgets/libs/stc/CMakeFiles/wxlexilla.dir/clean:
 # Target rules for target dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir
 
 # All Build rule for target.
+dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
 dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/all: dependency/wxWidgets/libs/stc/CMakeFiles/wxscintilla.dir/all
 dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/all: dependency/wxWidgets/libs/stc/CMakeFiles/wxlexilla.dir/all
-dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/build.make dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/build.make dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=87 "Built target wxstc"
@@ -1153,10 +1153,10 @@ dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/clean:
 # Target rules for target dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir
 
 # All Build rule for target.
+dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
 dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/all: dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/all
 dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/all: dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/all
-dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=93,94,95,96,97,98,99,100 "Built target wxxrc"
@@ -1188,8 +1188,8 @@ dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/clean:
 # Target rules for target dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir
 
 # All Build rule for target.
-dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
+dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/build.make dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/build.make dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target wxmedia"
@@ -1221,8 +1221,8 @@ dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/clean:
 # Target rules for target dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir
 
 # All Build rule for target.
-dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
+dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target wxgl"
@@ -1254,9 +1254,9 @@ dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/clean:
 # Target rules for target dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir
 
 # All Build rule for target.
+dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
 dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/all: dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/all
-dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/build.make dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/build.make dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target wxqa"
@@ -1320,8 +1320,8 @@ dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/clean:
 # Target rules for target dependency/wxWidgets/utils/CMakeFiles/wxrc.dir
 
 # All Build rule for target.
-dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/all: dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/all
 dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
+dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/all: dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/build.make dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/build.make dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target wxrc"

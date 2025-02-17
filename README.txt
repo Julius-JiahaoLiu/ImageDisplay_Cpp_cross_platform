@@ -1,32 +1,39 @@
 I used the cross-platform C++ imageDisplay starter project, and implemented and tested on an Apple M1 Silicon mac, using Mac OS 15.3 (24D60) with clang version 19.1.7 compiler!
 
 My submission contains three files:
-	1. ImageDisplay_C++_cross_platform/Main.cpp: source code, this is the entrance of MyImageApplication.
+
+	1. ImageDisplay_C++_cross_platform/src/Main.cpp: source code, this is the entrance of MyImageApplication.
 	2. ImageDisplay_C++_cross_platform/dependency/wxWidgets/src/osx/carbon/dcscreen.cpp: the provided file in starter code is outdated, incuring errors in CMkae Build.
 		I modified provided file base on this newer version (https://github.com/wxWidgets/wxWidgets/blob/7e32de0e7eb8df37f3cf3c78d4f736fc7111f899/src/osx/carbon/dcscreen.cpp).
 	3. ImageDisplay_C++_cross_platform/README.txt: this instruction file.
 
-IMPORTANT: I did implemented extra credit part with usage1: ./MyImageApplication imagePath scaleValue quantizationBits
-Of course, my implementation support usage2: ./MyImageApplication imagePath scaleValue quantizationBits pivotValue
+IMPORTANT: 
 
-Detailed explanation:
-For quantization with given pivot value, I first calculate the boundaries of levels for uniform or logarithmic quantization.
-	Then given channel values, use binary search to quickly locate its levels and corresponding quantized value. Calculate the quantization error along the way.
-	Obviously, time complexity of above process would be O[(log2^quantizationBits) * pixels of image]
+	I did implement extra credit part with usage1: ./MyImageApplication imagePath scaleValue quantizationBits
+	Of course, my implementation support usage2: ./MyImageApplication imagePath scaleValue quantizationBits pivotValue
 
+Detailed Explanation:
 
-I have implemented two sultions on the extra credit for optimal pivot searching. 
-	1. suppose there is an unimodal distribution of MSE, i.e. decrease and increase among differnt pivot in [0, 255]
-    	I directly use ternary search for the unique optimal pivot value among all pixel with RGB values.
-		The time complexity of this approach would be O[log256 * (log2^quantizationBits) * pixels of image]
-	2.  Since human vision is more sensitive to brightness (luminance) than color,
-        I first convert each pixel to grayscale using the luminance formula: I = 0.299R + 0.587G + 0.114B
-        Then, create a 256-bin array (histogram[256]) where each bin counts the number of pixels with that intensity.
-        Finally, use Otsu’s method to minimize the intra-class variance between two groups: [0, pivot] and [pivot, 255].
-		The time complexity of this approach would be O(256) + O[(log2^quantizationBits) * pixels of image].
-		Even with faster speed, this solution only works well on images with distinct dark and bright regions, e.g. lake-forest_512_512.rgb.
+	MyImageApplication would check the input parameters are legal or not, i.e. the scaleValue in (0, 1.0], quantizationBits in (0, 8], pivotValue in [-1, 255].
 
-You can switch between above two solutions by comment out line Main.cpp:153 and uncomment line Main.cpp:160~161.
+	First scale the image with 3 * 3 filter, I divide the target pixel coordinate by the scaleValue to get the corresponding source coordinate, 
+		then fetch and average the 3 * 3 block of the source pixel to get the target pixel value, R G B respectively.
+
+	Then quantize with given pivot value, I first calculate the boundaries of levels for uniform or logarithmic quantization.
+		Then given channel values, use binary search to quickly locate its levels and corresponding quantized value. Calculate the quantization error along the way.
+		Obviously, time complexity of above process would be O[(log2^quantizationBits) * pixels of image]
+
+	Finally for optimal pivot searching in extra credit, I have implemented following two sultions: 
+		1. suppose there is an unimodal distribution of MSE, i.e. decrease and increase among differnt pivot in [0, 255]
+			I directly use ternary search for the unique optimal pivot value among all pixel with RGB values.
+			The time complexity of this approach would be O[log256 * (log2^quantizationBits) * pixels of image]
+		2.  Since human vision is more sensitive to brightness (luminance) than color,
+			I first convert each pixel to grayscale using the luminance formula: I = 0.299R + 0.587G + 0.114B
+			Then, create a 256-bin array (histogram[256]) where each bin counts the number of pixels with that intensity.
+			Finally, use Otsu’s method to minimize the intra-class variance between two groups: [0, pivot] and [pivot, 255].
+			The time complexity of this approach would be O(256) + O[(log2^quantizationBits) * pixels of image].
+			Even with faster speed, this solution only works well on images with distinct dark and bright regions, e.g. lake-forest_512_512.rgb.
+	You can switch between above two solutions by comment out line Main.cpp:153 and uncomment line Main.cpp:160~161.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
