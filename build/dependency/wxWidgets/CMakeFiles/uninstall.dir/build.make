@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
+CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
+CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include dependency/wxWidgets/CMakeFiles/uninstall.dir/compiler_depend.make
 include dependency/wxWidgets/CMakeFiles/uninstall.dir/progress.make
 
 dependency/wxWidgets/CMakeFiles/uninstall:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets" && /opt/homebrew/bin/cmake -P /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/uninstall.cmake
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets" && /opt/homebrew/bin/cmake -P /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/uninstall.cmake
 
 dependency/wxWidgets/CMakeFiles/uninstall.dir/codegen:
 .PHONY : dependency/wxWidgets/CMakeFiles/uninstall.dir/codegen
@@ -81,10 +81,10 @@ dependency/wxWidgets/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : dependency/wxWidgets/CMakeFiles/uninstall.dir/build
 
 dependency/wxWidgets/CMakeFiles/uninstall.dir/clean:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets" && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets" && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : dependency/wxWidgets/CMakeFiles/uninstall.dir/clean
 
 dependency/wxWidgets/CMakeFiles/uninstall.dir/depend:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/CMakeFiles/uninstall.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/CMakeFiles/uninstall.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : dependency/wxWidgets/CMakeFiles/uninstall.dir/depend
 

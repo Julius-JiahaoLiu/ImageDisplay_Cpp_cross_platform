@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
+CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
+CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -162,17 +162,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MyImageApplication
+# Target rules for targets named MyCompression
 
 # Build rule for target.
-MyImageApplication: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MyImageApplication
-.PHONY : MyImageApplication
+MyCompression: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MyCompression
+.PHONY : MyCompression
 
 # fast build rule for target.
-MyImageApplication/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyImageApplication.dir/build.make CMakeFiles/MyImageApplication.dir/build
-.PHONY : MyImageApplication/fast
+MyCompression/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCompression.dir/build.make CMakeFiles/MyCompression.dir/build
+.PHONY : MyCompression/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -486,29 +486,29 @@ wxrc/fast:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/build.make dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/build
 .PHONY : wxrc/fast
 
-src/Main.o: src/Main.cpp.o
-.PHONY : src/Main.o
+src/PA2_Main.o: src/PA2_Main.cpp.o
+.PHONY : src/PA2_Main.o
 
 # target to build an object file
-src/Main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyImageApplication.dir/build.make CMakeFiles/MyImageApplication.dir/src/Main.cpp.o
-.PHONY : src/Main.cpp.o
+src/PA2_Main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCompression.dir/build.make CMakeFiles/MyCompression.dir/src/PA2_Main.cpp.o
+.PHONY : src/PA2_Main.cpp.o
 
-src/Main.i: src/Main.cpp.i
-.PHONY : src/Main.i
+src/PA2_Main.i: src/PA2_Main.cpp.i
+.PHONY : src/PA2_Main.i
 
 # target to preprocess a source file
-src/Main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyImageApplication.dir/build.make CMakeFiles/MyImageApplication.dir/src/Main.cpp.i
-.PHONY : src/Main.cpp.i
+src/PA2_Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCompression.dir/build.make CMakeFiles/MyCompression.dir/src/PA2_Main.cpp.i
+.PHONY : src/PA2_Main.cpp.i
 
-src/Main.s: src/Main.cpp.s
-.PHONY : src/Main.s
+src/PA2_Main.s: src/PA2_Main.cpp.s
+.PHONY : src/PA2_Main.s
 
 # target to generate assembly for a file
-src/Main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyImageApplication.dir/build.make CMakeFiles/MyImageApplication.dir/src/Main.cpp.s
-.PHONY : src/Main.cpp.s
+src/PA2_Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCompression.dir/build.make CMakeFiles/MyCompression.dir/src/PA2_Main.cpp.s
+.PHONY : src/PA2_Main.cpp.s
 
 # Help Target
 help:
@@ -523,7 +523,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... uninstall"
-	@echo "... MyImageApplication"
+	@echo "... MyCompression"
 	@echo "... wxadv"
 	@echo "... wxaui"
 	@echo "... wxbase"
@@ -547,9 +547,9 @@ help:
 	@echo "... wxwebview"
 	@echo "... wxxml"
 	@echo "... wxxrc"
-	@echo "... src/Main.o"
-	@echo "... src/Main.i"
-	@echo "... src/Main.s"
+	@echo "... src/PA2_Main.o"
+	@echo "... src/PA2_Main.i"
+	@echo "... src/PA2_Main.s"
 .PHONY : help
 
 

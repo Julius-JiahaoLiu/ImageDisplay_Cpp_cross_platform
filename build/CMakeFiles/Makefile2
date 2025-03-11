@@ -54,21 +54,21 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
+CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
+CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/MyImageApplication.dir/all
+all: CMakeFiles/MyCompression.dir/all
 all: dependency/wxWidgets/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/MyImageApplication.dir/codegen
+codegen: CMakeFiles/MyCompression.dir/codegen
 codegen: dependency/wxWidgets/codegen
 .PHONY : codegen
 
@@ -77,7 +77,7 @@ preinstall: dependency/wxWidgets/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/MyImageApplication.dir/clean
+clean: CMakeFiles/MyCompression.dir/clean
 clean: dependency/wxWidgets/clean
 .PHONY : clean
 
@@ -526,37 +526,37 @@ dependency/wxWidgets/utils/clean: dependency/wxWidgets/utils/CMakeFiles/wxrc.dir
 .PHONY : dependency/wxWidgets/utils/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/MyImageApplication.dir
+# Target rules for target CMakeFiles/MyCompression.dir
 
 # All Build rule for target.
-CMakeFiles/MyImageApplication.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
-CMakeFiles/MyImageApplication.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyImageApplication.dir/build.make CMakeFiles/MyImageApplication.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyImageApplication.dir/build.make CMakeFiles/MyImageApplication.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target MyImageApplication"
-.PHONY : CMakeFiles/MyImageApplication.dir/all
+CMakeFiles/MyCompression.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
+CMakeFiles/MyCompression.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCompression.dir/build.make CMakeFiles/MyCompression.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCompression.dir/build.make CMakeFiles/MyCompression.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target MyCompression"
+.PHONY : CMakeFiles/MyCompression.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/MyImageApplication.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 64
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyImageApplication.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
-.PHONY : CMakeFiles/MyImageApplication.dir/rule
+CMakeFiles/MyCompression.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 64
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyCompression.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+.PHONY : CMakeFiles/MyCompression.dir/rule
 
 # Convenience name for target.
-MyImageApplication: CMakeFiles/MyImageApplication.dir/rule
-.PHONY : MyImageApplication
+MyCompression: CMakeFiles/MyCompression.dir/rule
+.PHONY : MyCompression
 
 # codegen rule for target.
-CMakeFiles/MyImageApplication.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyImageApplication.dir/build.make CMakeFiles/MyImageApplication.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Finished codegen for target MyImageApplication"
-.PHONY : CMakeFiles/MyImageApplication.dir/codegen
+CMakeFiles/MyCompression.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCompression.dir/build.make CMakeFiles/MyCompression.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Finished codegen for target MyCompression"
+.PHONY : CMakeFiles/MyCompression.dir/codegen
 
 # clean rule for target.
-CMakeFiles/MyImageApplication.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyImageApplication.dir/build.make CMakeFiles/MyImageApplication.dir/clean
-.PHONY : CMakeFiles/MyImageApplication.dir/clean
+CMakeFiles/MyCompression.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCompression.dir/build.make CMakeFiles/MyCompression.dir/clean
+.PHONY : CMakeFiles/MyCompression.dir/clean
 
 #=============================================================================
 # Target rules for target dependency/wxWidgets/CMakeFiles/uninstall.dir
@@ -565,14 +565,14 @@ CMakeFiles/MyImageApplication.dir/clean:
 dependency/wxWidgets/CMakeFiles/uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/CMakeFiles/uninstall.dir/build.make dependency/wxWidgets/CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/CMakeFiles/uninstall.dir/build.make dependency/wxWidgets/CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target uninstall"
 .PHONY : dependency/wxWidgets/CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -582,7 +582,7 @@ uninstall: dependency/wxWidgets/CMakeFiles/uninstall.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/CMakeFiles/uninstall.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/CMakeFiles/uninstall.dir/build.make dependency/wxWidgets/CMakeFiles/uninstall.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Finished codegen for target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Finished codegen for target uninstall"
 .PHONY : dependency/wxWidgets/CMakeFiles/uninstall.dir/codegen
 
 # clean rule for target.
@@ -597,14 +597,14 @@ dependency/wxWidgets/CMakeFiles/uninstall.dir/clean:
 dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/all:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=78,79,80 "Built target wxregex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=78,79,80 "Built target wxregex"
 .PHONY : dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/rule
 
 # Convenience name for target.
@@ -614,7 +614,7 @@ wxregex: dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=78,79,80 "Finished codegen for target wxregex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=78,79,80 "Finished codegen for target wxregex"
 .PHONY : dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/codegen
 
 # clean rule for target.
@@ -629,14 +629,14 @@ dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/clean:
 dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/all:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=54,55,56,57,58 "Built target wxjpeg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=54,55,56,57,58 "Built target wxjpeg"
 .PHONY : dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/rule
 
 # Convenience name for target.
@@ -646,7 +646,7 @@ wxjpeg: dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=54,55,56,57,58 "Finished codegen for target wxjpeg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=54,55,56,57,58 "Finished codegen for target wxjpeg"
 .PHONY : dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/codegen
 
 # clean rule for target.
@@ -661,14 +661,14 @@ dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/clean:
 dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/all:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=74,75,76 "Built target wxpng"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=74,75,76 "Built target wxpng"
 .PHONY : dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/rule
 
 # Convenience name for target.
@@ -678,7 +678,7 @@ wxpng: dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=74,75,76 "Finished codegen for target wxpng"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=74,75,76 "Finished codegen for target wxpng"
 .PHONY : dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/codegen
 
 # clean rule for target.
@@ -693,14 +693,14 @@ dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/clean:
 dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/all: dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=88,89,90,91 "Built target wxtiff"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=88,89,90,91 "Built target wxtiff"
 .PHONY : dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 9
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/rule
 
 # Convenience name for target.
@@ -710,7 +710,7 @@ wxtiff: dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=88,89,90,91 "Finished codegen for target wxtiff"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=88,89,90,91 "Finished codegen for target wxtiff"
 .PHONY : dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/codegen
 
 # clean rule for target.
@@ -725,14 +725,14 @@ dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/clean:
 dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all: dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/build.make dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/build.make dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=2,3,4,5,6,7,8,9,10,11,12,13 "Built target wxbase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=2,3,4,5,6,7,8,9,10,11,12,13 "Built target wxbase"
 .PHONY : dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 15
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/rule
 
 # Convenience name for target.
@@ -742,7 +742,7 @@ wxbase: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/build.make dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=2,3,4,5,6,7,8,9,10,11,12,13 "Finished codegen for target wxbase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=2,3,4,5,6,7,8,9,10,11,12,13 "Finished codegen for target wxbase"
 .PHONY : dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/codegen
 
 # clean rule for target.
@@ -757,14 +757,14 @@ dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/clean:
 dependency/wxWidgets/libs/net/CMakeFiles/wxnet.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/net/CMakeFiles/wxnet.dir/build.make dependency/wxWidgets/libs/net/CMakeFiles/wxnet.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/net/CMakeFiles/wxnet.dir/build.make dependency/wxWidgets/libs/net/CMakeFiles/wxnet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=72,73 "Built target wxnet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=72,73 "Built target wxnet"
 .PHONY : dependency/wxWidgets/libs/net/CMakeFiles/wxnet.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/net/CMakeFiles/wxnet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 17
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/net/CMakeFiles/wxnet.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/net/CMakeFiles/wxnet.dir/rule
 
 # Convenience name for target.
@@ -774,7 +774,7 @@ wxnet: dependency/wxWidgets/libs/net/CMakeFiles/wxnet.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/net/CMakeFiles/wxnet.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/net/CMakeFiles/wxnet.dir/build.make dependency/wxWidgets/libs/net/CMakeFiles/wxnet.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=72,73 "Finished codegen for target wxnet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=72,73 "Finished codegen for target wxnet"
 .PHONY : dependency/wxWidgets/libs/net/CMakeFiles/wxnet.dir/codegen
 
 # clean rule for target.
@@ -792,14 +792,14 @@ dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all: dependency/wxWidgets/l
 dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/build.make dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/build.make dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50 "Built target wxcore"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50 "Built target wxcore"
 .PHONY : dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 64
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/rule
 
 # Convenience name for target.
@@ -809,7 +809,7 @@ wxcore: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/build.make dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50 "Finished codegen for target wxcore"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50 "Finished codegen for target wxcore"
 .PHONY : dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/codegen
 
 # clean rule for target.
@@ -825,14 +825,14 @@ dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/all: dependency/wxWidgets/lib
 dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/build.make dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/build.make dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target wxadv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target wxadv"
 .PHONY : dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 64
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/rule
 
 # Convenience name for target.
@@ -842,7 +842,7 @@ wxadv: dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/build.make dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Finished codegen for target wxadv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Finished codegen for target wxadv"
 .PHONY : dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/codegen
 
 # clean rule for target.
@@ -858,14 +858,14 @@ dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/all: dependency/wxWidgets/lib
 dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=1 "Built target wxaui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=1 "Built target wxaui"
 .PHONY : dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 65
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 65
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/rule
 
 # Convenience name for target.
@@ -875,7 +875,7 @@ wxaui: dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=1 "Finished codegen for target wxaui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=1 "Finished codegen for target wxaui"
 .PHONY : dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/codegen
 
 # clean rule for target.
@@ -891,14 +891,14 @@ dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/all: dependency/wxWidgets/l
 dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=51,52,53 "Built target wxhtml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=51,52,53 "Built target wxhtml"
 .PHONY : dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 67
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 67
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/rule
 
 # Convenience name for target.
@@ -908,7 +908,7 @@ wxhtml: dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=51,52,53 "Finished codegen for target wxhtml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=51,52,53 "Finished codegen for target wxhtml"
 .PHONY : dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/codegen
 
 # clean rule for target.
@@ -924,14 +924,14 @@ dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/all: dependency/wxW
 dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=77 "Built target wxpropgrid"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=77 "Built target wxpropgrid"
 .PHONY : dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 65
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 65
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/rule
 
 # Convenience name for target.
@@ -941,7 +941,7 @@ wxpropgrid: dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=77 "Finished codegen for target wxpropgrid"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=77 "Finished codegen for target wxpropgrid"
 .PHONY : dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/codegen
 
 # clean rule for target.
@@ -957,14 +957,14 @@ dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/all: dependency/wxWidge
 dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=81,82 "Built target wxribbon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=81,82 "Built target wxribbon"
 .PHONY : dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 66
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 66
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/rule
 
 # Convenience name for target.
@@ -974,7 +974,7 @@ wxribbon: dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=81,82 "Finished codegen for target wxribbon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=81,82 "Finished codegen for target wxribbon"
 .PHONY : dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/codegen
 
 # clean rule for target.
@@ -992,14 +992,14 @@ dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/all: dependency/wxW
 dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/all: dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=83 "Built target wxrichtext"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=83 "Built target wxrichtext"
 .PHONY : dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 68
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 68
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/rule
 
 # Convenience name for target.
@@ -1009,7 +1009,7 @@ wxrichtext: dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=83 "Finished codegen for target wxrichtext"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=83 "Finished codegen for target wxrichtext"
 .PHONY : dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/codegen
 
 # clean rule for target.
@@ -1025,14 +1025,14 @@ dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/all: dependency/wxWid
 dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/build.make dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/build.make dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=92 "Built target wxwebview"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=92 "Built target wxwebview"
 .PHONY : dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 65
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 65
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/rule
 
 # Convenience name for target.
@@ -1042,7 +1042,7 @@ wxwebview: dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/build.make dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=92 "Finished codegen for target wxwebview"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=92 "Finished codegen for target wxwebview"
 .PHONY : dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/codegen
 
 # clean rule for target.
@@ -1057,14 +1057,14 @@ dependency/wxWidgets/libs/webview/CMakeFiles/wxwebview.dir/clean:
 dependency/wxWidgets/libs/stc/CMakeFiles/wxscintilla.dir/all:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/stc/CMakeFiles/wxscintilla.dir/build.make dependency/wxWidgets/libs/stc/CMakeFiles/wxscintilla.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/stc/CMakeFiles/wxscintilla.dir/build.make dependency/wxWidgets/libs/stc/CMakeFiles/wxscintilla.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=84,85,86 "Built target wxscintilla"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=84,85,86 "Built target wxscintilla"
 .PHONY : dependency/wxWidgets/libs/stc/CMakeFiles/wxscintilla.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/stc/CMakeFiles/wxscintilla.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/stc/CMakeFiles/wxscintilla.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/stc/CMakeFiles/wxscintilla.dir/rule
 
 # Convenience name for target.
@@ -1074,7 +1074,7 @@ wxscintilla: dependency/wxWidgets/libs/stc/CMakeFiles/wxscintilla.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/stc/CMakeFiles/wxscintilla.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/stc/CMakeFiles/wxscintilla.dir/build.make dependency/wxWidgets/libs/stc/CMakeFiles/wxscintilla.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=84,85,86 "Finished codegen for target wxscintilla"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=84,85,86 "Finished codegen for target wxscintilla"
 .PHONY : dependency/wxWidgets/libs/stc/CMakeFiles/wxscintilla.dir/codegen
 
 # clean rule for target.
@@ -1089,14 +1089,14 @@ dependency/wxWidgets/libs/stc/CMakeFiles/wxscintilla.dir/clean:
 dependency/wxWidgets/libs/stc/CMakeFiles/wxlexilla.dir/all:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/stc/CMakeFiles/wxlexilla.dir/build.make dependency/wxWidgets/libs/stc/CMakeFiles/wxlexilla.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/stc/CMakeFiles/wxlexilla.dir/build.make dependency/wxWidgets/libs/stc/CMakeFiles/wxlexilla.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=59,60,61,62,63,64,65,66,67,68,69,70,71 "Built target wxlexilla"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=59,60,61,62,63,64,65,66,67,68,69,70,71 "Built target wxlexilla"
 .PHONY : dependency/wxWidgets/libs/stc/CMakeFiles/wxlexilla.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/stc/CMakeFiles/wxlexilla.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 13
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/stc/CMakeFiles/wxlexilla.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/stc/CMakeFiles/wxlexilla.dir/rule
 
 # Convenience name for target.
@@ -1106,7 +1106,7 @@ wxlexilla: dependency/wxWidgets/libs/stc/CMakeFiles/wxlexilla.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/stc/CMakeFiles/wxlexilla.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/stc/CMakeFiles/wxlexilla.dir/build.make dependency/wxWidgets/libs/stc/CMakeFiles/wxlexilla.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=59,60,61,62,63,64,65,66,67,68,69,70,71 "Finished codegen for target wxlexilla"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=59,60,61,62,63,64,65,66,67,68,69,70,71 "Finished codegen for target wxlexilla"
 .PHONY : dependency/wxWidgets/libs/stc/CMakeFiles/wxlexilla.dir/codegen
 
 # clean rule for target.
@@ -1124,14 +1124,14 @@ dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/all: dependency/wxWidgets/lib
 dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/all: dependency/wxWidgets/libs/stc/CMakeFiles/wxlexilla.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/build.make dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/build.make dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=87 "Built target wxstc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=87 "Built target wxstc"
 .PHONY : dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 81
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 81
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/rule
 
 # Convenience name for target.
@@ -1141,7 +1141,7 @@ wxstc: dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/build.make dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=87 "Finished codegen for target wxstc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=87 "Finished codegen for target wxstc"
 .PHONY : dependency/wxWidgets/libs/stc/CMakeFiles/wxstc.dir/codegen
 
 # clean rule for target.
@@ -1159,14 +1159,14 @@ dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/all: dependency/wxWidgets/lib
 dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/all: dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=93,94,95,96,97,98,99,100 "Built target wxxrc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=93,94,95,96,97,98,99,100 "Built target wxxrc"
 .PHONY : dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 75
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 75
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/rule
 
 # Convenience name for target.
@@ -1176,7 +1176,7 @@ wxxrc: dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=93,94,95,96,97,98,99,100 "Finished codegen for target wxxrc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=93,94,95,96,97,98,99,100 "Finished codegen for target wxxrc"
 .PHONY : dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/codegen
 
 # clean rule for target.
@@ -1192,14 +1192,14 @@ dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/all: dependency/wxWidgets
 dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/build.make dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/build.make dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target wxmedia"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target wxmedia"
 .PHONY : dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 64
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/rule
 
 # Convenience name for target.
@@ -1209,7 +1209,7 @@ wxmedia: dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/build.make dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Finished codegen for target wxmedia"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Finished codegen for target wxmedia"
 .PHONY : dependency/wxWidgets/libs/media/CMakeFiles/wxmedia.dir/codegen
 
 # clean rule for target.
@@ -1225,14 +1225,14 @@ dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/all: dependency/wxWidgets/libs/
 dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/all: dependency/wxWidgets/libs/core/CMakeFiles/wxcore.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target wxgl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target wxgl"
 .PHONY : dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 64
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/rule
 
 # Convenience name for target.
@@ -1242,7 +1242,7 @@ wxgl: dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Finished codegen for target wxgl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Finished codegen for target wxgl"
 .PHONY : dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/codegen
 
 # clean rule for target.
@@ -1259,14 +1259,14 @@ dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/all: dependency/wxWidgets/libs/
 dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/all: dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/build.make dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/build.make dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target wxqa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target wxqa"
 .PHONY : dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 64
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/rule
 
 # Convenience name for target.
@@ -1276,7 +1276,7 @@ wxqa: dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/build.make dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Finished codegen for target wxqa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Finished codegen for target wxqa"
 .PHONY : dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/codegen
 
 # clean rule for target.
@@ -1291,14 +1291,14 @@ dependency/wxWidgets/libs/qa/CMakeFiles/wxqa.dir/clean:
 dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/all: dependency/wxWidgets/libs/base/CMakeFiles/wxbase.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/build.make dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/build.make dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target wxxml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target wxxml"
 .PHONY : dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 15
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/rule
 
 # Convenience name for target.
@@ -1308,7 +1308,7 @@ wxxml: dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/build.make dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Finished codegen for target wxxml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Finished codegen for target wxxml"
 .PHONY : dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/codegen
 
 # clean rule for target.
@@ -1324,14 +1324,14 @@ dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/all: dependency/wxWidgets/libs/ba
 dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/all: dependency/wxWidgets/libs/xml/CMakeFiles/wxxml.dir/all
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/build.make dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/depend
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/build.make dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target wxrc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Built target wxrc"
 .PHONY : dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/all
 
 # Build rule for subdir invocation for target.
 dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 15
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/rule
 
 # Convenience name for target.
@@ -1341,7 +1341,7 @@ wxrc: dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/rule
 # codegen rule for target.
 dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/build.make dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Finished codegen for target wxrc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num= "Finished codegen for target wxrc"
 .PHONY : dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/codegen
 
 # clean rule for target.

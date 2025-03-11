@@ -25,11 +25,11 @@ check_dirname()
 
 # set the variables which allow the real wx-config to check if we're using it
 # in place or after installation
-this_prefix=`check_dirname "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets"`
+this_prefix=`check_dirname "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets"`
 if [ "x$this_prefix" = "x" ]; then
     exit 1
 fi
-this_exec_prefix=`check_dirname "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets"`
+this_exec_prefix=`check_dirname "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets"`
 if [ "x$this_exec_prefix" = "x" ]; then
     exit 1
 fi

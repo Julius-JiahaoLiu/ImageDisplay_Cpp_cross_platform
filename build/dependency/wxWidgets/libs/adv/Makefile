@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
+CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
+CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/adv//CMakeFiles/progress.marks"
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/adv/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/adv//CMakeFiles/progress.marks"
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/adv/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/adv/clean
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/adv/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/adv/preinstall
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/adv/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/adv/preinstall
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/adv/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/rule:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/rule
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/rule
 .PHONY : dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ wxadv: dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/rule
 
 # fast build rule for target.
 wxadv/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/build.make dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/build
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/build.make dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/build
 .PHONY : wxadv/fast
 
 __/__/__/__/src/common/dummy.o: __/__/__/__/src/common/dummy.cpp.o
@@ -180,7 +180,7 @@ __/__/__/__/src/common/dummy.o: __/__/__/__/src/common/dummy.cpp.o
 
 # target to build an object file
 __/__/__/__/src/common/dummy.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/build.make dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/__/__/__/__/src/common/dummy.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/build.make dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/__/__/__/__/src/common/dummy.cpp.o
 .PHONY : __/__/__/__/src/common/dummy.cpp.o
 
 __/__/__/__/src/common/dummy.i: __/__/__/__/src/common/dummy.cpp.i
@@ -188,7 +188,7 @@ __/__/__/__/src/common/dummy.i: __/__/__/__/src/common/dummy.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/common/dummy.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/build.make dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/__/__/__/__/src/common/dummy.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/build.make dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/__/__/__/__/src/common/dummy.cpp.i
 .PHONY : __/__/__/__/src/common/dummy.cpp.i
 
 __/__/__/__/src/common/dummy.s: __/__/__/__/src/common/dummy.cpp.s
@@ -196,7 +196,7 @@ __/__/__/__/src/common/dummy.s: __/__/__/__/src/common/dummy.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/common/dummy.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/build.make dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/__/__/__/__/src/common/dummy.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/build.make dependency/wxWidgets/libs/adv/CMakeFiles/wxadv.dir/__/__/__/__/src/common/dummy.cpp.s
 .PHONY : __/__/__/__/src/common/dummy.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

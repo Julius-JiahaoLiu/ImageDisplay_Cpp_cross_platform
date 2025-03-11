@@ -1,6 +1,6 @@
 dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_unix.c.o: \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/tiff/libtiff/tif_unix.c \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/tiff/libtiff/tif_config.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/tiff/libtiff/tif_unix.c \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/tiff/libtiff/tif_config.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/appleapiopts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h \
@@ -139,7 +139,7 @@ dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_un
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/fcntl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_o_sync.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_o_dsync.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/tiff/libtiff/tiffiop.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/tiff/libtiff/tiffiop.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_strings.h \
@@ -150,15 +150,15 @@ dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_un
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_static_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/search.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/tiff/libtiff/tiffio.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/tiff/libtiff/tiff.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/tiff/libtiff/tiffconf.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/tiff/libtiff/tiffvers.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/tiff/libtiff/tiffio.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/tiff/libtiff/tiff.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/tiff/libtiff/tiffconf.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/tiff/libtiff/tiffvers.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_va_list.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_printf.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/secure/_stdio.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/tiff/libtiff/tif_dir.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/tiff/libtiff/tif_dir.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/mman.h

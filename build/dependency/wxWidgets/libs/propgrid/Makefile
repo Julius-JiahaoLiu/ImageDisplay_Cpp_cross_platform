@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
+CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
+CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/propgrid//CMakeFiles/progress.marks"
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/propgrid/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/propgrid//CMakeFiles/progress.marks"
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/propgrid/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/propgrid/clean
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/propgrid/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/propgrid/preinstall
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/propgrid/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/propgrid/preinstall
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/propgrid/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/rule:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/rule
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/rule
 .PHONY : dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ wxpropgrid: dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/rule
 
 # fast build rule for target.
 wxpropgrid/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build
 .PHONY : wxpropgrid/fast
 
 __/__/__/__/src/propgrid/advprops.o: __/__/__/__/src/propgrid/advprops.cpp.o
@@ -180,7 +180,7 @@ __/__/__/__/src/propgrid/advprops.o: __/__/__/__/src/propgrid/advprops.cpp.o
 
 # target to build an object file
 __/__/__/__/src/propgrid/advprops.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/advprops.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/advprops.cpp.o
 .PHONY : __/__/__/__/src/propgrid/advprops.cpp.o
 
 __/__/__/__/src/propgrid/advprops.i: __/__/__/__/src/propgrid/advprops.cpp.i
@@ -188,7 +188,7 @@ __/__/__/__/src/propgrid/advprops.i: __/__/__/__/src/propgrid/advprops.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/propgrid/advprops.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/advprops.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/advprops.cpp.i
 .PHONY : __/__/__/__/src/propgrid/advprops.cpp.i
 
 __/__/__/__/src/propgrid/advprops.s: __/__/__/__/src/propgrid/advprops.cpp.s
@@ -196,7 +196,7 @@ __/__/__/__/src/propgrid/advprops.s: __/__/__/__/src/propgrid/advprops.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/propgrid/advprops.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/advprops.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/advprops.cpp.s
 .PHONY : __/__/__/__/src/propgrid/advprops.cpp.s
 
 __/__/__/__/src/propgrid/editors.o: __/__/__/__/src/propgrid/editors.cpp.o
@@ -204,7 +204,7 @@ __/__/__/__/src/propgrid/editors.o: __/__/__/__/src/propgrid/editors.cpp.o
 
 # target to build an object file
 __/__/__/__/src/propgrid/editors.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/editors.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/editors.cpp.o
 .PHONY : __/__/__/__/src/propgrid/editors.cpp.o
 
 __/__/__/__/src/propgrid/editors.i: __/__/__/__/src/propgrid/editors.cpp.i
@@ -212,7 +212,7 @@ __/__/__/__/src/propgrid/editors.i: __/__/__/__/src/propgrid/editors.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/propgrid/editors.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/editors.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/editors.cpp.i
 .PHONY : __/__/__/__/src/propgrid/editors.cpp.i
 
 __/__/__/__/src/propgrid/editors.s: __/__/__/__/src/propgrid/editors.cpp.s
@@ -220,7 +220,7 @@ __/__/__/__/src/propgrid/editors.s: __/__/__/__/src/propgrid/editors.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/propgrid/editors.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/editors.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/editors.cpp.s
 .PHONY : __/__/__/__/src/propgrid/editors.cpp.s
 
 __/__/__/__/src/propgrid/manager.o: __/__/__/__/src/propgrid/manager.cpp.o
@@ -228,7 +228,7 @@ __/__/__/__/src/propgrid/manager.o: __/__/__/__/src/propgrid/manager.cpp.o
 
 # target to build an object file
 __/__/__/__/src/propgrid/manager.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/manager.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/manager.cpp.o
 .PHONY : __/__/__/__/src/propgrid/manager.cpp.o
 
 __/__/__/__/src/propgrid/manager.i: __/__/__/__/src/propgrid/manager.cpp.i
@@ -236,7 +236,7 @@ __/__/__/__/src/propgrid/manager.i: __/__/__/__/src/propgrid/manager.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/propgrid/manager.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/manager.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/manager.cpp.i
 .PHONY : __/__/__/__/src/propgrid/manager.cpp.i
 
 __/__/__/__/src/propgrid/manager.s: __/__/__/__/src/propgrid/manager.cpp.s
@@ -244,7 +244,7 @@ __/__/__/__/src/propgrid/manager.s: __/__/__/__/src/propgrid/manager.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/propgrid/manager.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/manager.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/manager.cpp.s
 .PHONY : __/__/__/__/src/propgrid/manager.cpp.s
 
 __/__/__/__/src/propgrid/property.o: __/__/__/__/src/propgrid/property.cpp.o
@@ -252,7 +252,7 @@ __/__/__/__/src/propgrid/property.o: __/__/__/__/src/propgrid/property.cpp.o
 
 # target to build an object file
 __/__/__/__/src/propgrid/property.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/property.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/property.cpp.o
 .PHONY : __/__/__/__/src/propgrid/property.cpp.o
 
 __/__/__/__/src/propgrid/property.i: __/__/__/__/src/propgrid/property.cpp.i
@@ -260,7 +260,7 @@ __/__/__/__/src/propgrid/property.i: __/__/__/__/src/propgrid/property.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/propgrid/property.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/property.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/property.cpp.i
 .PHONY : __/__/__/__/src/propgrid/property.cpp.i
 
 __/__/__/__/src/propgrid/property.s: __/__/__/__/src/propgrid/property.cpp.s
@@ -268,7 +268,7 @@ __/__/__/__/src/propgrid/property.s: __/__/__/__/src/propgrid/property.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/propgrid/property.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/property.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/property.cpp.s
 .PHONY : __/__/__/__/src/propgrid/property.cpp.s
 
 __/__/__/__/src/propgrid/propgrid.o: __/__/__/__/src/propgrid/propgrid.cpp.o
@@ -276,7 +276,7 @@ __/__/__/__/src/propgrid/propgrid.o: __/__/__/__/src/propgrid/propgrid.cpp.o
 
 # target to build an object file
 __/__/__/__/src/propgrid/propgrid.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/propgrid.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/propgrid.cpp.o
 .PHONY : __/__/__/__/src/propgrid/propgrid.cpp.o
 
 __/__/__/__/src/propgrid/propgrid.i: __/__/__/__/src/propgrid/propgrid.cpp.i
@@ -284,7 +284,7 @@ __/__/__/__/src/propgrid/propgrid.i: __/__/__/__/src/propgrid/propgrid.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/propgrid/propgrid.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/propgrid.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/propgrid.cpp.i
 .PHONY : __/__/__/__/src/propgrid/propgrid.cpp.i
 
 __/__/__/__/src/propgrid/propgrid.s: __/__/__/__/src/propgrid/propgrid.cpp.s
@@ -292,7 +292,7 @@ __/__/__/__/src/propgrid/propgrid.s: __/__/__/__/src/propgrid/propgrid.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/propgrid/propgrid.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/propgrid.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/propgrid.cpp.s
 .PHONY : __/__/__/__/src/propgrid/propgrid.cpp.s
 
 __/__/__/__/src/propgrid/propgridiface.o: __/__/__/__/src/propgrid/propgridiface.cpp.o
@@ -300,7 +300,7 @@ __/__/__/__/src/propgrid/propgridiface.o: __/__/__/__/src/propgrid/propgridiface
 
 # target to build an object file
 __/__/__/__/src/propgrid/propgridiface.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/propgridiface.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/propgridiface.cpp.o
 .PHONY : __/__/__/__/src/propgrid/propgridiface.cpp.o
 
 __/__/__/__/src/propgrid/propgridiface.i: __/__/__/__/src/propgrid/propgridiface.cpp.i
@@ -308,7 +308,7 @@ __/__/__/__/src/propgrid/propgridiface.i: __/__/__/__/src/propgrid/propgridiface
 
 # target to preprocess a source file
 __/__/__/__/src/propgrid/propgridiface.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/propgridiface.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/propgridiface.cpp.i
 .PHONY : __/__/__/__/src/propgrid/propgridiface.cpp.i
 
 __/__/__/__/src/propgrid/propgridiface.s: __/__/__/__/src/propgrid/propgridiface.cpp.s
@@ -316,7 +316,7 @@ __/__/__/__/src/propgrid/propgridiface.s: __/__/__/__/src/propgrid/propgridiface
 
 # target to generate assembly for a file
 __/__/__/__/src/propgrid/propgridiface.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/propgridiface.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/propgridiface.cpp.s
 .PHONY : __/__/__/__/src/propgrid/propgridiface.cpp.s
 
 __/__/__/__/src/propgrid/propgridpagestate.o: __/__/__/__/src/propgrid/propgridpagestate.cpp.o
@@ -324,7 +324,7 @@ __/__/__/__/src/propgrid/propgridpagestate.o: __/__/__/__/src/propgrid/propgridp
 
 # target to build an object file
 __/__/__/__/src/propgrid/propgridpagestate.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/propgridpagestate.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/propgridpagestate.cpp.o
 .PHONY : __/__/__/__/src/propgrid/propgridpagestate.cpp.o
 
 __/__/__/__/src/propgrid/propgridpagestate.i: __/__/__/__/src/propgrid/propgridpagestate.cpp.i
@@ -332,7 +332,7 @@ __/__/__/__/src/propgrid/propgridpagestate.i: __/__/__/__/src/propgrid/propgridp
 
 # target to preprocess a source file
 __/__/__/__/src/propgrid/propgridpagestate.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/propgridpagestate.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/propgridpagestate.cpp.i
 .PHONY : __/__/__/__/src/propgrid/propgridpagestate.cpp.i
 
 __/__/__/__/src/propgrid/propgridpagestate.s: __/__/__/__/src/propgrid/propgridpagestate.cpp.s
@@ -340,7 +340,7 @@ __/__/__/__/src/propgrid/propgridpagestate.s: __/__/__/__/src/propgrid/propgridp
 
 # target to generate assembly for a file
 __/__/__/__/src/propgrid/propgridpagestate.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/propgridpagestate.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/propgridpagestate.cpp.s
 .PHONY : __/__/__/__/src/propgrid/propgridpagestate.cpp.s
 
 __/__/__/__/src/propgrid/props.o: __/__/__/__/src/propgrid/props.cpp.o
@@ -348,7 +348,7 @@ __/__/__/__/src/propgrid/props.o: __/__/__/__/src/propgrid/props.cpp.o
 
 # target to build an object file
 __/__/__/__/src/propgrid/props.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/props.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/props.cpp.o
 .PHONY : __/__/__/__/src/propgrid/props.cpp.o
 
 __/__/__/__/src/propgrid/props.i: __/__/__/__/src/propgrid/props.cpp.i
@@ -356,7 +356,7 @@ __/__/__/__/src/propgrid/props.i: __/__/__/__/src/propgrid/props.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/propgrid/props.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/props.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/props.cpp.i
 .PHONY : __/__/__/__/src/propgrid/props.cpp.i
 
 __/__/__/__/src/propgrid/props.s: __/__/__/__/src/propgrid/props.cpp.s
@@ -364,22 +364,22 @@ __/__/__/__/src/propgrid/props.s: __/__/__/__/src/propgrid/props.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/propgrid/props.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/props.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/__/__/__/__/src/propgrid/props.cpp.s
 .PHONY : __/__/__/__/src/propgrid/props.cpp.s
 
 # target to build an object file
 cmake_pch.hxx.pch:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/cmake_pch.hxx.pch
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/cmake_pch.hxx.pch
 .PHONY : cmake_pch.hxx.pch
 
 # target to preprocess a source file
 cmake_pch.hxx.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/cmake_pch.hxx.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/cmake_pch.hxx.i
 .PHONY : cmake_pch.hxx.i
 
 # target to generate assembly for a file
 cmake_pch.hxx.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/cmake_pch.hxx.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/build.make dependency/wxWidgets/libs/propgrid/CMakeFiles/wxpropgrid.dir/cmake_pch.hxx.s
 .PHONY : cmake_pch.hxx.s
 
 # Help Target
@@ -433,6 +433,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

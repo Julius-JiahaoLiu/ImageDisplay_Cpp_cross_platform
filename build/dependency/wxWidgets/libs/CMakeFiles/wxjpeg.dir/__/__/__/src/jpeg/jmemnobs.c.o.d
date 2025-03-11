@@ -1,8 +1,8 @@
 dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jmemnobs.c.o: \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/jpeg/jmemnobs.c \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/jpeg/jinclude.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/jpeg/jconfig.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/lib/wx/include/osx_cocoa-unicode-3.3/wx/setup.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/jpeg/jmemnobs.c \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/jpeg/jinclude.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/jpeg/jconfig.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/lib/wx/include/osx_cocoa-unicode-3.3/wx/setup.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_header_macro.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_ptrdiff_t.h \
@@ -101,8 +101,8 @@ dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jmemnobs.c.o: 
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/secure/_string.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/jpeg/jpeglib.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/jpeg/jmorecfg.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/jpeg/jpegint.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/jpeg/jerror.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/jpeg/jmemsys.h
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/jpeg/jpeglib.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/jpeg/jmorecfg.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/jpeg/jpegint.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/jpeg/jerror.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/jpeg/jmemsys.h

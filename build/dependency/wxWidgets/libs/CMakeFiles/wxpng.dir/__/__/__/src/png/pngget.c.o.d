@@ -1,6 +1,6 @@
 dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngget.c.o: \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/pngget.c \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/pngpriv.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/pngget.c \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/pngpriv.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/Availability.h \
@@ -55,10 +55,10 @@ dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngget.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/secure/_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/secure/_common.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/pnglibconf.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/pngprefix.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/png.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/pngconf.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/pnglibconf.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/pngprefix.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/png.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/pngconf.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/machine/limits.h \
@@ -90,7 +90,7 @@ dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngget.c.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/math.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/pngstruct.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/pngstruct.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/zlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/zconf.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/types.h \
@@ -132,5 +132,5 @@ dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngget.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_posix_vdisable.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/pnginfo.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/pngdebug.h
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/pnginfo.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/pngdebug.h

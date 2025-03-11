@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
+CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
+CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs//CMakeFiles/progress.marks"
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs//CMakeFiles/progress.marks"
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/clean
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/preinstall
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/preinstall
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/rule:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/rule
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/rule
 .PHONY : dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ wxregex: dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/rule
 
 # fast build rule for target.
 wxregex/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build
 .PHONY : wxregex/fast
 
 # Convenience name for target.
 dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/rule:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/rule
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/rule
 .PHONY : dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ wxjpeg: dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/rule
 
 # fast build rule for target.
 wxjpeg/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build
 .PHONY : wxjpeg/fast
 
 # Convenience name for target.
 dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/rule:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/rule
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/rule
 .PHONY : dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/rule
 
 # Convenience name for target.
@@ -200,12 +200,12 @@ wxpng: dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/rule
 
 # fast build rule for target.
 wxpng/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build
 .PHONY : wxpng/fast
 
 # Convenience name for target.
 dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/rule:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/rule
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/rule
 .PHONY : dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/rule
 
 # Convenience name for target.
@@ -214,7 +214,7 @@ wxtiff: dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/rule
 
 # fast build rule for target.
 wxtiff/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build
 .PHONY : wxtiff/fast
 
 __/__/__/3rdparty/pcre/src/pcre2_auto_possess.o: __/__/__/3rdparty/pcre/src/pcre2_auto_possess.c.o
@@ -222,7 +222,7 @@ __/__/__/3rdparty/pcre/src/pcre2_auto_possess.o: __/__/__/3rdparty/pcre/src/pcre
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_auto_possess.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_auto_possess.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_auto_possess.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_auto_possess.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_auto_possess.i: __/__/__/3rdparty/pcre/src/pcre2_auto_possess.c.i
@@ -230,7 +230,7 @@ __/__/__/3rdparty/pcre/src/pcre2_auto_possess.i: __/__/__/3rdparty/pcre/src/pcre
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_auto_possess.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_auto_possess.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_auto_possess.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_auto_possess.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_auto_possess.s: __/__/__/3rdparty/pcre/src/pcre2_auto_possess.c.s
@@ -238,7 +238,7 @@ __/__/__/3rdparty/pcre/src/pcre2_auto_possess.s: __/__/__/3rdparty/pcre/src/pcre
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_auto_possess.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_auto_possess.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_auto_possess.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_auto_possess.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_chartables.o: __/__/__/3rdparty/pcre/src/pcre2_chartables.c.o
@@ -246,7 +246,7 @@ __/__/__/3rdparty/pcre/src/pcre2_chartables.o: __/__/__/3rdparty/pcre/src/pcre2_
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_chartables.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_chartables.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_chartables.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_chartables.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_chartables.i: __/__/__/3rdparty/pcre/src/pcre2_chartables.c.i
@@ -254,7 +254,7 @@ __/__/__/3rdparty/pcre/src/pcre2_chartables.i: __/__/__/3rdparty/pcre/src/pcre2_
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_chartables.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_chartables.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_chartables.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_chartables.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_chartables.s: __/__/__/3rdparty/pcre/src/pcre2_chartables.c.s
@@ -262,7 +262,7 @@ __/__/__/3rdparty/pcre/src/pcre2_chartables.s: __/__/__/3rdparty/pcre/src/pcre2_
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_chartables.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_chartables.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_chartables.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_chartables.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_compile.o: __/__/__/3rdparty/pcre/src/pcre2_compile.c.o
@@ -270,7 +270,7 @@ __/__/__/3rdparty/pcre/src/pcre2_compile.o: __/__/__/3rdparty/pcre/src/pcre2_com
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_compile.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_compile.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_compile.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_compile.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_compile.i: __/__/__/3rdparty/pcre/src/pcre2_compile.c.i
@@ -278,7 +278,7 @@ __/__/__/3rdparty/pcre/src/pcre2_compile.i: __/__/__/3rdparty/pcre/src/pcre2_com
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_compile.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_compile.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_compile.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_compile.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_compile.s: __/__/__/3rdparty/pcre/src/pcre2_compile.c.s
@@ -286,7 +286,7 @@ __/__/__/3rdparty/pcre/src/pcre2_compile.s: __/__/__/3rdparty/pcre/src/pcre2_com
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_compile.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_compile.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_compile.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_compile.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_config.o: __/__/__/3rdparty/pcre/src/pcre2_config.c.o
@@ -294,7 +294,7 @@ __/__/__/3rdparty/pcre/src/pcre2_config.o: __/__/__/3rdparty/pcre/src/pcre2_conf
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_config.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_config.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_config.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_config.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_config.i: __/__/__/3rdparty/pcre/src/pcre2_config.c.i
@@ -302,7 +302,7 @@ __/__/__/3rdparty/pcre/src/pcre2_config.i: __/__/__/3rdparty/pcre/src/pcre2_conf
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_config.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_config.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_config.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_config.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_config.s: __/__/__/3rdparty/pcre/src/pcre2_config.c.s
@@ -310,7 +310,7 @@ __/__/__/3rdparty/pcre/src/pcre2_config.s: __/__/__/3rdparty/pcre/src/pcre2_conf
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_config.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_config.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_config.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_config.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_context.o: __/__/__/3rdparty/pcre/src/pcre2_context.c.o
@@ -318,7 +318,7 @@ __/__/__/3rdparty/pcre/src/pcre2_context.o: __/__/__/3rdparty/pcre/src/pcre2_con
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_context.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_context.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_context.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_context.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_context.i: __/__/__/3rdparty/pcre/src/pcre2_context.c.i
@@ -326,7 +326,7 @@ __/__/__/3rdparty/pcre/src/pcre2_context.i: __/__/__/3rdparty/pcre/src/pcre2_con
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_context.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_context.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_context.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_context.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_context.s: __/__/__/3rdparty/pcre/src/pcre2_context.c.s
@@ -334,7 +334,7 @@ __/__/__/3rdparty/pcre/src/pcre2_context.s: __/__/__/3rdparty/pcre/src/pcre2_con
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_context.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_context.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_context.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_context.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_convert.o: __/__/__/3rdparty/pcre/src/pcre2_convert.c.o
@@ -342,7 +342,7 @@ __/__/__/3rdparty/pcre/src/pcre2_convert.o: __/__/__/3rdparty/pcre/src/pcre2_con
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_convert.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_convert.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_convert.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_convert.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_convert.i: __/__/__/3rdparty/pcre/src/pcre2_convert.c.i
@@ -350,7 +350,7 @@ __/__/__/3rdparty/pcre/src/pcre2_convert.i: __/__/__/3rdparty/pcre/src/pcre2_con
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_convert.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_convert.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_convert.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_convert.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_convert.s: __/__/__/3rdparty/pcre/src/pcre2_convert.c.s
@@ -358,7 +358,7 @@ __/__/__/3rdparty/pcre/src/pcre2_convert.s: __/__/__/3rdparty/pcre/src/pcre2_con
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_convert.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_convert.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_convert.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_convert.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_dfa_match.o: __/__/__/3rdparty/pcre/src/pcre2_dfa_match.c.o
@@ -366,7 +366,7 @@ __/__/__/3rdparty/pcre/src/pcre2_dfa_match.o: __/__/__/3rdparty/pcre/src/pcre2_d
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_dfa_match.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_dfa_match.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_dfa_match.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_dfa_match.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_dfa_match.i: __/__/__/3rdparty/pcre/src/pcre2_dfa_match.c.i
@@ -374,7 +374,7 @@ __/__/__/3rdparty/pcre/src/pcre2_dfa_match.i: __/__/__/3rdparty/pcre/src/pcre2_d
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_dfa_match.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_dfa_match.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_dfa_match.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_dfa_match.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_dfa_match.s: __/__/__/3rdparty/pcre/src/pcre2_dfa_match.c.s
@@ -382,7 +382,7 @@ __/__/__/3rdparty/pcre/src/pcre2_dfa_match.s: __/__/__/3rdparty/pcre/src/pcre2_d
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_dfa_match.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_dfa_match.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_dfa_match.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_dfa_match.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_error.o: __/__/__/3rdparty/pcre/src/pcre2_error.c.o
@@ -390,7 +390,7 @@ __/__/__/3rdparty/pcre/src/pcre2_error.o: __/__/__/3rdparty/pcre/src/pcre2_error
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_error.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_error.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_error.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_error.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_error.i: __/__/__/3rdparty/pcre/src/pcre2_error.c.i
@@ -398,7 +398,7 @@ __/__/__/3rdparty/pcre/src/pcre2_error.i: __/__/__/3rdparty/pcre/src/pcre2_error
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_error.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_error.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_error.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_error.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_error.s: __/__/__/3rdparty/pcre/src/pcre2_error.c.s
@@ -406,7 +406,7 @@ __/__/__/3rdparty/pcre/src/pcre2_error.s: __/__/__/3rdparty/pcre/src/pcre2_error
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_error.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_error.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_error.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_error.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_extuni.o: __/__/__/3rdparty/pcre/src/pcre2_extuni.c.o
@@ -414,7 +414,7 @@ __/__/__/3rdparty/pcre/src/pcre2_extuni.o: __/__/__/3rdparty/pcre/src/pcre2_extu
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_extuni.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_extuni.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_extuni.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_extuni.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_extuni.i: __/__/__/3rdparty/pcre/src/pcre2_extuni.c.i
@@ -422,7 +422,7 @@ __/__/__/3rdparty/pcre/src/pcre2_extuni.i: __/__/__/3rdparty/pcre/src/pcre2_extu
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_extuni.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_extuni.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_extuni.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_extuni.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_extuni.s: __/__/__/3rdparty/pcre/src/pcre2_extuni.c.s
@@ -430,7 +430,7 @@ __/__/__/3rdparty/pcre/src/pcre2_extuni.s: __/__/__/3rdparty/pcre/src/pcre2_extu
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_extuni.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_extuni.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_extuni.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_extuni.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_find_bracket.o: __/__/__/3rdparty/pcre/src/pcre2_find_bracket.c.o
@@ -438,7 +438,7 @@ __/__/__/3rdparty/pcre/src/pcre2_find_bracket.o: __/__/__/3rdparty/pcre/src/pcre
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_find_bracket.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_find_bracket.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_find_bracket.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_find_bracket.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_find_bracket.i: __/__/__/3rdparty/pcre/src/pcre2_find_bracket.c.i
@@ -446,7 +446,7 @@ __/__/__/3rdparty/pcre/src/pcre2_find_bracket.i: __/__/__/3rdparty/pcre/src/pcre
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_find_bracket.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_find_bracket.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_find_bracket.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_find_bracket.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_find_bracket.s: __/__/__/3rdparty/pcre/src/pcre2_find_bracket.c.s
@@ -454,7 +454,7 @@ __/__/__/3rdparty/pcre/src/pcre2_find_bracket.s: __/__/__/3rdparty/pcre/src/pcre
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_find_bracket.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_find_bracket.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_find_bracket.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_find_bracket.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_jit_compile.o: __/__/__/3rdparty/pcre/src/pcre2_jit_compile.c.o
@@ -462,7 +462,7 @@ __/__/__/3rdparty/pcre/src/pcre2_jit_compile.o: __/__/__/3rdparty/pcre/src/pcre2
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_jit_compile.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_jit_compile.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_jit_compile.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_jit_compile.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_jit_compile.i: __/__/__/3rdparty/pcre/src/pcre2_jit_compile.c.i
@@ -470,7 +470,7 @@ __/__/__/3rdparty/pcre/src/pcre2_jit_compile.i: __/__/__/3rdparty/pcre/src/pcre2
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_jit_compile.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_jit_compile.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_jit_compile.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_jit_compile.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_jit_compile.s: __/__/__/3rdparty/pcre/src/pcre2_jit_compile.c.s
@@ -478,7 +478,7 @@ __/__/__/3rdparty/pcre/src/pcre2_jit_compile.s: __/__/__/3rdparty/pcre/src/pcre2
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_jit_compile.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_jit_compile.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_jit_compile.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_jit_compile.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_maketables.o: __/__/__/3rdparty/pcre/src/pcre2_maketables.c.o
@@ -486,7 +486,7 @@ __/__/__/3rdparty/pcre/src/pcre2_maketables.o: __/__/__/3rdparty/pcre/src/pcre2_
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_maketables.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_maketables.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_maketables.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_maketables.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_maketables.i: __/__/__/3rdparty/pcre/src/pcre2_maketables.c.i
@@ -494,7 +494,7 @@ __/__/__/3rdparty/pcre/src/pcre2_maketables.i: __/__/__/3rdparty/pcre/src/pcre2_
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_maketables.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_maketables.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_maketables.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_maketables.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_maketables.s: __/__/__/3rdparty/pcre/src/pcre2_maketables.c.s
@@ -502,7 +502,7 @@ __/__/__/3rdparty/pcre/src/pcre2_maketables.s: __/__/__/3rdparty/pcre/src/pcre2_
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_maketables.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_maketables.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_maketables.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_maketables.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_match.o: __/__/__/3rdparty/pcre/src/pcre2_match.c.o
@@ -510,7 +510,7 @@ __/__/__/3rdparty/pcre/src/pcre2_match.o: __/__/__/3rdparty/pcre/src/pcre2_match
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_match.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_match.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_match.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_match.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_match.i: __/__/__/3rdparty/pcre/src/pcre2_match.c.i
@@ -518,7 +518,7 @@ __/__/__/3rdparty/pcre/src/pcre2_match.i: __/__/__/3rdparty/pcre/src/pcre2_match
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_match.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_match.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_match.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_match.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_match.s: __/__/__/3rdparty/pcre/src/pcre2_match.c.s
@@ -526,7 +526,7 @@ __/__/__/3rdparty/pcre/src/pcre2_match.s: __/__/__/3rdparty/pcre/src/pcre2_match
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_match.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_match.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_match.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_match.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_match_data.o: __/__/__/3rdparty/pcre/src/pcre2_match_data.c.o
@@ -534,7 +534,7 @@ __/__/__/3rdparty/pcre/src/pcre2_match_data.o: __/__/__/3rdparty/pcre/src/pcre2_
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_match_data.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_match_data.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_match_data.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_match_data.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_match_data.i: __/__/__/3rdparty/pcre/src/pcre2_match_data.c.i
@@ -542,7 +542,7 @@ __/__/__/3rdparty/pcre/src/pcre2_match_data.i: __/__/__/3rdparty/pcre/src/pcre2_
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_match_data.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_match_data.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_match_data.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_match_data.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_match_data.s: __/__/__/3rdparty/pcre/src/pcre2_match_data.c.s
@@ -550,7 +550,7 @@ __/__/__/3rdparty/pcre/src/pcre2_match_data.s: __/__/__/3rdparty/pcre/src/pcre2_
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_match_data.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_match_data.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_match_data.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_match_data.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_newline.o: __/__/__/3rdparty/pcre/src/pcre2_newline.c.o
@@ -558,7 +558,7 @@ __/__/__/3rdparty/pcre/src/pcre2_newline.o: __/__/__/3rdparty/pcre/src/pcre2_new
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_newline.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_newline.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_newline.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_newline.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_newline.i: __/__/__/3rdparty/pcre/src/pcre2_newline.c.i
@@ -566,7 +566,7 @@ __/__/__/3rdparty/pcre/src/pcre2_newline.i: __/__/__/3rdparty/pcre/src/pcre2_new
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_newline.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_newline.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_newline.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_newline.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_newline.s: __/__/__/3rdparty/pcre/src/pcre2_newline.c.s
@@ -574,7 +574,7 @@ __/__/__/3rdparty/pcre/src/pcre2_newline.s: __/__/__/3rdparty/pcre/src/pcre2_new
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_newline.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_newline.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_newline.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_newline.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_ord2utf.o: __/__/__/3rdparty/pcre/src/pcre2_ord2utf.c.o
@@ -582,7 +582,7 @@ __/__/__/3rdparty/pcre/src/pcre2_ord2utf.o: __/__/__/3rdparty/pcre/src/pcre2_ord
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_ord2utf.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_ord2utf.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_ord2utf.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_ord2utf.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_ord2utf.i: __/__/__/3rdparty/pcre/src/pcre2_ord2utf.c.i
@@ -590,7 +590,7 @@ __/__/__/3rdparty/pcre/src/pcre2_ord2utf.i: __/__/__/3rdparty/pcre/src/pcre2_ord
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_ord2utf.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_ord2utf.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_ord2utf.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_ord2utf.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_ord2utf.s: __/__/__/3rdparty/pcre/src/pcre2_ord2utf.c.s
@@ -598,7 +598,7 @@ __/__/__/3rdparty/pcre/src/pcre2_ord2utf.s: __/__/__/3rdparty/pcre/src/pcre2_ord
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_ord2utf.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_ord2utf.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_ord2utf.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_ord2utf.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_pattern_info.o: __/__/__/3rdparty/pcre/src/pcre2_pattern_info.c.o
@@ -606,7 +606,7 @@ __/__/__/3rdparty/pcre/src/pcre2_pattern_info.o: __/__/__/3rdparty/pcre/src/pcre
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_pattern_info.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_pattern_info.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_pattern_info.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_pattern_info.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_pattern_info.i: __/__/__/3rdparty/pcre/src/pcre2_pattern_info.c.i
@@ -614,7 +614,7 @@ __/__/__/3rdparty/pcre/src/pcre2_pattern_info.i: __/__/__/3rdparty/pcre/src/pcre
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_pattern_info.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_pattern_info.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_pattern_info.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_pattern_info.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_pattern_info.s: __/__/__/3rdparty/pcre/src/pcre2_pattern_info.c.s
@@ -622,7 +622,7 @@ __/__/__/3rdparty/pcre/src/pcre2_pattern_info.s: __/__/__/3rdparty/pcre/src/pcre
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_pattern_info.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_pattern_info.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_pattern_info.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_pattern_info.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_script_run.o: __/__/__/3rdparty/pcre/src/pcre2_script_run.c.o
@@ -630,7 +630,7 @@ __/__/__/3rdparty/pcre/src/pcre2_script_run.o: __/__/__/3rdparty/pcre/src/pcre2_
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_script_run.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_script_run.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_script_run.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_script_run.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_script_run.i: __/__/__/3rdparty/pcre/src/pcre2_script_run.c.i
@@ -638,7 +638,7 @@ __/__/__/3rdparty/pcre/src/pcre2_script_run.i: __/__/__/3rdparty/pcre/src/pcre2_
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_script_run.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_script_run.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_script_run.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_script_run.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_script_run.s: __/__/__/3rdparty/pcre/src/pcre2_script_run.c.s
@@ -646,7 +646,7 @@ __/__/__/3rdparty/pcre/src/pcre2_script_run.s: __/__/__/3rdparty/pcre/src/pcre2_
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_script_run.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_script_run.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_script_run.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_script_run.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_serialize.o: __/__/__/3rdparty/pcre/src/pcre2_serialize.c.o
@@ -654,7 +654,7 @@ __/__/__/3rdparty/pcre/src/pcre2_serialize.o: __/__/__/3rdparty/pcre/src/pcre2_s
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_serialize.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_serialize.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_serialize.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_serialize.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_serialize.i: __/__/__/3rdparty/pcre/src/pcre2_serialize.c.i
@@ -662,7 +662,7 @@ __/__/__/3rdparty/pcre/src/pcre2_serialize.i: __/__/__/3rdparty/pcre/src/pcre2_s
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_serialize.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_serialize.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_serialize.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_serialize.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_serialize.s: __/__/__/3rdparty/pcre/src/pcre2_serialize.c.s
@@ -670,7 +670,7 @@ __/__/__/3rdparty/pcre/src/pcre2_serialize.s: __/__/__/3rdparty/pcre/src/pcre2_s
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_serialize.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_serialize.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_serialize.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_serialize.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_string_utils.o: __/__/__/3rdparty/pcre/src/pcre2_string_utils.c.o
@@ -678,7 +678,7 @@ __/__/__/3rdparty/pcre/src/pcre2_string_utils.o: __/__/__/3rdparty/pcre/src/pcre
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_string_utils.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_string_utils.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_string_utils.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_string_utils.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_string_utils.i: __/__/__/3rdparty/pcre/src/pcre2_string_utils.c.i
@@ -686,7 +686,7 @@ __/__/__/3rdparty/pcre/src/pcre2_string_utils.i: __/__/__/3rdparty/pcre/src/pcre
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_string_utils.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_string_utils.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_string_utils.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_string_utils.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_string_utils.s: __/__/__/3rdparty/pcre/src/pcre2_string_utils.c.s
@@ -694,7 +694,7 @@ __/__/__/3rdparty/pcre/src/pcre2_string_utils.s: __/__/__/3rdparty/pcre/src/pcre
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_string_utils.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_string_utils.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_string_utils.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_string_utils.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_study.o: __/__/__/3rdparty/pcre/src/pcre2_study.c.o
@@ -702,7 +702,7 @@ __/__/__/3rdparty/pcre/src/pcre2_study.o: __/__/__/3rdparty/pcre/src/pcre2_study
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_study.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_study.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_study.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_study.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_study.i: __/__/__/3rdparty/pcre/src/pcre2_study.c.i
@@ -710,7 +710,7 @@ __/__/__/3rdparty/pcre/src/pcre2_study.i: __/__/__/3rdparty/pcre/src/pcre2_study
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_study.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_study.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_study.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_study.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_study.s: __/__/__/3rdparty/pcre/src/pcre2_study.c.s
@@ -718,7 +718,7 @@ __/__/__/3rdparty/pcre/src/pcre2_study.s: __/__/__/3rdparty/pcre/src/pcre2_study
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_study.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_study.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_study.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_study.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_substitute.o: __/__/__/3rdparty/pcre/src/pcre2_substitute.c.o
@@ -726,7 +726,7 @@ __/__/__/3rdparty/pcre/src/pcre2_substitute.o: __/__/__/3rdparty/pcre/src/pcre2_
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_substitute.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_substitute.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_substitute.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_substitute.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_substitute.i: __/__/__/3rdparty/pcre/src/pcre2_substitute.c.i
@@ -734,7 +734,7 @@ __/__/__/3rdparty/pcre/src/pcre2_substitute.i: __/__/__/3rdparty/pcre/src/pcre2_
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_substitute.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_substitute.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_substitute.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_substitute.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_substitute.s: __/__/__/3rdparty/pcre/src/pcre2_substitute.c.s
@@ -742,7 +742,7 @@ __/__/__/3rdparty/pcre/src/pcre2_substitute.s: __/__/__/3rdparty/pcre/src/pcre2_
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_substitute.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_substitute.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_substitute.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_substitute.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_substring.o: __/__/__/3rdparty/pcre/src/pcre2_substring.c.o
@@ -750,7 +750,7 @@ __/__/__/3rdparty/pcre/src/pcre2_substring.o: __/__/__/3rdparty/pcre/src/pcre2_s
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_substring.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_substring.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_substring.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_substring.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_substring.i: __/__/__/3rdparty/pcre/src/pcre2_substring.c.i
@@ -758,7 +758,7 @@ __/__/__/3rdparty/pcre/src/pcre2_substring.i: __/__/__/3rdparty/pcre/src/pcre2_s
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_substring.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_substring.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_substring.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_substring.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_substring.s: __/__/__/3rdparty/pcre/src/pcre2_substring.c.s
@@ -766,7 +766,7 @@ __/__/__/3rdparty/pcre/src/pcre2_substring.s: __/__/__/3rdparty/pcre/src/pcre2_s
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_substring.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_substring.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_substring.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_substring.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_tables.o: __/__/__/3rdparty/pcre/src/pcre2_tables.c.o
@@ -774,7 +774,7 @@ __/__/__/3rdparty/pcre/src/pcre2_tables.o: __/__/__/3rdparty/pcre/src/pcre2_tabl
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_tables.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_tables.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_tables.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_tables.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_tables.i: __/__/__/3rdparty/pcre/src/pcre2_tables.c.i
@@ -782,7 +782,7 @@ __/__/__/3rdparty/pcre/src/pcre2_tables.i: __/__/__/3rdparty/pcre/src/pcre2_tabl
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_tables.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_tables.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_tables.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_tables.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_tables.s: __/__/__/3rdparty/pcre/src/pcre2_tables.c.s
@@ -790,7 +790,7 @@ __/__/__/3rdparty/pcre/src/pcre2_tables.s: __/__/__/3rdparty/pcre/src/pcre2_tabl
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_tables.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_tables.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_tables.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_tables.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_ucd.o: __/__/__/3rdparty/pcre/src/pcre2_ucd.c.o
@@ -798,7 +798,7 @@ __/__/__/3rdparty/pcre/src/pcre2_ucd.o: __/__/__/3rdparty/pcre/src/pcre2_ucd.c.o
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_ucd.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_ucd.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_ucd.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_ucd.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_ucd.i: __/__/__/3rdparty/pcre/src/pcre2_ucd.c.i
@@ -806,7 +806,7 @@ __/__/__/3rdparty/pcre/src/pcre2_ucd.i: __/__/__/3rdparty/pcre/src/pcre2_ucd.c.i
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_ucd.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_ucd.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_ucd.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_ucd.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_ucd.s: __/__/__/3rdparty/pcre/src/pcre2_ucd.c.s
@@ -814,7 +814,7 @@ __/__/__/3rdparty/pcre/src/pcre2_ucd.s: __/__/__/3rdparty/pcre/src/pcre2_ucd.c.s
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_ucd.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_ucd.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_ucd.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_ucd.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_valid_utf.o: __/__/__/3rdparty/pcre/src/pcre2_valid_utf.c.o
@@ -822,7 +822,7 @@ __/__/__/3rdparty/pcre/src/pcre2_valid_utf.o: __/__/__/3rdparty/pcre/src/pcre2_v
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_valid_utf.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_valid_utf.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_valid_utf.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_valid_utf.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_valid_utf.i: __/__/__/3rdparty/pcre/src/pcre2_valid_utf.c.i
@@ -830,7 +830,7 @@ __/__/__/3rdparty/pcre/src/pcre2_valid_utf.i: __/__/__/3rdparty/pcre/src/pcre2_v
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_valid_utf.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_valid_utf.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_valid_utf.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_valid_utf.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_valid_utf.s: __/__/__/3rdparty/pcre/src/pcre2_valid_utf.c.s
@@ -838,7 +838,7 @@ __/__/__/3rdparty/pcre/src/pcre2_valid_utf.s: __/__/__/3rdparty/pcre/src/pcre2_v
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_valid_utf.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_valid_utf.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_valid_utf.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_valid_utf.c.s
 
 __/__/__/3rdparty/pcre/src/pcre2_xclass.o: __/__/__/3rdparty/pcre/src/pcre2_xclass.c.o
@@ -846,7 +846,7 @@ __/__/__/3rdparty/pcre/src/pcre2_xclass.o: __/__/__/3rdparty/pcre/src/pcre2_xcla
 
 # target to build an object file
 __/__/__/3rdparty/pcre/src/pcre2_xclass.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_xclass.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_xclass.c.o
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_xclass.c.o
 
 __/__/__/3rdparty/pcre/src/pcre2_xclass.i: __/__/__/3rdparty/pcre/src/pcre2_xclass.c.i
@@ -854,7 +854,7 @@ __/__/__/3rdparty/pcre/src/pcre2_xclass.i: __/__/__/3rdparty/pcre/src/pcre2_xcla
 
 # target to preprocess a source file
 __/__/__/3rdparty/pcre/src/pcre2_xclass.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_xclass.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_xclass.c.i
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_xclass.c.i
 
 __/__/__/3rdparty/pcre/src/pcre2_xclass.s: __/__/__/3rdparty/pcre/src/pcre2_xclass.c.s
@@ -862,7 +862,7 @@ __/__/__/3rdparty/pcre/src/pcre2_xclass.s: __/__/__/3rdparty/pcre/src/pcre2_xcla
 
 # target to generate assembly for a file
 __/__/__/3rdparty/pcre/src/pcre2_xclass.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_xclass.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxregex.dir/__/__/__/3rdparty/pcre/src/pcre2_xclass.c.s
 .PHONY : __/__/__/3rdparty/pcre/src/pcre2_xclass.c.s
 
 __/__/__/src/jpeg/jaricom.o: __/__/__/src/jpeg/jaricom.c.o
@@ -870,7 +870,7 @@ __/__/__/src/jpeg/jaricom.o: __/__/__/src/jpeg/jaricom.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jaricom.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jaricom.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jaricom.c.o
 .PHONY : __/__/__/src/jpeg/jaricom.c.o
 
 __/__/__/src/jpeg/jaricom.i: __/__/__/src/jpeg/jaricom.c.i
@@ -878,7 +878,7 @@ __/__/__/src/jpeg/jaricom.i: __/__/__/src/jpeg/jaricom.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jaricom.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jaricom.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jaricom.c.i
 .PHONY : __/__/__/src/jpeg/jaricom.c.i
 
 __/__/__/src/jpeg/jaricom.s: __/__/__/src/jpeg/jaricom.c.s
@@ -886,7 +886,7 @@ __/__/__/src/jpeg/jaricom.s: __/__/__/src/jpeg/jaricom.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jaricom.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jaricom.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jaricom.c.s
 .PHONY : __/__/__/src/jpeg/jaricom.c.s
 
 __/__/__/src/jpeg/jcapimin.o: __/__/__/src/jpeg/jcapimin.c.o
@@ -894,7 +894,7 @@ __/__/__/src/jpeg/jcapimin.o: __/__/__/src/jpeg/jcapimin.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jcapimin.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcapimin.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcapimin.c.o
 .PHONY : __/__/__/src/jpeg/jcapimin.c.o
 
 __/__/__/src/jpeg/jcapimin.i: __/__/__/src/jpeg/jcapimin.c.i
@@ -902,7 +902,7 @@ __/__/__/src/jpeg/jcapimin.i: __/__/__/src/jpeg/jcapimin.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jcapimin.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcapimin.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcapimin.c.i
 .PHONY : __/__/__/src/jpeg/jcapimin.c.i
 
 __/__/__/src/jpeg/jcapimin.s: __/__/__/src/jpeg/jcapimin.c.s
@@ -910,7 +910,7 @@ __/__/__/src/jpeg/jcapimin.s: __/__/__/src/jpeg/jcapimin.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jcapimin.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcapimin.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcapimin.c.s
 .PHONY : __/__/__/src/jpeg/jcapimin.c.s
 
 __/__/__/src/jpeg/jcapistd.o: __/__/__/src/jpeg/jcapistd.c.o
@@ -918,7 +918,7 @@ __/__/__/src/jpeg/jcapistd.o: __/__/__/src/jpeg/jcapistd.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jcapistd.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcapistd.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcapistd.c.o
 .PHONY : __/__/__/src/jpeg/jcapistd.c.o
 
 __/__/__/src/jpeg/jcapistd.i: __/__/__/src/jpeg/jcapistd.c.i
@@ -926,7 +926,7 @@ __/__/__/src/jpeg/jcapistd.i: __/__/__/src/jpeg/jcapistd.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jcapistd.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcapistd.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcapistd.c.i
 .PHONY : __/__/__/src/jpeg/jcapistd.c.i
 
 __/__/__/src/jpeg/jcapistd.s: __/__/__/src/jpeg/jcapistd.c.s
@@ -934,7 +934,7 @@ __/__/__/src/jpeg/jcapistd.s: __/__/__/src/jpeg/jcapistd.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jcapistd.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcapistd.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcapistd.c.s
 .PHONY : __/__/__/src/jpeg/jcapistd.c.s
 
 __/__/__/src/jpeg/jcarith.o: __/__/__/src/jpeg/jcarith.c.o
@@ -942,7 +942,7 @@ __/__/__/src/jpeg/jcarith.o: __/__/__/src/jpeg/jcarith.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jcarith.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcarith.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcarith.c.o
 .PHONY : __/__/__/src/jpeg/jcarith.c.o
 
 __/__/__/src/jpeg/jcarith.i: __/__/__/src/jpeg/jcarith.c.i
@@ -950,7 +950,7 @@ __/__/__/src/jpeg/jcarith.i: __/__/__/src/jpeg/jcarith.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jcarith.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcarith.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcarith.c.i
 .PHONY : __/__/__/src/jpeg/jcarith.c.i
 
 __/__/__/src/jpeg/jcarith.s: __/__/__/src/jpeg/jcarith.c.s
@@ -958,7 +958,7 @@ __/__/__/src/jpeg/jcarith.s: __/__/__/src/jpeg/jcarith.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jcarith.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcarith.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcarith.c.s
 .PHONY : __/__/__/src/jpeg/jcarith.c.s
 
 __/__/__/src/jpeg/jccoefct.o: __/__/__/src/jpeg/jccoefct.c.o
@@ -966,7 +966,7 @@ __/__/__/src/jpeg/jccoefct.o: __/__/__/src/jpeg/jccoefct.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jccoefct.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jccoefct.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jccoefct.c.o
 .PHONY : __/__/__/src/jpeg/jccoefct.c.o
 
 __/__/__/src/jpeg/jccoefct.i: __/__/__/src/jpeg/jccoefct.c.i
@@ -974,7 +974,7 @@ __/__/__/src/jpeg/jccoefct.i: __/__/__/src/jpeg/jccoefct.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jccoefct.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jccoefct.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jccoefct.c.i
 .PHONY : __/__/__/src/jpeg/jccoefct.c.i
 
 __/__/__/src/jpeg/jccoefct.s: __/__/__/src/jpeg/jccoefct.c.s
@@ -982,7 +982,7 @@ __/__/__/src/jpeg/jccoefct.s: __/__/__/src/jpeg/jccoefct.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jccoefct.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jccoefct.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jccoefct.c.s
 .PHONY : __/__/__/src/jpeg/jccoefct.c.s
 
 __/__/__/src/jpeg/jccolor.o: __/__/__/src/jpeg/jccolor.c.o
@@ -990,7 +990,7 @@ __/__/__/src/jpeg/jccolor.o: __/__/__/src/jpeg/jccolor.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jccolor.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jccolor.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jccolor.c.o
 .PHONY : __/__/__/src/jpeg/jccolor.c.o
 
 __/__/__/src/jpeg/jccolor.i: __/__/__/src/jpeg/jccolor.c.i
@@ -998,7 +998,7 @@ __/__/__/src/jpeg/jccolor.i: __/__/__/src/jpeg/jccolor.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jccolor.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jccolor.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jccolor.c.i
 .PHONY : __/__/__/src/jpeg/jccolor.c.i
 
 __/__/__/src/jpeg/jccolor.s: __/__/__/src/jpeg/jccolor.c.s
@@ -1006,7 +1006,7 @@ __/__/__/src/jpeg/jccolor.s: __/__/__/src/jpeg/jccolor.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jccolor.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jccolor.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jccolor.c.s
 .PHONY : __/__/__/src/jpeg/jccolor.c.s
 
 __/__/__/src/jpeg/jcdctmgr.o: __/__/__/src/jpeg/jcdctmgr.c.o
@@ -1014,7 +1014,7 @@ __/__/__/src/jpeg/jcdctmgr.o: __/__/__/src/jpeg/jcdctmgr.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jcdctmgr.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcdctmgr.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcdctmgr.c.o
 .PHONY : __/__/__/src/jpeg/jcdctmgr.c.o
 
 __/__/__/src/jpeg/jcdctmgr.i: __/__/__/src/jpeg/jcdctmgr.c.i
@@ -1022,7 +1022,7 @@ __/__/__/src/jpeg/jcdctmgr.i: __/__/__/src/jpeg/jcdctmgr.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jcdctmgr.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcdctmgr.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcdctmgr.c.i
 .PHONY : __/__/__/src/jpeg/jcdctmgr.c.i
 
 __/__/__/src/jpeg/jcdctmgr.s: __/__/__/src/jpeg/jcdctmgr.c.s
@@ -1030,7 +1030,7 @@ __/__/__/src/jpeg/jcdctmgr.s: __/__/__/src/jpeg/jcdctmgr.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jcdctmgr.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcdctmgr.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcdctmgr.c.s
 .PHONY : __/__/__/src/jpeg/jcdctmgr.c.s
 
 __/__/__/src/jpeg/jchuff.o: __/__/__/src/jpeg/jchuff.c.o
@@ -1038,7 +1038,7 @@ __/__/__/src/jpeg/jchuff.o: __/__/__/src/jpeg/jchuff.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jchuff.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jchuff.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jchuff.c.o
 .PHONY : __/__/__/src/jpeg/jchuff.c.o
 
 __/__/__/src/jpeg/jchuff.i: __/__/__/src/jpeg/jchuff.c.i
@@ -1046,7 +1046,7 @@ __/__/__/src/jpeg/jchuff.i: __/__/__/src/jpeg/jchuff.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jchuff.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jchuff.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jchuff.c.i
 .PHONY : __/__/__/src/jpeg/jchuff.c.i
 
 __/__/__/src/jpeg/jchuff.s: __/__/__/src/jpeg/jchuff.c.s
@@ -1054,7 +1054,7 @@ __/__/__/src/jpeg/jchuff.s: __/__/__/src/jpeg/jchuff.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jchuff.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jchuff.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jchuff.c.s
 .PHONY : __/__/__/src/jpeg/jchuff.c.s
 
 __/__/__/src/jpeg/jcinit.o: __/__/__/src/jpeg/jcinit.c.o
@@ -1062,7 +1062,7 @@ __/__/__/src/jpeg/jcinit.o: __/__/__/src/jpeg/jcinit.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jcinit.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcinit.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcinit.c.o
 .PHONY : __/__/__/src/jpeg/jcinit.c.o
 
 __/__/__/src/jpeg/jcinit.i: __/__/__/src/jpeg/jcinit.c.i
@@ -1070,7 +1070,7 @@ __/__/__/src/jpeg/jcinit.i: __/__/__/src/jpeg/jcinit.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jcinit.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcinit.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcinit.c.i
 .PHONY : __/__/__/src/jpeg/jcinit.c.i
 
 __/__/__/src/jpeg/jcinit.s: __/__/__/src/jpeg/jcinit.c.s
@@ -1078,7 +1078,7 @@ __/__/__/src/jpeg/jcinit.s: __/__/__/src/jpeg/jcinit.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jcinit.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcinit.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcinit.c.s
 .PHONY : __/__/__/src/jpeg/jcinit.c.s
 
 __/__/__/src/jpeg/jcmainct.o: __/__/__/src/jpeg/jcmainct.c.o
@@ -1086,7 +1086,7 @@ __/__/__/src/jpeg/jcmainct.o: __/__/__/src/jpeg/jcmainct.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jcmainct.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcmainct.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcmainct.c.o
 .PHONY : __/__/__/src/jpeg/jcmainct.c.o
 
 __/__/__/src/jpeg/jcmainct.i: __/__/__/src/jpeg/jcmainct.c.i
@@ -1094,7 +1094,7 @@ __/__/__/src/jpeg/jcmainct.i: __/__/__/src/jpeg/jcmainct.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jcmainct.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcmainct.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcmainct.c.i
 .PHONY : __/__/__/src/jpeg/jcmainct.c.i
 
 __/__/__/src/jpeg/jcmainct.s: __/__/__/src/jpeg/jcmainct.c.s
@@ -1102,7 +1102,7 @@ __/__/__/src/jpeg/jcmainct.s: __/__/__/src/jpeg/jcmainct.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jcmainct.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcmainct.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcmainct.c.s
 .PHONY : __/__/__/src/jpeg/jcmainct.c.s
 
 __/__/__/src/jpeg/jcmarker.o: __/__/__/src/jpeg/jcmarker.c.o
@@ -1110,7 +1110,7 @@ __/__/__/src/jpeg/jcmarker.o: __/__/__/src/jpeg/jcmarker.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jcmarker.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcmarker.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcmarker.c.o
 .PHONY : __/__/__/src/jpeg/jcmarker.c.o
 
 __/__/__/src/jpeg/jcmarker.i: __/__/__/src/jpeg/jcmarker.c.i
@@ -1118,7 +1118,7 @@ __/__/__/src/jpeg/jcmarker.i: __/__/__/src/jpeg/jcmarker.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jcmarker.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcmarker.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcmarker.c.i
 .PHONY : __/__/__/src/jpeg/jcmarker.c.i
 
 __/__/__/src/jpeg/jcmarker.s: __/__/__/src/jpeg/jcmarker.c.s
@@ -1126,7 +1126,7 @@ __/__/__/src/jpeg/jcmarker.s: __/__/__/src/jpeg/jcmarker.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jcmarker.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcmarker.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcmarker.c.s
 .PHONY : __/__/__/src/jpeg/jcmarker.c.s
 
 __/__/__/src/jpeg/jcmaster.o: __/__/__/src/jpeg/jcmaster.c.o
@@ -1134,7 +1134,7 @@ __/__/__/src/jpeg/jcmaster.o: __/__/__/src/jpeg/jcmaster.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jcmaster.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcmaster.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcmaster.c.o
 .PHONY : __/__/__/src/jpeg/jcmaster.c.o
 
 __/__/__/src/jpeg/jcmaster.i: __/__/__/src/jpeg/jcmaster.c.i
@@ -1142,7 +1142,7 @@ __/__/__/src/jpeg/jcmaster.i: __/__/__/src/jpeg/jcmaster.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jcmaster.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcmaster.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcmaster.c.i
 .PHONY : __/__/__/src/jpeg/jcmaster.c.i
 
 __/__/__/src/jpeg/jcmaster.s: __/__/__/src/jpeg/jcmaster.c.s
@@ -1150,7 +1150,7 @@ __/__/__/src/jpeg/jcmaster.s: __/__/__/src/jpeg/jcmaster.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jcmaster.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcmaster.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcmaster.c.s
 .PHONY : __/__/__/src/jpeg/jcmaster.c.s
 
 __/__/__/src/jpeg/jcomapi.o: __/__/__/src/jpeg/jcomapi.c.o
@@ -1158,7 +1158,7 @@ __/__/__/src/jpeg/jcomapi.o: __/__/__/src/jpeg/jcomapi.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jcomapi.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcomapi.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcomapi.c.o
 .PHONY : __/__/__/src/jpeg/jcomapi.c.o
 
 __/__/__/src/jpeg/jcomapi.i: __/__/__/src/jpeg/jcomapi.c.i
@@ -1166,7 +1166,7 @@ __/__/__/src/jpeg/jcomapi.i: __/__/__/src/jpeg/jcomapi.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jcomapi.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcomapi.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcomapi.c.i
 .PHONY : __/__/__/src/jpeg/jcomapi.c.i
 
 __/__/__/src/jpeg/jcomapi.s: __/__/__/src/jpeg/jcomapi.c.s
@@ -1174,7 +1174,7 @@ __/__/__/src/jpeg/jcomapi.s: __/__/__/src/jpeg/jcomapi.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jcomapi.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcomapi.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcomapi.c.s
 .PHONY : __/__/__/src/jpeg/jcomapi.c.s
 
 __/__/__/src/jpeg/jcparam.o: __/__/__/src/jpeg/jcparam.c.o
@@ -1182,7 +1182,7 @@ __/__/__/src/jpeg/jcparam.o: __/__/__/src/jpeg/jcparam.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jcparam.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcparam.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcparam.c.o
 .PHONY : __/__/__/src/jpeg/jcparam.c.o
 
 __/__/__/src/jpeg/jcparam.i: __/__/__/src/jpeg/jcparam.c.i
@@ -1190,7 +1190,7 @@ __/__/__/src/jpeg/jcparam.i: __/__/__/src/jpeg/jcparam.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jcparam.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcparam.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcparam.c.i
 .PHONY : __/__/__/src/jpeg/jcparam.c.i
 
 __/__/__/src/jpeg/jcparam.s: __/__/__/src/jpeg/jcparam.c.s
@@ -1198,7 +1198,7 @@ __/__/__/src/jpeg/jcparam.s: __/__/__/src/jpeg/jcparam.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jcparam.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcparam.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcparam.c.s
 .PHONY : __/__/__/src/jpeg/jcparam.c.s
 
 __/__/__/src/jpeg/jcprepct.o: __/__/__/src/jpeg/jcprepct.c.o
@@ -1206,7 +1206,7 @@ __/__/__/src/jpeg/jcprepct.o: __/__/__/src/jpeg/jcprepct.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jcprepct.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcprepct.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcprepct.c.o
 .PHONY : __/__/__/src/jpeg/jcprepct.c.o
 
 __/__/__/src/jpeg/jcprepct.i: __/__/__/src/jpeg/jcprepct.c.i
@@ -1214,7 +1214,7 @@ __/__/__/src/jpeg/jcprepct.i: __/__/__/src/jpeg/jcprepct.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jcprepct.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcprepct.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcprepct.c.i
 .PHONY : __/__/__/src/jpeg/jcprepct.c.i
 
 __/__/__/src/jpeg/jcprepct.s: __/__/__/src/jpeg/jcprepct.c.s
@@ -1222,7 +1222,7 @@ __/__/__/src/jpeg/jcprepct.s: __/__/__/src/jpeg/jcprepct.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jcprepct.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcprepct.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcprepct.c.s
 .PHONY : __/__/__/src/jpeg/jcprepct.c.s
 
 __/__/__/src/jpeg/jcsample.o: __/__/__/src/jpeg/jcsample.c.o
@@ -1230,7 +1230,7 @@ __/__/__/src/jpeg/jcsample.o: __/__/__/src/jpeg/jcsample.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jcsample.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcsample.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcsample.c.o
 .PHONY : __/__/__/src/jpeg/jcsample.c.o
 
 __/__/__/src/jpeg/jcsample.i: __/__/__/src/jpeg/jcsample.c.i
@@ -1238,7 +1238,7 @@ __/__/__/src/jpeg/jcsample.i: __/__/__/src/jpeg/jcsample.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jcsample.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcsample.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcsample.c.i
 .PHONY : __/__/__/src/jpeg/jcsample.c.i
 
 __/__/__/src/jpeg/jcsample.s: __/__/__/src/jpeg/jcsample.c.s
@@ -1246,7 +1246,7 @@ __/__/__/src/jpeg/jcsample.s: __/__/__/src/jpeg/jcsample.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jcsample.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcsample.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jcsample.c.s
 .PHONY : __/__/__/src/jpeg/jcsample.c.s
 
 __/__/__/src/jpeg/jctrans.o: __/__/__/src/jpeg/jctrans.c.o
@@ -1254,7 +1254,7 @@ __/__/__/src/jpeg/jctrans.o: __/__/__/src/jpeg/jctrans.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jctrans.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jctrans.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jctrans.c.o
 .PHONY : __/__/__/src/jpeg/jctrans.c.o
 
 __/__/__/src/jpeg/jctrans.i: __/__/__/src/jpeg/jctrans.c.i
@@ -1262,7 +1262,7 @@ __/__/__/src/jpeg/jctrans.i: __/__/__/src/jpeg/jctrans.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jctrans.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jctrans.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jctrans.c.i
 .PHONY : __/__/__/src/jpeg/jctrans.c.i
 
 __/__/__/src/jpeg/jctrans.s: __/__/__/src/jpeg/jctrans.c.s
@@ -1270,7 +1270,7 @@ __/__/__/src/jpeg/jctrans.s: __/__/__/src/jpeg/jctrans.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jctrans.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jctrans.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jctrans.c.s
 .PHONY : __/__/__/src/jpeg/jctrans.c.s
 
 __/__/__/src/jpeg/jdapimin.o: __/__/__/src/jpeg/jdapimin.c.o
@@ -1278,7 +1278,7 @@ __/__/__/src/jpeg/jdapimin.o: __/__/__/src/jpeg/jdapimin.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jdapimin.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdapimin.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdapimin.c.o
 .PHONY : __/__/__/src/jpeg/jdapimin.c.o
 
 __/__/__/src/jpeg/jdapimin.i: __/__/__/src/jpeg/jdapimin.c.i
@@ -1286,7 +1286,7 @@ __/__/__/src/jpeg/jdapimin.i: __/__/__/src/jpeg/jdapimin.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jdapimin.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdapimin.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdapimin.c.i
 .PHONY : __/__/__/src/jpeg/jdapimin.c.i
 
 __/__/__/src/jpeg/jdapimin.s: __/__/__/src/jpeg/jdapimin.c.s
@@ -1294,7 +1294,7 @@ __/__/__/src/jpeg/jdapimin.s: __/__/__/src/jpeg/jdapimin.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jdapimin.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdapimin.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdapimin.c.s
 .PHONY : __/__/__/src/jpeg/jdapimin.c.s
 
 __/__/__/src/jpeg/jdapistd.o: __/__/__/src/jpeg/jdapistd.c.o
@@ -1302,7 +1302,7 @@ __/__/__/src/jpeg/jdapistd.o: __/__/__/src/jpeg/jdapistd.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jdapistd.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdapistd.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdapistd.c.o
 .PHONY : __/__/__/src/jpeg/jdapistd.c.o
 
 __/__/__/src/jpeg/jdapistd.i: __/__/__/src/jpeg/jdapistd.c.i
@@ -1310,7 +1310,7 @@ __/__/__/src/jpeg/jdapistd.i: __/__/__/src/jpeg/jdapistd.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jdapistd.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdapistd.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdapistd.c.i
 .PHONY : __/__/__/src/jpeg/jdapistd.c.i
 
 __/__/__/src/jpeg/jdapistd.s: __/__/__/src/jpeg/jdapistd.c.s
@@ -1318,7 +1318,7 @@ __/__/__/src/jpeg/jdapistd.s: __/__/__/src/jpeg/jdapistd.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jdapistd.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdapistd.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdapistd.c.s
 .PHONY : __/__/__/src/jpeg/jdapistd.c.s
 
 __/__/__/src/jpeg/jdarith.o: __/__/__/src/jpeg/jdarith.c.o
@@ -1326,7 +1326,7 @@ __/__/__/src/jpeg/jdarith.o: __/__/__/src/jpeg/jdarith.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jdarith.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdarith.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdarith.c.o
 .PHONY : __/__/__/src/jpeg/jdarith.c.o
 
 __/__/__/src/jpeg/jdarith.i: __/__/__/src/jpeg/jdarith.c.i
@@ -1334,7 +1334,7 @@ __/__/__/src/jpeg/jdarith.i: __/__/__/src/jpeg/jdarith.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jdarith.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdarith.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdarith.c.i
 .PHONY : __/__/__/src/jpeg/jdarith.c.i
 
 __/__/__/src/jpeg/jdarith.s: __/__/__/src/jpeg/jdarith.c.s
@@ -1342,7 +1342,7 @@ __/__/__/src/jpeg/jdarith.s: __/__/__/src/jpeg/jdarith.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jdarith.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdarith.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdarith.c.s
 .PHONY : __/__/__/src/jpeg/jdarith.c.s
 
 __/__/__/src/jpeg/jdatadst.o: __/__/__/src/jpeg/jdatadst.c.o
@@ -1350,7 +1350,7 @@ __/__/__/src/jpeg/jdatadst.o: __/__/__/src/jpeg/jdatadst.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jdatadst.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdatadst.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdatadst.c.o
 .PHONY : __/__/__/src/jpeg/jdatadst.c.o
 
 __/__/__/src/jpeg/jdatadst.i: __/__/__/src/jpeg/jdatadst.c.i
@@ -1358,7 +1358,7 @@ __/__/__/src/jpeg/jdatadst.i: __/__/__/src/jpeg/jdatadst.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jdatadst.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdatadst.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdatadst.c.i
 .PHONY : __/__/__/src/jpeg/jdatadst.c.i
 
 __/__/__/src/jpeg/jdatadst.s: __/__/__/src/jpeg/jdatadst.c.s
@@ -1366,7 +1366,7 @@ __/__/__/src/jpeg/jdatadst.s: __/__/__/src/jpeg/jdatadst.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jdatadst.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdatadst.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdatadst.c.s
 .PHONY : __/__/__/src/jpeg/jdatadst.c.s
 
 __/__/__/src/jpeg/jdatasrc.o: __/__/__/src/jpeg/jdatasrc.c.o
@@ -1374,7 +1374,7 @@ __/__/__/src/jpeg/jdatasrc.o: __/__/__/src/jpeg/jdatasrc.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jdatasrc.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdatasrc.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdatasrc.c.o
 .PHONY : __/__/__/src/jpeg/jdatasrc.c.o
 
 __/__/__/src/jpeg/jdatasrc.i: __/__/__/src/jpeg/jdatasrc.c.i
@@ -1382,7 +1382,7 @@ __/__/__/src/jpeg/jdatasrc.i: __/__/__/src/jpeg/jdatasrc.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jdatasrc.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdatasrc.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdatasrc.c.i
 .PHONY : __/__/__/src/jpeg/jdatasrc.c.i
 
 __/__/__/src/jpeg/jdatasrc.s: __/__/__/src/jpeg/jdatasrc.c.s
@@ -1390,7 +1390,7 @@ __/__/__/src/jpeg/jdatasrc.s: __/__/__/src/jpeg/jdatasrc.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jdatasrc.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdatasrc.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdatasrc.c.s
 .PHONY : __/__/__/src/jpeg/jdatasrc.c.s
 
 __/__/__/src/jpeg/jdcoefct.o: __/__/__/src/jpeg/jdcoefct.c.o
@@ -1398,7 +1398,7 @@ __/__/__/src/jpeg/jdcoefct.o: __/__/__/src/jpeg/jdcoefct.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jdcoefct.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdcoefct.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdcoefct.c.o
 .PHONY : __/__/__/src/jpeg/jdcoefct.c.o
 
 __/__/__/src/jpeg/jdcoefct.i: __/__/__/src/jpeg/jdcoefct.c.i
@@ -1406,7 +1406,7 @@ __/__/__/src/jpeg/jdcoefct.i: __/__/__/src/jpeg/jdcoefct.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jdcoefct.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdcoefct.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdcoefct.c.i
 .PHONY : __/__/__/src/jpeg/jdcoefct.c.i
 
 __/__/__/src/jpeg/jdcoefct.s: __/__/__/src/jpeg/jdcoefct.c.s
@@ -1414,7 +1414,7 @@ __/__/__/src/jpeg/jdcoefct.s: __/__/__/src/jpeg/jdcoefct.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jdcoefct.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdcoefct.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdcoefct.c.s
 .PHONY : __/__/__/src/jpeg/jdcoefct.c.s
 
 __/__/__/src/jpeg/jdcolor.o: __/__/__/src/jpeg/jdcolor.c.o
@@ -1422,7 +1422,7 @@ __/__/__/src/jpeg/jdcolor.o: __/__/__/src/jpeg/jdcolor.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jdcolor.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdcolor.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdcolor.c.o
 .PHONY : __/__/__/src/jpeg/jdcolor.c.o
 
 __/__/__/src/jpeg/jdcolor.i: __/__/__/src/jpeg/jdcolor.c.i
@@ -1430,7 +1430,7 @@ __/__/__/src/jpeg/jdcolor.i: __/__/__/src/jpeg/jdcolor.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jdcolor.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdcolor.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdcolor.c.i
 .PHONY : __/__/__/src/jpeg/jdcolor.c.i
 
 __/__/__/src/jpeg/jdcolor.s: __/__/__/src/jpeg/jdcolor.c.s
@@ -1438,7 +1438,7 @@ __/__/__/src/jpeg/jdcolor.s: __/__/__/src/jpeg/jdcolor.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jdcolor.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdcolor.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdcolor.c.s
 .PHONY : __/__/__/src/jpeg/jdcolor.c.s
 
 __/__/__/src/jpeg/jddctmgr.o: __/__/__/src/jpeg/jddctmgr.c.o
@@ -1446,7 +1446,7 @@ __/__/__/src/jpeg/jddctmgr.o: __/__/__/src/jpeg/jddctmgr.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jddctmgr.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jddctmgr.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jddctmgr.c.o
 .PHONY : __/__/__/src/jpeg/jddctmgr.c.o
 
 __/__/__/src/jpeg/jddctmgr.i: __/__/__/src/jpeg/jddctmgr.c.i
@@ -1454,7 +1454,7 @@ __/__/__/src/jpeg/jddctmgr.i: __/__/__/src/jpeg/jddctmgr.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jddctmgr.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jddctmgr.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jddctmgr.c.i
 .PHONY : __/__/__/src/jpeg/jddctmgr.c.i
 
 __/__/__/src/jpeg/jddctmgr.s: __/__/__/src/jpeg/jddctmgr.c.s
@@ -1462,7 +1462,7 @@ __/__/__/src/jpeg/jddctmgr.s: __/__/__/src/jpeg/jddctmgr.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jddctmgr.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jddctmgr.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jddctmgr.c.s
 .PHONY : __/__/__/src/jpeg/jddctmgr.c.s
 
 __/__/__/src/jpeg/jdhuff.o: __/__/__/src/jpeg/jdhuff.c.o
@@ -1470,7 +1470,7 @@ __/__/__/src/jpeg/jdhuff.o: __/__/__/src/jpeg/jdhuff.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jdhuff.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdhuff.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdhuff.c.o
 .PHONY : __/__/__/src/jpeg/jdhuff.c.o
 
 __/__/__/src/jpeg/jdhuff.i: __/__/__/src/jpeg/jdhuff.c.i
@@ -1478,7 +1478,7 @@ __/__/__/src/jpeg/jdhuff.i: __/__/__/src/jpeg/jdhuff.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jdhuff.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdhuff.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdhuff.c.i
 .PHONY : __/__/__/src/jpeg/jdhuff.c.i
 
 __/__/__/src/jpeg/jdhuff.s: __/__/__/src/jpeg/jdhuff.c.s
@@ -1486,7 +1486,7 @@ __/__/__/src/jpeg/jdhuff.s: __/__/__/src/jpeg/jdhuff.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jdhuff.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdhuff.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdhuff.c.s
 .PHONY : __/__/__/src/jpeg/jdhuff.c.s
 
 __/__/__/src/jpeg/jdinput.o: __/__/__/src/jpeg/jdinput.c.o
@@ -1494,7 +1494,7 @@ __/__/__/src/jpeg/jdinput.o: __/__/__/src/jpeg/jdinput.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jdinput.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdinput.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdinput.c.o
 .PHONY : __/__/__/src/jpeg/jdinput.c.o
 
 __/__/__/src/jpeg/jdinput.i: __/__/__/src/jpeg/jdinput.c.i
@@ -1502,7 +1502,7 @@ __/__/__/src/jpeg/jdinput.i: __/__/__/src/jpeg/jdinput.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jdinput.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdinput.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdinput.c.i
 .PHONY : __/__/__/src/jpeg/jdinput.c.i
 
 __/__/__/src/jpeg/jdinput.s: __/__/__/src/jpeg/jdinput.c.s
@@ -1510,7 +1510,7 @@ __/__/__/src/jpeg/jdinput.s: __/__/__/src/jpeg/jdinput.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jdinput.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdinput.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdinput.c.s
 .PHONY : __/__/__/src/jpeg/jdinput.c.s
 
 __/__/__/src/jpeg/jdmainct.o: __/__/__/src/jpeg/jdmainct.c.o
@@ -1518,7 +1518,7 @@ __/__/__/src/jpeg/jdmainct.o: __/__/__/src/jpeg/jdmainct.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jdmainct.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmainct.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmainct.c.o
 .PHONY : __/__/__/src/jpeg/jdmainct.c.o
 
 __/__/__/src/jpeg/jdmainct.i: __/__/__/src/jpeg/jdmainct.c.i
@@ -1526,7 +1526,7 @@ __/__/__/src/jpeg/jdmainct.i: __/__/__/src/jpeg/jdmainct.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jdmainct.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmainct.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmainct.c.i
 .PHONY : __/__/__/src/jpeg/jdmainct.c.i
 
 __/__/__/src/jpeg/jdmainct.s: __/__/__/src/jpeg/jdmainct.c.s
@@ -1534,7 +1534,7 @@ __/__/__/src/jpeg/jdmainct.s: __/__/__/src/jpeg/jdmainct.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jdmainct.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmainct.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmainct.c.s
 .PHONY : __/__/__/src/jpeg/jdmainct.c.s
 
 __/__/__/src/jpeg/jdmarker.o: __/__/__/src/jpeg/jdmarker.c.o
@@ -1542,7 +1542,7 @@ __/__/__/src/jpeg/jdmarker.o: __/__/__/src/jpeg/jdmarker.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jdmarker.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmarker.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmarker.c.o
 .PHONY : __/__/__/src/jpeg/jdmarker.c.o
 
 __/__/__/src/jpeg/jdmarker.i: __/__/__/src/jpeg/jdmarker.c.i
@@ -1550,7 +1550,7 @@ __/__/__/src/jpeg/jdmarker.i: __/__/__/src/jpeg/jdmarker.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jdmarker.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmarker.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmarker.c.i
 .PHONY : __/__/__/src/jpeg/jdmarker.c.i
 
 __/__/__/src/jpeg/jdmarker.s: __/__/__/src/jpeg/jdmarker.c.s
@@ -1558,7 +1558,7 @@ __/__/__/src/jpeg/jdmarker.s: __/__/__/src/jpeg/jdmarker.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jdmarker.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmarker.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmarker.c.s
 .PHONY : __/__/__/src/jpeg/jdmarker.c.s
 
 __/__/__/src/jpeg/jdmaster.o: __/__/__/src/jpeg/jdmaster.c.o
@@ -1566,7 +1566,7 @@ __/__/__/src/jpeg/jdmaster.o: __/__/__/src/jpeg/jdmaster.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jdmaster.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmaster.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmaster.c.o
 .PHONY : __/__/__/src/jpeg/jdmaster.c.o
 
 __/__/__/src/jpeg/jdmaster.i: __/__/__/src/jpeg/jdmaster.c.i
@@ -1574,7 +1574,7 @@ __/__/__/src/jpeg/jdmaster.i: __/__/__/src/jpeg/jdmaster.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jdmaster.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmaster.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmaster.c.i
 .PHONY : __/__/__/src/jpeg/jdmaster.c.i
 
 __/__/__/src/jpeg/jdmaster.s: __/__/__/src/jpeg/jdmaster.c.s
@@ -1582,7 +1582,7 @@ __/__/__/src/jpeg/jdmaster.s: __/__/__/src/jpeg/jdmaster.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jdmaster.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmaster.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmaster.c.s
 .PHONY : __/__/__/src/jpeg/jdmaster.c.s
 
 __/__/__/src/jpeg/jdmerge.o: __/__/__/src/jpeg/jdmerge.c.o
@@ -1590,7 +1590,7 @@ __/__/__/src/jpeg/jdmerge.o: __/__/__/src/jpeg/jdmerge.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jdmerge.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmerge.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmerge.c.o
 .PHONY : __/__/__/src/jpeg/jdmerge.c.o
 
 __/__/__/src/jpeg/jdmerge.i: __/__/__/src/jpeg/jdmerge.c.i
@@ -1598,7 +1598,7 @@ __/__/__/src/jpeg/jdmerge.i: __/__/__/src/jpeg/jdmerge.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jdmerge.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmerge.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmerge.c.i
 .PHONY : __/__/__/src/jpeg/jdmerge.c.i
 
 __/__/__/src/jpeg/jdmerge.s: __/__/__/src/jpeg/jdmerge.c.s
@@ -1606,7 +1606,7 @@ __/__/__/src/jpeg/jdmerge.s: __/__/__/src/jpeg/jdmerge.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jdmerge.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmerge.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdmerge.c.s
 .PHONY : __/__/__/src/jpeg/jdmerge.c.s
 
 __/__/__/src/jpeg/jdpostct.o: __/__/__/src/jpeg/jdpostct.c.o
@@ -1614,7 +1614,7 @@ __/__/__/src/jpeg/jdpostct.o: __/__/__/src/jpeg/jdpostct.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jdpostct.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdpostct.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdpostct.c.o
 .PHONY : __/__/__/src/jpeg/jdpostct.c.o
 
 __/__/__/src/jpeg/jdpostct.i: __/__/__/src/jpeg/jdpostct.c.i
@@ -1622,7 +1622,7 @@ __/__/__/src/jpeg/jdpostct.i: __/__/__/src/jpeg/jdpostct.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jdpostct.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdpostct.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdpostct.c.i
 .PHONY : __/__/__/src/jpeg/jdpostct.c.i
 
 __/__/__/src/jpeg/jdpostct.s: __/__/__/src/jpeg/jdpostct.c.s
@@ -1630,7 +1630,7 @@ __/__/__/src/jpeg/jdpostct.s: __/__/__/src/jpeg/jdpostct.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jdpostct.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdpostct.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdpostct.c.s
 .PHONY : __/__/__/src/jpeg/jdpostct.c.s
 
 __/__/__/src/jpeg/jdsample.o: __/__/__/src/jpeg/jdsample.c.o
@@ -1638,7 +1638,7 @@ __/__/__/src/jpeg/jdsample.o: __/__/__/src/jpeg/jdsample.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jdsample.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdsample.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdsample.c.o
 .PHONY : __/__/__/src/jpeg/jdsample.c.o
 
 __/__/__/src/jpeg/jdsample.i: __/__/__/src/jpeg/jdsample.c.i
@@ -1646,7 +1646,7 @@ __/__/__/src/jpeg/jdsample.i: __/__/__/src/jpeg/jdsample.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jdsample.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdsample.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdsample.c.i
 .PHONY : __/__/__/src/jpeg/jdsample.c.i
 
 __/__/__/src/jpeg/jdsample.s: __/__/__/src/jpeg/jdsample.c.s
@@ -1654,7 +1654,7 @@ __/__/__/src/jpeg/jdsample.s: __/__/__/src/jpeg/jdsample.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jdsample.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdsample.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdsample.c.s
 .PHONY : __/__/__/src/jpeg/jdsample.c.s
 
 __/__/__/src/jpeg/jdtrans.o: __/__/__/src/jpeg/jdtrans.c.o
@@ -1662,7 +1662,7 @@ __/__/__/src/jpeg/jdtrans.o: __/__/__/src/jpeg/jdtrans.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jdtrans.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdtrans.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdtrans.c.o
 .PHONY : __/__/__/src/jpeg/jdtrans.c.o
 
 __/__/__/src/jpeg/jdtrans.i: __/__/__/src/jpeg/jdtrans.c.i
@@ -1670,7 +1670,7 @@ __/__/__/src/jpeg/jdtrans.i: __/__/__/src/jpeg/jdtrans.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jdtrans.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdtrans.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdtrans.c.i
 .PHONY : __/__/__/src/jpeg/jdtrans.c.i
 
 __/__/__/src/jpeg/jdtrans.s: __/__/__/src/jpeg/jdtrans.c.s
@@ -1678,7 +1678,7 @@ __/__/__/src/jpeg/jdtrans.s: __/__/__/src/jpeg/jdtrans.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jdtrans.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdtrans.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jdtrans.c.s
 .PHONY : __/__/__/src/jpeg/jdtrans.c.s
 
 __/__/__/src/jpeg/jerror.o: __/__/__/src/jpeg/jerror.c.o
@@ -1686,7 +1686,7 @@ __/__/__/src/jpeg/jerror.o: __/__/__/src/jpeg/jerror.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jerror.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jerror.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jerror.c.o
 .PHONY : __/__/__/src/jpeg/jerror.c.o
 
 __/__/__/src/jpeg/jerror.i: __/__/__/src/jpeg/jerror.c.i
@@ -1694,7 +1694,7 @@ __/__/__/src/jpeg/jerror.i: __/__/__/src/jpeg/jerror.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jerror.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jerror.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jerror.c.i
 .PHONY : __/__/__/src/jpeg/jerror.c.i
 
 __/__/__/src/jpeg/jerror.s: __/__/__/src/jpeg/jerror.c.s
@@ -1702,7 +1702,7 @@ __/__/__/src/jpeg/jerror.s: __/__/__/src/jpeg/jerror.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jerror.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jerror.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jerror.c.s
 .PHONY : __/__/__/src/jpeg/jerror.c.s
 
 __/__/__/src/jpeg/jfdctflt.o: __/__/__/src/jpeg/jfdctflt.c.o
@@ -1710,7 +1710,7 @@ __/__/__/src/jpeg/jfdctflt.o: __/__/__/src/jpeg/jfdctflt.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jfdctflt.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jfdctflt.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jfdctflt.c.o
 .PHONY : __/__/__/src/jpeg/jfdctflt.c.o
 
 __/__/__/src/jpeg/jfdctflt.i: __/__/__/src/jpeg/jfdctflt.c.i
@@ -1718,7 +1718,7 @@ __/__/__/src/jpeg/jfdctflt.i: __/__/__/src/jpeg/jfdctflt.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jfdctflt.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jfdctflt.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jfdctflt.c.i
 .PHONY : __/__/__/src/jpeg/jfdctflt.c.i
 
 __/__/__/src/jpeg/jfdctflt.s: __/__/__/src/jpeg/jfdctflt.c.s
@@ -1726,7 +1726,7 @@ __/__/__/src/jpeg/jfdctflt.s: __/__/__/src/jpeg/jfdctflt.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jfdctflt.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jfdctflt.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jfdctflt.c.s
 .PHONY : __/__/__/src/jpeg/jfdctflt.c.s
 
 __/__/__/src/jpeg/jfdctfst.o: __/__/__/src/jpeg/jfdctfst.c.o
@@ -1734,7 +1734,7 @@ __/__/__/src/jpeg/jfdctfst.o: __/__/__/src/jpeg/jfdctfst.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jfdctfst.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jfdctfst.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jfdctfst.c.o
 .PHONY : __/__/__/src/jpeg/jfdctfst.c.o
 
 __/__/__/src/jpeg/jfdctfst.i: __/__/__/src/jpeg/jfdctfst.c.i
@@ -1742,7 +1742,7 @@ __/__/__/src/jpeg/jfdctfst.i: __/__/__/src/jpeg/jfdctfst.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jfdctfst.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jfdctfst.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jfdctfst.c.i
 .PHONY : __/__/__/src/jpeg/jfdctfst.c.i
 
 __/__/__/src/jpeg/jfdctfst.s: __/__/__/src/jpeg/jfdctfst.c.s
@@ -1750,7 +1750,7 @@ __/__/__/src/jpeg/jfdctfst.s: __/__/__/src/jpeg/jfdctfst.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jfdctfst.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jfdctfst.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jfdctfst.c.s
 .PHONY : __/__/__/src/jpeg/jfdctfst.c.s
 
 __/__/__/src/jpeg/jfdctint.o: __/__/__/src/jpeg/jfdctint.c.o
@@ -1758,7 +1758,7 @@ __/__/__/src/jpeg/jfdctint.o: __/__/__/src/jpeg/jfdctint.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jfdctint.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jfdctint.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jfdctint.c.o
 .PHONY : __/__/__/src/jpeg/jfdctint.c.o
 
 __/__/__/src/jpeg/jfdctint.i: __/__/__/src/jpeg/jfdctint.c.i
@@ -1766,7 +1766,7 @@ __/__/__/src/jpeg/jfdctint.i: __/__/__/src/jpeg/jfdctint.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jfdctint.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jfdctint.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jfdctint.c.i
 .PHONY : __/__/__/src/jpeg/jfdctint.c.i
 
 __/__/__/src/jpeg/jfdctint.s: __/__/__/src/jpeg/jfdctint.c.s
@@ -1774,7 +1774,7 @@ __/__/__/src/jpeg/jfdctint.s: __/__/__/src/jpeg/jfdctint.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jfdctint.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jfdctint.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jfdctint.c.s
 .PHONY : __/__/__/src/jpeg/jfdctint.c.s
 
 __/__/__/src/jpeg/jidctflt.o: __/__/__/src/jpeg/jidctflt.c.o
@@ -1782,7 +1782,7 @@ __/__/__/src/jpeg/jidctflt.o: __/__/__/src/jpeg/jidctflt.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jidctflt.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jidctflt.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jidctflt.c.o
 .PHONY : __/__/__/src/jpeg/jidctflt.c.o
 
 __/__/__/src/jpeg/jidctflt.i: __/__/__/src/jpeg/jidctflt.c.i
@@ -1790,7 +1790,7 @@ __/__/__/src/jpeg/jidctflt.i: __/__/__/src/jpeg/jidctflt.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jidctflt.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jidctflt.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jidctflt.c.i
 .PHONY : __/__/__/src/jpeg/jidctflt.c.i
 
 __/__/__/src/jpeg/jidctflt.s: __/__/__/src/jpeg/jidctflt.c.s
@@ -1798,7 +1798,7 @@ __/__/__/src/jpeg/jidctflt.s: __/__/__/src/jpeg/jidctflt.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jidctflt.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jidctflt.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jidctflt.c.s
 .PHONY : __/__/__/src/jpeg/jidctflt.c.s
 
 __/__/__/src/jpeg/jidctfst.o: __/__/__/src/jpeg/jidctfst.c.o
@@ -1806,7 +1806,7 @@ __/__/__/src/jpeg/jidctfst.o: __/__/__/src/jpeg/jidctfst.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jidctfst.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jidctfst.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jidctfst.c.o
 .PHONY : __/__/__/src/jpeg/jidctfst.c.o
 
 __/__/__/src/jpeg/jidctfst.i: __/__/__/src/jpeg/jidctfst.c.i
@@ -1814,7 +1814,7 @@ __/__/__/src/jpeg/jidctfst.i: __/__/__/src/jpeg/jidctfst.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jidctfst.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jidctfst.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jidctfst.c.i
 .PHONY : __/__/__/src/jpeg/jidctfst.c.i
 
 __/__/__/src/jpeg/jidctfst.s: __/__/__/src/jpeg/jidctfst.c.s
@@ -1822,7 +1822,7 @@ __/__/__/src/jpeg/jidctfst.s: __/__/__/src/jpeg/jidctfst.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jidctfst.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jidctfst.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jidctfst.c.s
 .PHONY : __/__/__/src/jpeg/jidctfst.c.s
 
 __/__/__/src/jpeg/jidctint.o: __/__/__/src/jpeg/jidctint.c.o
@@ -1830,7 +1830,7 @@ __/__/__/src/jpeg/jidctint.o: __/__/__/src/jpeg/jidctint.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jidctint.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jidctint.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jidctint.c.o
 .PHONY : __/__/__/src/jpeg/jidctint.c.o
 
 __/__/__/src/jpeg/jidctint.i: __/__/__/src/jpeg/jidctint.c.i
@@ -1838,7 +1838,7 @@ __/__/__/src/jpeg/jidctint.i: __/__/__/src/jpeg/jidctint.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jidctint.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jidctint.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jidctint.c.i
 .PHONY : __/__/__/src/jpeg/jidctint.c.i
 
 __/__/__/src/jpeg/jidctint.s: __/__/__/src/jpeg/jidctint.c.s
@@ -1846,7 +1846,7 @@ __/__/__/src/jpeg/jidctint.s: __/__/__/src/jpeg/jidctint.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jidctint.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jidctint.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jidctint.c.s
 .PHONY : __/__/__/src/jpeg/jidctint.c.s
 
 __/__/__/src/jpeg/jmemmgr.o: __/__/__/src/jpeg/jmemmgr.c.o
@@ -1854,7 +1854,7 @@ __/__/__/src/jpeg/jmemmgr.o: __/__/__/src/jpeg/jmemmgr.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jmemmgr.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jmemmgr.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jmemmgr.c.o
 .PHONY : __/__/__/src/jpeg/jmemmgr.c.o
 
 __/__/__/src/jpeg/jmemmgr.i: __/__/__/src/jpeg/jmemmgr.c.i
@@ -1862,7 +1862,7 @@ __/__/__/src/jpeg/jmemmgr.i: __/__/__/src/jpeg/jmemmgr.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jmemmgr.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jmemmgr.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jmemmgr.c.i
 .PHONY : __/__/__/src/jpeg/jmemmgr.c.i
 
 __/__/__/src/jpeg/jmemmgr.s: __/__/__/src/jpeg/jmemmgr.c.s
@@ -1870,7 +1870,7 @@ __/__/__/src/jpeg/jmemmgr.s: __/__/__/src/jpeg/jmemmgr.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jmemmgr.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jmemmgr.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jmemmgr.c.s
 .PHONY : __/__/__/src/jpeg/jmemmgr.c.s
 
 __/__/__/src/jpeg/jmemnobs.o: __/__/__/src/jpeg/jmemnobs.c.o
@@ -1878,7 +1878,7 @@ __/__/__/src/jpeg/jmemnobs.o: __/__/__/src/jpeg/jmemnobs.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jmemnobs.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jmemnobs.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jmemnobs.c.o
 .PHONY : __/__/__/src/jpeg/jmemnobs.c.o
 
 __/__/__/src/jpeg/jmemnobs.i: __/__/__/src/jpeg/jmemnobs.c.i
@@ -1886,7 +1886,7 @@ __/__/__/src/jpeg/jmemnobs.i: __/__/__/src/jpeg/jmemnobs.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jmemnobs.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jmemnobs.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jmemnobs.c.i
 .PHONY : __/__/__/src/jpeg/jmemnobs.c.i
 
 __/__/__/src/jpeg/jmemnobs.s: __/__/__/src/jpeg/jmemnobs.c.s
@@ -1894,7 +1894,7 @@ __/__/__/src/jpeg/jmemnobs.s: __/__/__/src/jpeg/jmemnobs.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jmemnobs.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jmemnobs.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jmemnobs.c.s
 .PHONY : __/__/__/src/jpeg/jmemnobs.c.s
 
 __/__/__/src/jpeg/jquant1.o: __/__/__/src/jpeg/jquant1.c.o
@@ -1902,7 +1902,7 @@ __/__/__/src/jpeg/jquant1.o: __/__/__/src/jpeg/jquant1.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jquant1.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jquant1.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jquant1.c.o
 .PHONY : __/__/__/src/jpeg/jquant1.c.o
 
 __/__/__/src/jpeg/jquant1.i: __/__/__/src/jpeg/jquant1.c.i
@@ -1910,7 +1910,7 @@ __/__/__/src/jpeg/jquant1.i: __/__/__/src/jpeg/jquant1.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jquant1.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jquant1.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jquant1.c.i
 .PHONY : __/__/__/src/jpeg/jquant1.c.i
 
 __/__/__/src/jpeg/jquant1.s: __/__/__/src/jpeg/jquant1.c.s
@@ -1918,7 +1918,7 @@ __/__/__/src/jpeg/jquant1.s: __/__/__/src/jpeg/jquant1.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jquant1.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jquant1.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jquant1.c.s
 .PHONY : __/__/__/src/jpeg/jquant1.c.s
 
 __/__/__/src/jpeg/jquant2.o: __/__/__/src/jpeg/jquant2.c.o
@@ -1926,7 +1926,7 @@ __/__/__/src/jpeg/jquant2.o: __/__/__/src/jpeg/jquant2.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jquant2.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jquant2.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jquant2.c.o
 .PHONY : __/__/__/src/jpeg/jquant2.c.o
 
 __/__/__/src/jpeg/jquant2.i: __/__/__/src/jpeg/jquant2.c.i
@@ -1934,7 +1934,7 @@ __/__/__/src/jpeg/jquant2.i: __/__/__/src/jpeg/jquant2.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jquant2.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jquant2.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jquant2.c.i
 .PHONY : __/__/__/src/jpeg/jquant2.c.i
 
 __/__/__/src/jpeg/jquant2.s: __/__/__/src/jpeg/jquant2.c.s
@@ -1942,7 +1942,7 @@ __/__/__/src/jpeg/jquant2.s: __/__/__/src/jpeg/jquant2.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jquant2.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jquant2.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jquant2.c.s
 .PHONY : __/__/__/src/jpeg/jquant2.c.s
 
 __/__/__/src/jpeg/jutils.o: __/__/__/src/jpeg/jutils.c.o
@@ -1950,7 +1950,7 @@ __/__/__/src/jpeg/jutils.o: __/__/__/src/jpeg/jutils.c.o
 
 # target to build an object file
 __/__/__/src/jpeg/jutils.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jutils.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jutils.c.o
 .PHONY : __/__/__/src/jpeg/jutils.c.o
 
 __/__/__/src/jpeg/jutils.i: __/__/__/src/jpeg/jutils.c.i
@@ -1958,7 +1958,7 @@ __/__/__/src/jpeg/jutils.i: __/__/__/src/jpeg/jutils.c.i
 
 # target to preprocess a source file
 __/__/__/src/jpeg/jutils.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jutils.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jutils.c.i
 .PHONY : __/__/__/src/jpeg/jutils.c.i
 
 __/__/__/src/jpeg/jutils.s: __/__/__/src/jpeg/jutils.c.s
@@ -1966,7 +1966,7 @@ __/__/__/src/jpeg/jutils.s: __/__/__/src/jpeg/jutils.c.s
 
 # target to generate assembly for a file
 __/__/__/src/jpeg/jutils.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jutils.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxjpeg.dir/__/__/__/src/jpeg/jutils.c.s
 .PHONY : __/__/__/src/jpeg/jutils.c.s
 
 __/__/__/src/png/arm/arm_init.o: __/__/__/src/png/arm/arm_init.c.o
@@ -1974,7 +1974,7 @@ __/__/__/src/png/arm/arm_init.o: __/__/__/src/png/arm/arm_init.c.o
 
 # target to build an object file
 __/__/__/src/png/arm/arm_init.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/arm/arm_init.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/arm/arm_init.c.o
 .PHONY : __/__/__/src/png/arm/arm_init.c.o
 
 __/__/__/src/png/arm/arm_init.i: __/__/__/src/png/arm/arm_init.c.i
@@ -1982,7 +1982,7 @@ __/__/__/src/png/arm/arm_init.i: __/__/__/src/png/arm/arm_init.c.i
 
 # target to preprocess a source file
 __/__/__/src/png/arm/arm_init.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/arm/arm_init.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/arm/arm_init.c.i
 .PHONY : __/__/__/src/png/arm/arm_init.c.i
 
 __/__/__/src/png/arm/arm_init.s: __/__/__/src/png/arm/arm_init.c.s
@@ -1990,7 +1990,7 @@ __/__/__/src/png/arm/arm_init.s: __/__/__/src/png/arm/arm_init.c.s
 
 # target to generate assembly for a file
 __/__/__/src/png/arm/arm_init.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/arm/arm_init.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/arm/arm_init.c.s
 .PHONY : __/__/__/src/png/arm/arm_init.c.s
 
 __/__/__/src/png/arm/filter_neon_intrinsics.o: __/__/__/src/png/arm/filter_neon_intrinsics.c.o
@@ -1998,7 +1998,7 @@ __/__/__/src/png/arm/filter_neon_intrinsics.o: __/__/__/src/png/arm/filter_neon_
 
 # target to build an object file
 __/__/__/src/png/arm/filter_neon_intrinsics.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/arm/filter_neon_intrinsics.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/arm/filter_neon_intrinsics.c.o
 .PHONY : __/__/__/src/png/arm/filter_neon_intrinsics.c.o
 
 __/__/__/src/png/arm/filter_neon_intrinsics.i: __/__/__/src/png/arm/filter_neon_intrinsics.c.i
@@ -2006,7 +2006,7 @@ __/__/__/src/png/arm/filter_neon_intrinsics.i: __/__/__/src/png/arm/filter_neon_
 
 # target to preprocess a source file
 __/__/__/src/png/arm/filter_neon_intrinsics.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/arm/filter_neon_intrinsics.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/arm/filter_neon_intrinsics.c.i
 .PHONY : __/__/__/src/png/arm/filter_neon_intrinsics.c.i
 
 __/__/__/src/png/arm/filter_neon_intrinsics.s: __/__/__/src/png/arm/filter_neon_intrinsics.c.s
@@ -2014,7 +2014,7 @@ __/__/__/src/png/arm/filter_neon_intrinsics.s: __/__/__/src/png/arm/filter_neon_
 
 # target to generate assembly for a file
 __/__/__/src/png/arm/filter_neon_intrinsics.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/arm/filter_neon_intrinsics.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/arm/filter_neon_intrinsics.c.s
 .PHONY : __/__/__/src/png/arm/filter_neon_intrinsics.c.s
 
 __/__/__/src/png/arm/palette_neon_intrinsics.o: __/__/__/src/png/arm/palette_neon_intrinsics.c.o
@@ -2022,7 +2022,7 @@ __/__/__/src/png/arm/palette_neon_intrinsics.o: __/__/__/src/png/arm/palette_neo
 
 # target to build an object file
 __/__/__/src/png/arm/palette_neon_intrinsics.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/arm/palette_neon_intrinsics.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/arm/palette_neon_intrinsics.c.o
 .PHONY : __/__/__/src/png/arm/palette_neon_intrinsics.c.o
 
 __/__/__/src/png/arm/palette_neon_intrinsics.i: __/__/__/src/png/arm/palette_neon_intrinsics.c.i
@@ -2030,7 +2030,7 @@ __/__/__/src/png/arm/palette_neon_intrinsics.i: __/__/__/src/png/arm/palette_neo
 
 # target to preprocess a source file
 __/__/__/src/png/arm/palette_neon_intrinsics.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/arm/palette_neon_intrinsics.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/arm/palette_neon_intrinsics.c.i
 .PHONY : __/__/__/src/png/arm/palette_neon_intrinsics.c.i
 
 __/__/__/src/png/arm/palette_neon_intrinsics.s: __/__/__/src/png/arm/palette_neon_intrinsics.c.s
@@ -2038,7 +2038,7 @@ __/__/__/src/png/arm/palette_neon_intrinsics.s: __/__/__/src/png/arm/palette_neo
 
 # target to generate assembly for a file
 __/__/__/src/png/arm/palette_neon_intrinsics.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/arm/palette_neon_intrinsics.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/arm/palette_neon_intrinsics.c.s
 .PHONY : __/__/__/src/png/arm/palette_neon_intrinsics.c.s
 
 __/__/__/src/png/intel/filter_sse2_intrinsics.o: __/__/__/src/png/intel/filter_sse2_intrinsics.c.o
@@ -2046,7 +2046,7 @@ __/__/__/src/png/intel/filter_sse2_intrinsics.o: __/__/__/src/png/intel/filter_s
 
 # target to build an object file
 __/__/__/src/png/intel/filter_sse2_intrinsics.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/intel/filter_sse2_intrinsics.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/intel/filter_sse2_intrinsics.c.o
 .PHONY : __/__/__/src/png/intel/filter_sse2_intrinsics.c.o
 
 __/__/__/src/png/intel/filter_sse2_intrinsics.i: __/__/__/src/png/intel/filter_sse2_intrinsics.c.i
@@ -2054,7 +2054,7 @@ __/__/__/src/png/intel/filter_sse2_intrinsics.i: __/__/__/src/png/intel/filter_s
 
 # target to preprocess a source file
 __/__/__/src/png/intel/filter_sse2_intrinsics.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/intel/filter_sse2_intrinsics.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/intel/filter_sse2_intrinsics.c.i
 .PHONY : __/__/__/src/png/intel/filter_sse2_intrinsics.c.i
 
 __/__/__/src/png/intel/filter_sse2_intrinsics.s: __/__/__/src/png/intel/filter_sse2_intrinsics.c.s
@@ -2062,7 +2062,7 @@ __/__/__/src/png/intel/filter_sse2_intrinsics.s: __/__/__/src/png/intel/filter_s
 
 # target to generate assembly for a file
 __/__/__/src/png/intel/filter_sse2_intrinsics.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/intel/filter_sse2_intrinsics.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/intel/filter_sse2_intrinsics.c.s
 .PHONY : __/__/__/src/png/intel/filter_sse2_intrinsics.c.s
 
 __/__/__/src/png/intel/intel_init.o: __/__/__/src/png/intel/intel_init.c.o
@@ -2070,7 +2070,7 @@ __/__/__/src/png/intel/intel_init.o: __/__/__/src/png/intel/intel_init.c.o
 
 # target to build an object file
 __/__/__/src/png/intel/intel_init.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/intel/intel_init.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/intel/intel_init.c.o
 .PHONY : __/__/__/src/png/intel/intel_init.c.o
 
 __/__/__/src/png/intel/intel_init.i: __/__/__/src/png/intel/intel_init.c.i
@@ -2078,7 +2078,7 @@ __/__/__/src/png/intel/intel_init.i: __/__/__/src/png/intel/intel_init.c.i
 
 # target to preprocess a source file
 __/__/__/src/png/intel/intel_init.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/intel/intel_init.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/intel/intel_init.c.i
 .PHONY : __/__/__/src/png/intel/intel_init.c.i
 
 __/__/__/src/png/intel/intel_init.s: __/__/__/src/png/intel/intel_init.c.s
@@ -2086,7 +2086,7 @@ __/__/__/src/png/intel/intel_init.s: __/__/__/src/png/intel/intel_init.c.s
 
 # target to generate assembly for a file
 __/__/__/src/png/intel/intel_init.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/intel/intel_init.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/intel/intel_init.c.s
 .PHONY : __/__/__/src/png/intel/intel_init.c.s
 
 __/__/__/src/png/mips/filter_msa_intrinsics.o: __/__/__/src/png/mips/filter_msa_intrinsics.c.o
@@ -2094,7 +2094,7 @@ __/__/__/src/png/mips/filter_msa_intrinsics.o: __/__/__/src/png/mips/filter_msa_
 
 # target to build an object file
 __/__/__/src/png/mips/filter_msa_intrinsics.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/mips/filter_msa_intrinsics.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/mips/filter_msa_intrinsics.c.o
 .PHONY : __/__/__/src/png/mips/filter_msa_intrinsics.c.o
 
 __/__/__/src/png/mips/filter_msa_intrinsics.i: __/__/__/src/png/mips/filter_msa_intrinsics.c.i
@@ -2102,7 +2102,7 @@ __/__/__/src/png/mips/filter_msa_intrinsics.i: __/__/__/src/png/mips/filter_msa_
 
 # target to preprocess a source file
 __/__/__/src/png/mips/filter_msa_intrinsics.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/mips/filter_msa_intrinsics.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/mips/filter_msa_intrinsics.c.i
 .PHONY : __/__/__/src/png/mips/filter_msa_intrinsics.c.i
 
 __/__/__/src/png/mips/filter_msa_intrinsics.s: __/__/__/src/png/mips/filter_msa_intrinsics.c.s
@@ -2110,7 +2110,7 @@ __/__/__/src/png/mips/filter_msa_intrinsics.s: __/__/__/src/png/mips/filter_msa_
 
 # target to generate assembly for a file
 __/__/__/src/png/mips/filter_msa_intrinsics.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/mips/filter_msa_intrinsics.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/mips/filter_msa_intrinsics.c.s
 .PHONY : __/__/__/src/png/mips/filter_msa_intrinsics.c.s
 
 __/__/__/src/png/mips/mips_init.o: __/__/__/src/png/mips/mips_init.c.o
@@ -2118,7 +2118,7 @@ __/__/__/src/png/mips/mips_init.o: __/__/__/src/png/mips/mips_init.c.o
 
 # target to build an object file
 __/__/__/src/png/mips/mips_init.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/mips/mips_init.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/mips/mips_init.c.o
 .PHONY : __/__/__/src/png/mips/mips_init.c.o
 
 __/__/__/src/png/mips/mips_init.i: __/__/__/src/png/mips/mips_init.c.i
@@ -2126,7 +2126,7 @@ __/__/__/src/png/mips/mips_init.i: __/__/__/src/png/mips/mips_init.c.i
 
 # target to preprocess a source file
 __/__/__/src/png/mips/mips_init.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/mips/mips_init.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/mips/mips_init.c.i
 .PHONY : __/__/__/src/png/mips/mips_init.c.i
 
 __/__/__/src/png/mips/mips_init.s: __/__/__/src/png/mips/mips_init.c.s
@@ -2134,7 +2134,7 @@ __/__/__/src/png/mips/mips_init.s: __/__/__/src/png/mips/mips_init.c.s
 
 # target to generate assembly for a file
 __/__/__/src/png/mips/mips_init.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/mips/mips_init.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/mips/mips_init.c.s
 .PHONY : __/__/__/src/png/mips/mips_init.c.s
 
 __/__/__/src/png/png.o: __/__/__/src/png/png.c.o
@@ -2142,7 +2142,7 @@ __/__/__/src/png/png.o: __/__/__/src/png/png.c.o
 
 # target to build an object file
 __/__/__/src/png/png.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/png.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/png.c.o
 .PHONY : __/__/__/src/png/png.c.o
 
 __/__/__/src/png/png.i: __/__/__/src/png/png.c.i
@@ -2150,7 +2150,7 @@ __/__/__/src/png/png.i: __/__/__/src/png/png.c.i
 
 # target to preprocess a source file
 __/__/__/src/png/png.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/png.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/png.c.i
 .PHONY : __/__/__/src/png/png.c.i
 
 __/__/__/src/png/png.s: __/__/__/src/png/png.c.s
@@ -2158,7 +2158,7 @@ __/__/__/src/png/png.s: __/__/__/src/png/png.c.s
 
 # target to generate assembly for a file
 __/__/__/src/png/png.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/png.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/png.c.s
 .PHONY : __/__/__/src/png/png.c.s
 
 __/__/__/src/png/pngerror.o: __/__/__/src/png/pngerror.c.o
@@ -2166,7 +2166,7 @@ __/__/__/src/png/pngerror.o: __/__/__/src/png/pngerror.c.o
 
 # target to build an object file
 __/__/__/src/png/pngerror.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngerror.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngerror.c.o
 .PHONY : __/__/__/src/png/pngerror.c.o
 
 __/__/__/src/png/pngerror.i: __/__/__/src/png/pngerror.c.i
@@ -2174,7 +2174,7 @@ __/__/__/src/png/pngerror.i: __/__/__/src/png/pngerror.c.i
 
 # target to preprocess a source file
 __/__/__/src/png/pngerror.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngerror.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngerror.c.i
 .PHONY : __/__/__/src/png/pngerror.c.i
 
 __/__/__/src/png/pngerror.s: __/__/__/src/png/pngerror.c.s
@@ -2182,7 +2182,7 @@ __/__/__/src/png/pngerror.s: __/__/__/src/png/pngerror.c.s
 
 # target to generate assembly for a file
 __/__/__/src/png/pngerror.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngerror.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngerror.c.s
 .PHONY : __/__/__/src/png/pngerror.c.s
 
 __/__/__/src/png/pngget.o: __/__/__/src/png/pngget.c.o
@@ -2190,7 +2190,7 @@ __/__/__/src/png/pngget.o: __/__/__/src/png/pngget.c.o
 
 # target to build an object file
 __/__/__/src/png/pngget.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngget.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngget.c.o
 .PHONY : __/__/__/src/png/pngget.c.o
 
 __/__/__/src/png/pngget.i: __/__/__/src/png/pngget.c.i
@@ -2198,7 +2198,7 @@ __/__/__/src/png/pngget.i: __/__/__/src/png/pngget.c.i
 
 # target to preprocess a source file
 __/__/__/src/png/pngget.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngget.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngget.c.i
 .PHONY : __/__/__/src/png/pngget.c.i
 
 __/__/__/src/png/pngget.s: __/__/__/src/png/pngget.c.s
@@ -2206,7 +2206,7 @@ __/__/__/src/png/pngget.s: __/__/__/src/png/pngget.c.s
 
 # target to generate assembly for a file
 __/__/__/src/png/pngget.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngget.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngget.c.s
 .PHONY : __/__/__/src/png/pngget.c.s
 
 __/__/__/src/png/pngmem.o: __/__/__/src/png/pngmem.c.o
@@ -2214,7 +2214,7 @@ __/__/__/src/png/pngmem.o: __/__/__/src/png/pngmem.c.o
 
 # target to build an object file
 __/__/__/src/png/pngmem.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngmem.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngmem.c.o
 .PHONY : __/__/__/src/png/pngmem.c.o
 
 __/__/__/src/png/pngmem.i: __/__/__/src/png/pngmem.c.i
@@ -2222,7 +2222,7 @@ __/__/__/src/png/pngmem.i: __/__/__/src/png/pngmem.c.i
 
 # target to preprocess a source file
 __/__/__/src/png/pngmem.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngmem.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngmem.c.i
 .PHONY : __/__/__/src/png/pngmem.c.i
 
 __/__/__/src/png/pngmem.s: __/__/__/src/png/pngmem.c.s
@@ -2230,7 +2230,7 @@ __/__/__/src/png/pngmem.s: __/__/__/src/png/pngmem.c.s
 
 # target to generate assembly for a file
 __/__/__/src/png/pngmem.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngmem.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngmem.c.s
 .PHONY : __/__/__/src/png/pngmem.c.s
 
 __/__/__/src/png/pngpread.o: __/__/__/src/png/pngpread.c.o
@@ -2238,7 +2238,7 @@ __/__/__/src/png/pngpread.o: __/__/__/src/png/pngpread.c.o
 
 # target to build an object file
 __/__/__/src/png/pngpread.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngpread.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngpread.c.o
 .PHONY : __/__/__/src/png/pngpread.c.o
 
 __/__/__/src/png/pngpread.i: __/__/__/src/png/pngpread.c.i
@@ -2246,7 +2246,7 @@ __/__/__/src/png/pngpread.i: __/__/__/src/png/pngpread.c.i
 
 # target to preprocess a source file
 __/__/__/src/png/pngpread.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngpread.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngpread.c.i
 .PHONY : __/__/__/src/png/pngpread.c.i
 
 __/__/__/src/png/pngpread.s: __/__/__/src/png/pngpread.c.s
@@ -2254,7 +2254,7 @@ __/__/__/src/png/pngpread.s: __/__/__/src/png/pngpread.c.s
 
 # target to generate assembly for a file
 __/__/__/src/png/pngpread.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngpread.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngpread.c.s
 .PHONY : __/__/__/src/png/pngpread.c.s
 
 __/__/__/src/png/pngread.o: __/__/__/src/png/pngread.c.o
@@ -2262,7 +2262,7 @@ __/__/__/src/png/pngread.o: __/__/__/src/png/pngread.c.o
 
 # target to build an object file
 __/__/__/src/png/pngread.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngread.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngread.c.o
 .PHONY : __/__/__/src/png/pngread.c.o
 
 __/__/__/src/png/pngread.i: __/__/__/src/png/pngread.c.i
@@ -2270,7 +2270,7 @@ __/__/__/src/png/pngread.i: __/__/__/src/png/pngread.c.i
 
 # target to preprocess a source file
 __/__/__/src/png/pngread.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngread.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngread.c.i
 .PHONY : __/__/__/src/png/pngread.c.i
 
 __/__/__/src/png/pngread.s: __/__/__/src/png/pngread.c.s
@@ -2278,7 +2278,7 @@ __/__/__/src/png/pngread.s: __/__/__/src/png/pngread.c.s
 
 # target to generate assembly for a file
 __/__/__/src/png/pngread.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngread.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngread.c.s
 .PHONY : __/__/__/src/png/pngread.c.s
 
 __/__/__/src/png/pngrio.o: __/__/__/src/png/pngrio.c.o
@@ -2286,7 +2286,7 @@ __/__/__/src/png/pngrio.o: __/__/__/src/png/pngrio.c.o
 
 # target to build an object file
 __/__/__/src/png/pngrio.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngrio.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngrio.c.o
 .PHONY : __/__/__/src/png/pngrio.c.o
 
 __/__/__/src/png/pngrio.i: __/__/__/src/png/pngrio.c.i
@@ -2294,7 +2294,7 @@ __/__/__/src/png/pngrio.i: __/__/__/src/png/pngrio.c.i
 
 # target to preprocess a source file
 __/__/__/src/png/pngrio.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngrio.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngrio.c.i
 .PHONY : __/__/__/src/png/pngrio.c.i
 
 __/__/__/src/png/pngrio.s: __/__/__/src/png/pngrio.c.s
@@ -2302,7 +2302,7 @@ __/__/__/src/png/pngrio.s: __/__/__/src/png/pngrio.c.s
 
 # target to generate assembly for a file
 __/__/__/src/png/pngrio.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngrio.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngrio.c.s
 .PHONY : __/__/__/src/png/pngrio.c.s
 
 __/__/__/src/png/pngrtran.o: __/__/__/src/png/pngrtran.c.o
@@ -2310,7 +2310,7 @@ __/__/__/src/png/pngrtran.o: __/__/__/src/png/pngrtran.c.o
 
 # target to build an object file
 __/__/__/src/png/pngrtran.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngrtran.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngrtran.c.o
 .PHONY : __/__/__/src/png/pngrtran.c.o
 
 __/__/__/src/png/pngrtran.i: __/__/__/src/png/pngrtran.c.i
@@ -2318,7 +2318,7 @@ __/__/__/src/png/pngrtran.i: __/__/__/src/png/pngrtran.c.i
 
 # target to preprocess a source file
 __/__/__/src/png/pngrtran.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngrtran.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngrtran.c.i
 .PHONY : __/__/__/src/png/pngrtran.c.i
 
 __/__/__/src/png/pngrtran.s: __/__/__/src/png/pngrtran.c.s
@@ -2326,7 +2326,7 @@ __/__/__/src/png/pngrtran.s: __/__/__/src/png/pngrtran.c.s
 
 # target to generate assembly for a file
 __/__/__/src/png/pngrtran.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngrtran.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngrtran.c.s
 .PHONY : __/__/__/src/png/pngrtran.c.s
 
 __/__/__/src/png/pngrutil.o: __/__/__/src/png/pngrutil.c.o
@@ -2334,7 +2334,7 @@ __/__/__/src/png/pngrutil.o: __/__/__/src/png/pngrutil.c.o
 
 # target to build an object file
 __/__/__/src/png/pngrutil.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngrutil.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngrutil.c.o
 .PHONY : __/__/__/src/png/pngrutil.c.o
 
 __/__/__/src/png/pngrutil.i: __/__/__/src/png/pngrutil.c.i
@@ -2342,7 +2342,7 @@ __/__/__/src/png/pngrutil.i: __/__/__/src/png/pngrutil.c.i
 
 # target to preprocess a source file
 __/__/__/src/png/pngrutil.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngrutil.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngrutil.c.i
 .PHONY : __/__/__/src/png/pngrutil.c.i
 
 __/__/__/src/png/pngrutil.s: __/__/__/src/png/pngrutil.c.s
@@ -2350,7 +2350,7 @@ __/__/__/src/png/pngrutil.s: __/__/__/src/png/pngrutil.c.s
 
 # target to generate assembly for a file
 __/__/__/src/png/pngrutil.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngrutil.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngrutil.c.s
 .PHONY : __/__/__/src/png/pngrutil.c.s
 
 __/__/__/src/png/pngset.o: __/__/__/src/png/pngset.c.o
@@ -2358,7 +2358,7 @@ __/__/__/src/png/pngset.o: __/__/__/src/png/pngset.c.o
 
 # target to build an object file
 __/__/__/src/png/pngset.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngset.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngset.c.o
 .PHONY : __/__/__/src/png/pngset.c.o
 
 __/__/__/src/png/pngset.i: __/__/__/src/png/pngset.c.i
@@ -2366,7 +2366,7 @@ __/__/__/src/png/pngset.i: __/__/__/src/png/pngset.c.i
 
 # target to preprocess a source file
 __/__/__/src/png/pngset.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngset.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngset.c.i
 .PHONY : __/__/__/src/png/pngset.c.i
 
 __/__/__/src/png/pngset.s: __/__/__/src/png/pngset.c.s
@@ -2374,7 +2374,7 @@ __/__/__/src/png/pngset.s: __/__/__/src/png/pngset.c.s
 
 # target to generate assembly for a file
 __/__/__/src/png/pngset.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngset.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngset.c.s
 .PHONY : __/__/__/src/png/pngset.c.s
 
 __/__/__/src/png/pngtrans.o: __/__/__/src/png/pngtrans.c.o
@@ -2382,7 +2382,7 @@ __/__/__/src/png/pngtrans.o: __/__/__/src/png/pngtrans.c.o
 
 # target to build an object file
 __/__/__/src/png/pngtrans.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngtrans.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngtrans.c.o
 .PHONY : __/__/__/src/png/pngtrans.c.o
 
 __/__/__/src/png/pngtrans.i: __/__/__/src/png/pngtrans.c.i
@@ -2390,7 +2390,7 @@ __/__/__/src/png/pngtrans.i: __/__/__/src/png/pngtrans.c.i
 
 # target to preprocess a source file
 __/__/__/src/png/pngtrans.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngtrans.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngtrans.c.i
 .PHONY : __/__/__/src/png/pngtrans.c.i
 
 __/__/__/src/png/pngtrans.s: __/__/__/src/png/pngtrans.c.s
@@ -2398,7 +2398,7 @@ __/__/__/src/png/pngtrans.s: __/__/__/src/png/pngtrans.c.s
 
 # target to generate assembly for a file
 __/__/__/src/png/pngtrans.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngtrans.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngtrans.c.s
 .PHONY : __/__/__/src/png/pngtrans.c.s
 
 __/__/__/src/png/pngwio.o: __/__/__/src/png/pngwio.c.o
@@ -2406,7 +2406,7 @@ __/__/__/src/png/pngwio.o: __/__/__/src/png/pngwio.c.o
 
 # target to build an object file
 __/__/__/src/png/pngwio.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwio.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwio.c.o
 .PHONY : __/__/__/src/png/pngwio.c.o
 
 __/__/__/src/png/pngwio.i: __/__/__/src/png/pngwio.c.i
@@ -2414,7 +2414,7 @@ __/__/__/src/png/pngwio.i: __/__/__/src/png/pngwio.c.i
 
 # target to preprocess a source file
 __/__/__/src/png/pngwio.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwio.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwio.c.i
 .PHONY : __/__/__/src/png/pngwio.c.i
 
 __/__/__/src/png/pngwio.s: __/__/__/src/png/pngwio.c.s
@@ -2422,7 +2422,7 @@ __/__/__/src/png/pngwio.s: __/__/__/src/png/pngwio.c.s
 
 # target to generate assembly for a file
 __/__/__/src/png/pngwio.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwio.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwio.c.s
 .PHONY : __/__/__/src/png/pngwio.c.s
 
 __/__/__/src/png/pngwrite.o: __/__/__/src/png/pngwrite.c.o
@@ -2430,7 +2430,7 @@ __/__/__/src/png/pngwrite.o: __/__/__/src/png/pngwrite.c.o
 
 # target to build an object file
 __/__/__/src/png/pngwrite.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwrite.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwrite.c.o
 .PHONY : __/__/__/src/png/pngwrite.c.o
 
 __/__/__/src/png/pngwrite.i: __/__/__/src/png/pngwrite.c.i
@@ -2438,7 +2438,7 @@ __/__/__/src/png/pngwrite.i: __/__/__/src/png/pngwrite.c.i
 
 # target to preprocess a source file
 __/__/__/src/png/pngwrite.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwrite.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwrite.c.i
 .PHONY : __/__/__/src/png/pngwrite.c.i
 
 __/__/__/src/png/pngwrite.s: __/__/__/src/png/pngwrite.c.s
@@ -2446,7 +2446,7 @@ __/__/__/src/png/pngwrite.s: __/__/__/src/png/pngwrite.c.s
 
 # target to generate assembly for a file
 __/__/__/src/png/pngwrite.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwrite.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwrite.c.s
 .PHONY : __/__/__/src/png/pngwrite.c.s
 
 __/__/__/src/png/pngwtran.o: __/__/__/src/png/pngwtran.c.o
@@ -2454,7 +2454,7 @@ __/__/__/src/png/pngwtran.o: __/__/__/src/png/pngwtran.c.o
 
 # target to build an object file
 __/__/__/src/png/pngwtran.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwtran.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwtran.c.o
 .PHONY : __/__/__/src/png/pngwtran.c.o
 
 __/__/__/src/png/pngwtran.i: __/__/__/src/png/pngwtran.c.i
@@ -2462,7 +2462,7 @@ __/__/__/src/png/pngwtran.i: __/__/__/src/png/pngwtran.c.i
 
 # target to preprocess a source file
 __/__/__/src/png/pngwtran.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwtran.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwtran.c.i
 .PHONY : __/__/__/src/png/pngwtran.c.i
 
 __/__/__/src/png/pngwtran.s: __/__/__/src/png/pngwtran.c.s
@@ -2470,7 +2470,7 @@ __/__/__/src/png/pngwtran.s: __/__/__/src/png/pngwtran.c.s
 
 # target to generate assembly for a file
 __/__/__/src/png/pngwtran.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwtran.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwtran.c.s
 .PHONY : __/__/__/src/png/pngwtran.c.s
 
 __/__/__/src/png/pngwutil.o: __/__/__/src/png/pngwutil.c.o
@@ -2478,7 +2478,7 @@ __/__/__/src/png/pngwutil.o: __/__/__/src/png/pngwutil.c.o
 
 # target to build an object file
 __/__/__/src/png/pngwutil.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwutil.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwutil.c.o
 .PHONY : __/__/__/src/png/pngwutil.c.o
 
 __/__/__/src/png/pngwutil.i: __/__/__/src/png/pngwutil.c.i
@@ -2486,7 +2486,7 @@ __/__/__/src/png/pngwutil.i: __/__/__/src/png/pngwutil.c.i
 
 # target to preprocess a source file
 __/__/__/src/png/pngwutil.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwutil.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwutil.c.i
 .PHONY : __/__/__/src/png/pngwutil.c.i
 
 __/__/__/src/png/pngwutil.s: __/__/__/src/png/pngwutil.c.s
@@ -2494,7 +2494,7 @@ __/__/__/src/png/pngwutil.s: __/__/__/src/png/pngwutil.c.s
 
 # target to generate assembly for a file
 __/__/__/src/png/pngwutil.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwutil.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/pngwutil.c.s
 .PHONY : __/__/__/src/png/pngwutil.c.s
 
 __/__/__/src/png/powerpc/filter_vsx_intrinsics.o: __/__/__/src/png/powerpc/filter_vsx_intrinsics.c.o
@@ -2502,7 +2502,7 @@ __/__/__/src/png/powerpc/filter_vsx_intrinsics.o: __/__/__/src/png/powerpc/filte
 
 # target to build an object file
 __/__/__/src/png/powerpc/filter_vsx_intrinsics.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/powerpc/filter_vsx_intrinsics.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/powerpc/filter_vsx_intrinsics.c.o
 .PHONY : __/__/__/src/png/powerpc/filter_vsx_intrinsics.c.o
 
 __/__/__/src/png/powerpc/filter_vsx_intrinsics.i: __/__/__/src/png/powerpc/filter_vsx_intrinsics.c.i
@@ -2510,7 +2510,7 @@ __/__/__/src/png/powerpc/filter_vsx_intrinsics.i: __/__/__/src/png/powerpc/filte
 
 # target to preprocess a source file
 __/__/__/src/png/powerpc/filter_vsx_intrinsics.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/powerpc/filter_vsx_intrinsics.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/powerpc/filter_vsx_intrinsics.c.i
 .PHONY : __/__/__/src/png/powerpc/filter_vsx_intrinsics.c.i
 
 __/__/__/src/png/powerpc/filter_vsx_intrinsics.s: __/__/__/src/png/powerpc/filter_vsx_intrinsics.c.s
@@ -2518,7 +2518,7 @@ __/__/__/src/png/powerpc/filter_vsx_intrinsics.s: __/__/__/src/png/powerpc/filte
 
 # target to generate assembly for a file
 __/__/__/src/png/powerpc/filter_vsx_intrinsics.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/powerpc/filter_vsx_intrinsics.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/powerpc/filter_vsx_intrinsics.c.s
 .PHONY : __/__/__/src/png/powerpc/filter_vsx_intrinsics.c.s
 
 __/__/__/src/png/powerpc/powerpc_init.o: __/__/__/src/png/powerpc/powerpc_init.c.o
@@ -2526,7 +2526,7 @@ __/__/__/src/png/powerpc/powerpc_init.o: __/__/__/src/png/powerpc/powerpc_init.c
 
 # target to build an object file
 __/__/__/src/png/powerpc/powerpc_init.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/powerpc/powerpc_init.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/powerpc/powerpc_init.c.o
 .PHONY : __/__/__/src/png/powerpc/powerpc_init.c.o
 
 __/__/__/src/png/powerpc/powerpc_init.i: __/__/__/src/png/powerpc/powerpc_init.c.i
@@ -2534,7 +2534,7 @@ __/__/__/src/png/powerpc/powerpc_init.i: __/__/__/src/png/powerpc/powerpc_init.c
 
 # target to preprocess a source file
 __/__/__/src/png/powerpc/powerpc_init.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/powerpc/powerpc_init.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/powerpc/powerpc_init.c.i
 .PHONY : __/__/__/src/png/powerpc/powerpc_init.c.i
 
 __/__/__/src/png/powerpc/powerpc_init.s: __/__/__/src/png/powerpc/powerpc_init.c.s
@@ -2542,7 +2542,7 @@ __/__/__/src/png/powerpc/powerpc_init.s: __/__/__/src/png/powerpc/powerpc_init.c
 
 # target to generate assembly for a file
 __/__/__/src/png/powerpc/powerpc_init.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/powerpc/powerpc_init.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/powerpc/powerpc_init.c.s
 .PHONY : __/__/__/src/png/powerpc/powerpc_init.c.s
 
 __/__/__/src/tiff/libtiff/tif_aux.o: __/__/__/src/tiff/libtiff/tif_aux.c.o
@@ -2550,7 +2550,7 @@ __/__/__/src/tiff/libtiff/tif_aux.o: __/__/__/src/tiff/libtiff/tif_aux.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_aux.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_aux.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_aux.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_aux.c.o
 
 __/__/__/src/tiff/libtiff/tif_aux.i: __/__/__/src/tiff/libtiff/tif_aux.c.i
@@ -2558,7 +2558,7 @@ __/__/__/src/tiff/libtiff/tif_aux.i: __/__/__/src/tiff/libtiff/tif_aux.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_aux.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_aux.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_aux.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_aux.c.i
 
 __/__/__/src/tiff/libtiff/tif_aux.s: __/__/__/src/tiff/libtiff/tif_aux.c.s
@@ -2566,7 +2566,7 @@ __/__/__/src/tiff/libtiff/tif_aux.s: __/__/__/src/tiff/libtiff/tif_aux.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_aux.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_aux.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_aux.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_aux.c.s
 
 __/__/__/src/tiff/libtiff/tif_close.o: __/__/__/src/tiff/libtiff/tif_close.c.o
@@ -2574,7 +2574,7 @@ __/__/__/src/tiff/libtiff/tif_close.o: __/__/__/src/tiff/libtiff/tif_close.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_close.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_close.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_close.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_close.c.o
 
 __/__/__/src/tiff/libtiff/tif_close.i: __/__/__/src/tiff/libtiff/tif_close.c.i
@@ -2582,7 +2582,7 @@ __/__/__/src/tiff/libtiff/tif_close.i: __/__/__/src/tiff/libtiff/tif_close.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_close.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_close.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_close.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_close.c.i
 
 __/__/__/src/tiff/libtiff/tif_close.s: __/__/__/src/tiff/libtiff/tif_close.c.s
@@ -2590,7 +2590,7 @@ __/__/__/src/tiff/libtiff/tif_close.s: __/__/__/src/tiff/libtiff/tif_close.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_close.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_close.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_close.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_close.c.s
 
 __/__/__/src/tiff/libtiff/tif_codec.o: __/__/__/src/tiff/libtiff/tif_codec.c.o
@@ -2598,7 +2598,7 @@ __/__/__/src/tiff/libtiff/tif_codec.o: __/__/__/src/tiff/libtiff/tif_codec.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_codec.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_codec.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_codec.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_codec.c.o
 
 __/__/__/src/tiff/libtiff/tif_codec.i: __/__/__/src/tiff/libtiff/tif_codec.c.i
@@ -2606,7 +2606,7 @@ __/__/__/src/tiff/libtiff/tif_codec.i: __/__/__/src/tiff/libtiff/tif_codec.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_codec.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_codec.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_codec.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_codec.c.i
 
 __/__/__/src/tiff/libtiff/tif_codec.s: __/__/__/src/tiff/libtiff/tif_codec.c.s
@@ -2614,7 +2614,7 @@ __/__/__/src/tiff/libtiff/tif_codec.s: __/__/__/src/tiff/libtiff/tif_codec.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_codec.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_codec.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_codec.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_codec.c.s
 
 __/__/__/src/tiff/libtiff/tif_color.o: __/__/__/src/tiff/libtiff/tif_color.c.o
@@ -2622,7 +2622,7 @@ __/__/__/src/tiff/libtiff/tif_color.o: __/__/__/src/tiff/libtiff/tif_color.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_color.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_color.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_color.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_color.c.o
 
 __/__/__/src/tiff/libtiff/tif_color.i: __/__/__/src/tiff/libtiff/tif_color.c.i
@@ -2630,7 +2630,7 @@ __/__/__/src/tiff/libtiff/tif_color.i: __/__/__/src/tiff/libtiff/tif_color.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_color.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_color.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_color.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_color.c.i
 
 __/__/__/src/tiff/libtiff/tif_color.s: __/__/__/src/tiff/libtiff/tif_color.c.s
@@ -2638,7 +2638,7 @@ __/__/__/src/tiff/libtiff/tif_color.s: __/__/__/src/tiff/libtiff/tif_color.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_color.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_color.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_color.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_color.c.s
 
 __/__/__/src/tiff/libtiff/tif_compress.o: __/__/__/src/tiff/libtiff/tif_compress.c.o
@@ -2646,7 +2646,7 @@ __/__/__/src/tiff/libtiff/tif_compress.o: __/__/__/src/tiff/libtiff/tif_compress
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_compress.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_compress.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_compress.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_compress.c.o
 
 __/__/__/src/tiff/libtiff/tif_compress.i: __/__/__/src/tiff/libtiff/tif_compress.c.i
@@ -2654,7 +2654,7 @@ __/__/__/src/tiff/libtiff/tif_compress.i: __/__/__/src/tiff/libtiff/tif_compress
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_compress.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_compress.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_compress.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_compress.c.i
 
 __/__/__/src/tiff/libtiff/tif_compress.s: __/__/__/src/tiff/libtiff/tif_compress.c.s
@@ -2662,7 +2662,7 @@ __/__/__/src/tiff/libtiff/tif_compress.s: __/__/__/src/tiff/libtiff/tif_compress
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_compress.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_compress.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_compress.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_compress.c.s
 
 __/__/__/src/tiff/libtiff/tif_dir.o: __/__/__/src/tiff/libtiff/tif_dir.c.o
@@ -2670,7 +2670,7 @@ __/__/__/src/tiff/libtiff/tif_dir.o: __/__/__/src/tiff/libtiff/tif_dir.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_dir.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dir.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dir.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_dir.c.o
 
 __/__/__/src/tiff/libtiff/tif_dir.i: __/__/__/src/tiff/libtiff/tif_dir.c.i
@@ -2678,7 +2678,7 @@ __/__/__/src/tiff/libtiff/tif_dir.i: __/__/__/src/tiff/libtiff/tif_dir.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_dir.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dir.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dir.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_dir.c.i
 
 __/__/__/src/tiff/libtiff/tif_dir.s: __/__/__/src/tiff/libtiff/tif_dir.c.s
@@ -2686,7 +2686,7 @@ __/__/__/src/tiff/libtiff/tif_dir.s: __/__/__/src/tiff/libtiff/tif_dir.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_dir.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dir.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dir.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_dir.c.s
 
 __/__/__/src/tiff/libtiff/tif_dirinfo.o: __/__/__/src/tiff/libtiff/tif_dirinfo.c.o
@@ -2694,7 +2694,7 @@ __/__/__/src/tiff/libtiff/tif_dirinfo.o: __/__/__/src/tiff/libtiff/tif_dirinfo.c
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_dirinfo.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dirinfo.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dirinfo.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_dirinfo.c.o
 
 __/__/__/src/tiff/libtiff/tif_dirinfo.i: __/__/__/src/tiff/libtiff/tif_dirinfo.c.i
@@ -2702,7 +2702,7 @@ __/__/__/src/tiff/libtiff/tif_dirinfo.i: __/__/__/src/tiff/libtiff/tif_dirinfo.c
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_dirinfo.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dirinfo.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dirinfo.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_dirinfo.c.i
 
 __/__/__/src/tiff/libtiff/tif_dirinfo.s: __/__/__/src/tiff/libtiff/tif_dirinfo.c.s
@@ -2710,7 +2710,7 @@ __/__/__/src/tiff/libtiff/tif_dirinfo.s: __/__/__/src/tiff/libtiff/tif_dirinfo.c
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_dirinfo.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dirinfo.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dirinfo.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_dirinfo.c.s
 
 __/__/__/src/tiff/libtiff/tif_dirread.o: __/__/__/src/tiff/libtiff/tif_dirread.c.o
@@ -2718,7 +2718,7 @@ __/__/__/src/tiff/libtiff/tif_dirread.o: __/__/__/src/tiff/libtiff/tif_dirread.c
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_dirread.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dirread.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dirread.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_dirread.c.o
 
 __/__/__/src/tiff/libtiff/tif_dirread.i: __/__/__/src/tiff/libtiff/tif_dirread.c.i
@@ -2726,7 +2726,7 @@ __/__/__/src/tiff/libtiff/tif_dirread.i: __/__/__/src/tiff/libtiff/tif_dirread.c
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_dirread.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dirread.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dirread.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_dirread.c.i
 
 __/__/__/src/tiff/libtiff/tif_dirread.s: __/__/__/src/tiff/libtiff/tif_dirread.c.s
@@ -2734,7 +2734,7 @@ __/__/__/src/tiff/libtiff/tif_dirread.s: __/__/__/src/tiff/libtiff/tif_dirread.c
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_dirread.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dirread.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dirread.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_dirread.c.s
 
 __/__/__/src/tiff/libtiff/tif_dirwrite.o: __/__/__/src/tiff/libtiff/tif_dirwrite.c.o
@@ -2742,7 +2742,7 @@ __/__/__/src/tiff/libtiff/tif_dirwrite.o: __/__/__/src/tiff/libtiff/tif_dirwrite
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_dirwrite.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dirwrite.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dirwrite.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_dirwrite.c.o
 
 __/__/__/src/tiff/libtiff/tif_dirwrite.i: __/__/__/src/tiff/libtiff/tif_dirwrite.c.i
@@ -2750,7 +2750,7 @@ __/__/__/src/tiff/libtiff/tif_dirwrite.i: __/__/__/src/tiff/libtiff/tif_dirwrite
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_dirwrite.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dirwrite.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dirwrite.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_dirwrite.c.i
 
 __/__/__/src/tiff/libtiff/tif_dirwrite.s: __/__/__/src/tiff/libtiff/tif_dirwrite.c.s
@@ -2758,7 +2758,7 @@ __/__/__/src/tiff/libtiff/tif_dirwrite.s: __/__/__/src/tiff/libtiff/tif_dirwrite
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_dirwrite.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dirwrite.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dirwrite.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_dirwrite.c.s
 
 __/__/__/src/tiff/libtiff/tif_dumpmode.o: __/__/__/src/tiff/libtiff/tif_dumpmode.c.o
@@ -2766,7 +2766,7 @@ __/__/__/src/tiff/libtiff/tif_dumpmode.o: __/__/__/src/tiff/libtiff/tif_dumpmode
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_dumpmode.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dumpmode.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dumpmode.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_dumpmode.c.o
 
 __/__/__/src/tiff/libtiff/tif_dumpmode.i: __/__/__/src/tiff/libtiff/tif_dumpmode.c.i
@@ -2774,7 +2774,7 @@ __/__/__/src/tiff/libtiff/tif_dumpmode.i: __/__/__/src/tiff/libtiff/tif_dumpmode
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_dumpmode.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dumpmode.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dumpmode.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_dumpmode.c.i
 
 __/__/__/src/tiff/libtiff/tif_dumpmode.s: __/__/__/src/tiff/libtiff/tif_dumpmode.c.s
@@ -2782,7 +2782,7 @@ __/__/__/src/tiff/libtiff/tif_dumpmode.s: __/__/__/src/tiff/libtiff/tif_dumpmode
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_dumpmode.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dumpmode.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_dumpmode.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_dumpmode.c.s
 
 __/__/__/src/tiff/libtiff/tif_error.o: __/__/__/src/tiff/libtiff/tif_error.c.o
@@ -2790,7 +2790,7 @@ __/__/__/src/tiff/libtiff/tif_error.o: __/__/__/src/tiff/libtiff/tif_error.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_error.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_error.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_error.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_error.c.o
 
 __/__/__/src/tiff/libtiff/tif_error.i: __/__/__/src/tiff/libtiff/tif_error.c.i
@@ -2798,7 +2798,7 @@ __/__/__/src/tiff/libtiff/tif_error.i: __/__/__/src/tiff/libtiff/tif_error.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_error.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_error.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_error.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_error.c.i
 
 __/__/__/src/tiff/libtiff/tif_error.s: __/__/__/src/tiff/libtiff/tif_error.c.s
@@ -2806,7 +2806,7 @@ __/__/__/src/tiff/libtiff/tif_error.s: __/__/__/src/tiff/libtiff/tif_error.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_error.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_error.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_error.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_error.c.s
 
 __/__/__/src/tiff/libtiff/tif_extension.o: __/__/__/src/tiff/libtiff/tif_extension.c.o
@@ -2814,7 +2814,7 @@ __/__/__/src/tiff/libtiff/tif_extension.o: __/__/__/src/tiff/libtiff/tif_extensi
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_extension.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_extension.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_extension.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_extension.c.o
 
 __/__/__/src/tiff/libtiff/tif_extension.i: __/__/__/src/tiff/libtiff/tif_extension.c.i
@@ -2822,7 +2822,7 @@ __/__/__/src/tiff/libtiff/tif_extension.i: __/__/__/src/tiff/libtiff/tif_extensi
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_extension.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_extension.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_extension.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_extension.c.i
 
 __/__/__/src/tiff/libtiff/tif_extension.s: __/__/__/src/tiff/libtiff/tif_extension.c.s
@@ -2830,7 +2830,7 @@ __/__/__/src/tiff/libtiff/tif_extension.s: __/__/__/src/tiff/libtiff/tif_extensi
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_extension.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_extension.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_extension.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_extension.c.s
 
 __/__/__/src/tiff/libtiff/tif_fax3.o: __/__/__/src/tiff/libtiff/tif_fax3.c.o
@@ -2838,7 +2838,7 @@ __/__/__/src/tiff/libtiff/tif_fax3.o: __/__/__/src/tiff/libtiff/tif_fax3.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_fax3.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_fax3.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_fax3.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_fax3.c.o
 
 __/__/__/src/tiff/libtiff/tif_fax3.i: __/__/__/src/tiff/libtiff/tif_fax3.c.i
@@ -2846,7 +2846,7 @@ __/__/__/src/tiff/libtiff/tif_fax3.i: __/__/__/src/tiff/libtiff/tif_fax3.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_fax3.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_fax3.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_fax3.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_fax3.c.i
 
 __/__/__/src/tiff/libtiff/tif_fax3.s: __/__/__/src/tiff/libtiff/tif_fax3.c.s
@@ -2854,7 +2854,7 @@ __/__/__/src/tiff/libtiff/tif_fax3.s: __/__/__/src/tiff/libtiff/tif_fax3.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_fax3.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_fax3.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_fax3.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_fax3.c.s
 
 __/__/__/src/tiff/libtiff/tif_fax3sm.o: __/__/__/src/tiff/libtiff/tif_fax3sm.c.o
@@ -2862,7 +2862,7 @@ __/__/__/src/tiff/libtiff/tif_fax3sm.o: __/__/__/src/tiff/libtiff/tif_fax3sm.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_fax3sm.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_fax3sm.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_fax3sm.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_fax3sm.c.o
 
 __/__/__/src/tiff/libtiff/tif_fax3sm.i: __/__/__/src/tiff/libtiff/tif_fax3sm.c.i
@@ -2870,7 +2870,7 @@ __/__/__/src/tiff/libtiff/tif_fax3sm.i: __/__/__/src/tiff/libtiff/tif_fax3sm.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_fax3sm.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_fax3sm.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_fax3sm.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_fax3sm.c.i
 
 __/__/__/src/tiff/libtiff/tif_fax3sm.s: __/__/__/src/tiff/libtiff/tif_fax3sm.c.s
@@ -2878,7 +2878,7 @@ __/__/__/src/tiff/libtiff/tif_fax3sm.s: __/__/__/src/tiff/libtiff/tif_fax3sm.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_fax3sm.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_fax3sm.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_fax3sm.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_fax3sm.c.s
 
 __/__/__/src/tiff/libtiff/tif_flush.o: __/__/__/src/tiff/libtiff/tif_flush.c.o
@@ -2886,7 +2886,7 @@ __/__/__/src/tiff/libtiff/tif_flush.o: __/__/__/src/tiff/libtiff/tif_flush.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_flush.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_flush.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_flush.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_flush.c.o
 
 __/__/__/src/tiff/libtiff/tif_flush.i: __/__/__/src/tiff/libtiff/tif_flush.c.i
@@ -2894,7 +2894,7 @@ __/__/__/src/tiff/libtiff/tif_flush.i: __/__/__/src/tiff/libtiff/tif_flush.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_flush.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_flush.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_flush.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_flush.c.i
 
 __/__/__/src/tiff/libtiff/tif_flush.s: __/__/__/src/tiff/libtiff/tif_flush.c.s
@@ -2902,7 +2902,7 @@ __/__/__/src/tiff/libtiff/tif_flush.s: __/__/__/src/tiff/libtiff/tif_flush.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_flush.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_flush.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_flush.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_flush.c.s
 
 __/__/__/src/tiff/libtiff/tif_getimage.o: __/__/__/src/tiff/libtiff/tif_getimage.c.o
@@ -2910,7 +2910,7 @@ __/__/__/src/tiff/libtiff/tif_getimage.o: __/__/__/src/tiff/libtiff/tif_getimage
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_getimage.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_getimage.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_getimage.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_getimage.c.o
 
 __/__/__/src/tiff/libtiff/tif_getimage.i: __/__/__/src/tiff/libtiff/tif_getimage.c.i
@@ -2918,7 +2918,7 @@ __/__/__/src/tiff/libtiff/tif_getimage.i: __/__/__/src/tiff/libtiff/tif_getimage
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_getimage.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_getimage.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_getimage.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_getimage.c.i
 
 __/__/__/src/tiff/libtiff/tif_getimage.s: __/__/__/src/tiff/libtiff/tif_getimage.c.s
@@ -2926,7 +2926,7 @@ __/__/__/src/tiff/libtiff/tif_getimage.s: __/__/__/src/tiff/libtiff/tif_getimage
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_getimage.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_getimage.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_getimage.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_getimage.c.s
 
 __/__/__/src/tiff/libtiff/tif_jbig.o: __/__/__/src/tiff/libtiff/tif_jbig.c.o
@@ -2934,7 +2934,7 @@ __/__/__/src/tiff/libtiff/tif_jbig.o: __/__/__/src/tiff/libtiff/tif_jbig.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_jbig.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_jbig.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_jbig.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_jbig.c.o
 
 __/__/__/src/tiff/libtiff/tif_jbig.i: __/__/__/src/tiff/libtiff/tif_jbig.c.i
@@ -2942,7 +2942,7 @@ __/__/__/src/tiff/libtiff/tif_jbig.i: __/__/__/src/tiff/libtiff/tif_jbig.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_jbig.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_jbig.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_jbig.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_jbig.c.i
 
 __/__/__/src/tiff/libtiff/tif_jbig.s: __/__/__/src/tiff/libtiff/tif_jbig.c.s
@@ -2950,7 +2950,7 @@ __/__/__/src/tiff/libtiff/tif_jbig.s: __/__/__/src/tiff/libtiff/tif_jbig.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_jbig.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_jbig.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_jbig.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_jbig.c.s
 
 __/__/__/src/tiff/libtiff/tif_jpeg.o: __/__/__/src/tiff/libtiff/tif_jpeg.c.o
@@ -2958,7 +2958,7 @@ __/__/__/src/tiff/libtiff/tif_jpeg.o: __/__/__/src/tiff/libtiff/tif_jpeg.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_jpeg.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_jpeg.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_jpeg.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_jpeg.c.o
 
 __/__/__/src/tiff/libtiff/tif_jpeg.i: __/__/__/src/tiff/libtiff/tif_jpeg.c.i
@@ -2966,7 +2966,7 @@ __/__/__/src/tiff/libtiff/tif_jpeg.i: __/__/__/src/tiff/libtiff/tif_jpeg.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_jpeg.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_jpeg.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_jpeg.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_jpeg.c.i
 
 __/__/__/src/tiff/libtiff/tif_jpeg.s: __/__/__/src/tiff/libtiff/tif_jpeg.c.s
@@ -2974,7 +2974,7 @@ __/__/__/src/tiff/libtiff/tif_jpeg.s: __/__/__/src/tiff/libtiff/tif_jpeg.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_jpeg.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_jpeg.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_jpeg.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_jpeg.c.s
 
 __/__/__/src/tiff/libtiff/tif_jpeg_12.o: __/__/__/src/tiff/libtiff/tif_jpeg_12.c.o
@@ -2982,7 +2982,7 @@ __/__/__/src/tiff/libtiff/tif_jpeg_12.o: __/__/__/src/tiff/libtiff/tif_jpeg_12.c
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_jpeg_12.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_jpeg_12.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_jpeg_12.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_jpeg_12.c.o
 
 __/__/__/src/tiff/libtiff/tif_jpeg_12.i: __/__/__/src/tiff/libtiff/tif_jpeg_12.c.i
@@ -2990,7 +2990,7 @@ __/__/__/src/tiff/libtiff/tif_jpeg_12.i: __/__/__/src/tiff/libtiff/tif_jpeg_12.c
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_jpeg_12.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_jpeg_12.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_jpeg_12.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_jpeg_12.c.i
 
 __/__/__/src/tiff/libtiff/tif_jpeg_12.s: __/__/__/src/tiff/libtiff/tif_jpeg_12.c.s
@@ -2998,7 +2998,7 @@ __/__/__/src/tiff/libtiff/tif_jpeg_12.s: __/__/__/src/tiff/libtiff/tif_jpeg_12.c
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_jpeg_12.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_jpeg_12.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_jpeg_12.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_jpeg_12.c.s
 
 __/__/__/src/tiff/libtiff/tif_luv.o: __/__/__/src/tiff/libtiff/tif_luv.c.o
@@ -3006,7 +3006,7 @@ __/__/__/src/tiff/libtiff/tif_luv.o: __/__/__/src/tiff/libtiff/tif_luv.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_luv.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_luv.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_luv.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_luv.c.o
 
 __/__/__/src/tiff/libtiff/tif_luv.i: __/__/__/src/tiff/libtiff/tif_luv.c.i
@@ -3014,7 +3014,7 @@ __/__/__/src/tiff/libtiff/tif_luv.i: __/__/__/src/tiff/libtiff/tif_luv.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_luv.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_luv.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_luv.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_luv.c.i
 
 __/__/__/src/tiff/libtiff/tif_luv.s: __/__/__/src/tiff/libtiff/tif_luv.c.s
@@ -3022,7 +3022,7 @@ __/__/__/src/tiff/libtiff/tif_luv.s: __/__/__/src/tiff/libtiff/tif_luv.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_luv.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_luv.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_luv.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_luv.c.s
 
 __/__/__/src/tiff/libtiff/tif_lzma.o: __/__/__/src/tiff/libtiff/tif_lzma.c.o
@@ -3030,7 +3030,7 @@ __/__/__/src/tiff/libtiff/tif_lzma.o: __/__/__/src/tiff/libtiff/tif_lzma.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_lzma.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_lzma.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_lzma.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_lzma.c.o
 
 __/__/__/src/tiff/libtiff/tif_lzma.i: __/__/__/src/tiff/libtiff/tif_lzma.c.i
@@ -3038,7 +3038,7 @@ __/__/__/src/tiff/libtiff/tif_lzma.i: __/__/__/src/tiff/libtiff/tif_lzma.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_lzma.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_lzma.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_lzma.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_lzma.c.i
 
 __/__/__/src/tiff/libtiff/tif_lzma.s: __/__/__/src/tiff/libtiff/tif_lzma.c.s
@@ -3046,7 +3046,7 @@ __/__/__/src/tiff/libtiff/tif_lzma.s: __/__/__/src/tiff/libtiff/tif_lzma.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_lzma.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_lzma.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_lzma.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_lzma.c.s
 
 __/__/__/src/tiff/libtiff/tif_lzw.o: __/__/__/src/tiff/libtiff/tif_lzw.c.o
@@ -3054,7 +3054,7 @@ __/__/__/src/tiff/libtiff/tif_lzw.o: __/__/__/src/tiff/libtiff/tif_lzw.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_lzw.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_lzw.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_lzw.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_lzw.c.o
 
 __/__/__/src/tiff/libtiff/tif_lzw.i: __/__/__/src/tiff/libtiff/tif_lzw.c.i
@@ -3062,7 +3062,7 @@ __/__/__/src/tiff/libtiff/tif_lzw.i: __/__/__/src/tiff/libtiff/tif_lzw.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_lzw.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_lzw.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_lzw.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_lzw.c.i
 
 __/__/__/src/tiff/libtiff/tif_lzw.s: __/__/__/src/tiff/libtiff/tif_lzw.c.s
@@ -3070,7 +3070,7 @@ __/__/__/src/tiff/libtiff/tif_lzw.s: __/__/__/src/tiff/libtiff/tif_lzw.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_lzw.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_lzw.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_lzw.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_lzw.c.s
 
 __/__/__/src/tiff/libtiff/tif_next.o: __/__/__/src/tiff/libtiff/tif_next.c.o
@@ -3078,7 +3078,7 @@ __/__/__/src/tiff/libtiff/tif_next.o: __/__/__/src/tiff/libtiff/tif_next.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_next.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_next.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_next.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_next.c.o
 
 __/__/__/src/tiff/libtiff/tif_next.i: __/__/__/src/tiff/libtiff/tif_next.c.i
@@ -3086,7 +3086,7 @@ __/__/__/src/tiff/libtiff/tif_next.i: __/__/__/src/tiff/libtiff/tif_next.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_next.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_next.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_next.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_next.c.i
 
 __/__/__/src/tiff/libtiff/tif_next.s: __/__/__/src/tiff/libtiff/tif_next.c.s
@@ -3094,7 +3094,7 @@ __/__/__/src/tiff/libtiff/tif_next.s: __/__/__/src/tiff/libtiff/tif_next.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_next.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_next.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_next.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_next.c.s
 
 __/__/__/src/tiff/libtiff/tif_ojpeg.o: __/__/__/src/tiff/libtiff/tif_ojpeg.c.o
@@ -3102,7 +3102,7 @@ __/__/__/src/tiff/libtiff/tif_ojpeg.o: __/__/__/src/tiff/libtiff/tif_ojpeg.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_ojpeg.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_ojpeg.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_ojpeg.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_ojpeg.c.o
 
 __/__/__/src/tiff/libtiff/tif_ojpeg.i: __/__/__/src/tiff/libtiff/tif_ojpeg.c.i
@@ -3110,7 +3110,7 @@ __/__/__/src/tiff/libtiff/tif_ojpeg.i: __/__/__/src/tiff/libtiff/tif_ojpeg.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_ojpeg.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_ojpeg.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_ojpeg.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_ojpeg.c.i
 
 __/__/__/src/tiff/libtiff/tif_ojpeg.s: __/__/__/src/tiff/libtiff/tif_ojpeg.c.s
@@ -3118,7 +3118,7 @@ __/__/__/src/tiff/libtiff/tif_ojpeg.s: __/__/__/src/tiff/libtiff/tif_ojpeg.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_ojpeg.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_ojpeg.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_ojpeg.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_ojpeg.c.s
 
 __/__/__/src/tiff/libtiff/tif_open.o: __/__/__/src/tiff/libtiff/tif_open.c.o
@@ -3126,7 +3126,7 @@ __/__/__/src/tiff/libtiff/tif_open.o: __/__/__/src/tiff/libtiff/tif_open.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_open.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_open.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_open.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_open.c.o
 
 __/__/__/src/tiff/libtiff/tif_open.i: __/__/__/src/tiff/libtiff/tif_open.c.i
@@ -3134,7 +3134,7 @@ __/__/__/src/tiff/libtiff/tif_open.i: __/__/__/src/tiff/libtiff/tif_open.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_open.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_open.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_open.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_open.c.i
 
 __/__/__/src/tiff/libtiff/tif_open.s: __/__/__/src/tiff/libtiff/tif_open.c.s
@@ -3142,7 +3142,7 @@ __/__/__/src/tiff/libtiff/tif_open.s: __/__/__/src/tiff/libtiff/tif_open.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_open.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_open.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_open.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_open.c.s
 
 __/__/__/src/tiff/libtiff/tif_packbits.o: __/__/__/src/tiff/libtiff/tif_packbits.c.o
@@ -3150,7 +3150,7 @@ __/__/__/src/tiff/libtiff/tif_packbits.o: __/__/__/src/tiff/libtiff/tif_packbits
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_packbits.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_packbits.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_packbits.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_packbits.c.o
 
 __/__/__/src/tiff/libtiff/tif_packbits.i: __/__/__/src/tiff/libtiff/tif_packbits.c.i
@@ -3158,7 +3158,7 @@ __/__/__/src/tiff/libtiff/tif_packbits.i: __/__/__/src/tiff/libtiff/tif_packbits
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_packbits.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_packbits.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_packbits.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_packbits.c.i
 
 __/__/__/src/tiff/libtiff/tif_packbits.s: __/__/__/src/tiff/libtiff/tif_packbits.c.s
@@ -3166,7 +3166,7 @@ __/__/__/src/tiff/libtiff/tif_packbits.s: __/__/__/src/tiff/libtiff/tif_packbits
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_packbits.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_packbits.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_packbits.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_packbits.c.s
 
 __/__/__/src/tiff/libtiff/tif_pixarlog.o: __/__/__/src/tiff/libtiff/tif_pixarlog.c.o
@@ -3174,7 +3174,7 @@ __/__/__/src/tiff/libtiff/tif_pixarlog.o: __/__/__/src/tiff/libtiff/tif_pixarlog
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_pixarlog.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_pixarlog.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_pixarlog.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_pixarlog.c.o
 
 __/__/__/src/tiff/libtiff/tif_pixarlog.i: __/__/__/src/tiff/libtiff/tif_pixarlog.c.i
@@ -3182,7 +3182,7 @@ __/__/__/src/tiff/libtiff/tif_pixarlog.i: __/__/__/src/tiff/libtiff/tif_pixarlog
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_pixarlog.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_pixarlog.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_pixarlog.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_pixarlog.c.i
 
 __/__/__/src/tiff/libtiff/tif_pixarlog.s: __/__/__/src/tiff/libtiff/tif_pixarlog.c.s
@@ -3190,7 +3190,7 @@ __/__/__/src/tiff/libtiff/tif_pixarlog.s: __/__/__/src/tiff/libtiff/tif_pixarlog
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_pixarlog.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_pixarlog.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_pixarlog.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_pixarlog.c.s
 
 __/__/__/src/tiff/libtiff/tif_predict.o: __/__/__/src/tiff/libtiff/tif_predict.c.o
@@ -3198,7 +3198,7 @@ __/__/__/src/tiff/libtiff/tif_predict.o: __/__/__/src/tiff/libtiff/tif_predict.c
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_predict.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_predict.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_predict.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_predict.c.o
 
 __/__/__/src/tiff/libtiff/tif_predict.i: __/__/__/src/tiff/libtiff/tif_predict.c.i
@@ -3206,7 +3206,7 @@ __/__/__/src/tiff/libtiff/tif_predict.i: __/__/__/src/tiff/libtiff/tif_predict.c
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_predict.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_predict.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_predict.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_predict.c.i
 
 __/__/__/src/tiff/libtiff/tif_predict.s: __/__/__/src/tiff/libtiff/tif_predict.c.s
@@ -3214,7 +3214,7 @@ __/__/__/src/tiff/libtiff/tif_predict.s: __/__/__/src/tiff/libtiff/tif_predict.c
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_predict.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_predict.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_predict.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_predict.c.s
 
 __/__/__/src/tiff/libtiff/tif_print.o: __/__/__/src/tiff/libtiff/tif_print.c.o
@@ -3222,7 +3222,7 @@ __/__/__/src/tiff/libtiff/tif_print.o: __/__/__/src/tiff/libtiff/tif_print.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_print.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_print.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_print.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_print.c.o
 
 __/__/__/src/tiff/libtiff/tif_print.i: __/__/__/src/tiff/libtiff/tif_print.c.i
@@ -3230,7 +3230,7 @@ __/__/__/src/tiff/libtiff/tif_print.i: __/__/__/src/tiff/libtiff/tif_print.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_print.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_print.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_print.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_print.c.i
 
 __/__/__/src/tiff/libtiff/tif_print.s: __/__/__/src/tiff/libtiff/tif_print.c.s
@@ -3238,7 +3238,7 @@ __/__/__/src/tiff/libtiff/tif_print.s: __/__/__/src/tiff/libtiff/tif_print.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_print.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_print.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_print.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_print.c.s
 
 __/__/__/src/tiff/libtiff/tif_read.o: __/__/__/src/tiff/libtiff/tif_read.c.o
@@ -3246,7 +3246,7 @@ __/__/__/src/tiff/libtiff/tif_read.o: __/__/__/src/tiff/libtiff/tif_read.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_read.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_read.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_read.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_read.c.o
 
 __/__/__/src/tiff/libtiff/tif_read.i: __/__/__/src/tiff/libtiff/tif_read.c.i
@@ -3254,7 +3254,7 @@ __/__/__/src/tiff/libtiff/tif_read.i: __/__/__/src/tiff/libtiff/tif_read.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_read.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_read.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_read.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_read.c.i
 
 __/__/__/src/tiff/libtiff/tif_read.s: __/__/__/src/tiff/libtiff/tif_read.c.s
@@ -3262,7 +3262,7 @@ __/__/__/src/tiff/libtiff/tif_read.s: __/__/__/src/tiff/libtiff/tif_read.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_read.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_read.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_read.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_read.c.s
 
 __/__/__/src/tiff/libtiff/tif_strip.o: __/__/__/src/tiff/libtiff/tif_strip.c.o
@@ -3270,7 +3270,7 @@ __/__/__/src/tiff/libtiff/tif_strip.o: __/__/__/src/tiff/libtiff/tif_strip.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_strip.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_strip.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_strip.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_strip.c.o
 
 __/__/__/src/tiff/libtiff/tif_strip.i: __/__/__/src/tiff/libtiff/tif_strip.c.i
@@ -3278,7 +3278,7 @@ __/__/__/src/tiff/libtiff/tif_strip.i: __/__/__/src/tiff/libtiff/tif_strip.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_strip.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_strip.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_strip.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_strip.c.i
 
 __/__/__/src/tiff/libtiff/tif_strip.s: __/__/__/src/tiff/libtiff/tif_strip.c.s
@@ -3286,7 +3286,7 @@ __/__/__/src/tiff/libtiff/tif_strip.s: __/__/__/src/tiff/libtiff/tif_strip.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_strip.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_strip.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_strip.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_strip.c.s
 
 __/__/__/src/tiff/libtiff/tif_swab.o: __/__/__/src/tiff/libtiff/tif_swab.c.o
@@ -3294,7 +3294,7 @@ __/__/__/src/tiff/libtiff/tif_swab.o: __/__/__/src/tiff/libtiff/tif_swab.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_swab.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_swab.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_swab.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_swab.c.o
 
 __/__/__/src/tiff/libtiff/tif_swab.i: __/__/__/src/tiff/libtiff/tif_swab.c.i
@@ -3302,7 +3302,7 @@ __/__/__/src/tiff/libtiff/tif_swab.i: __/__/__/src/tiff/libtiff/tif_swab.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_swab.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_swab.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_swab.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_swab.c.i
 
 __/__/__/src/tiff/libtiff/tif_swab.s: __/__/__/src/tiff/libtiff/tif_swab.c.s
@@ -3310,7 +3310,7 @@ __/__/__/src/tiff/libtiff/tif_swab.s: __/__/__/src/tiff/libtiff/tif_swab.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_swab.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_swab.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_swab.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_swab.c.s
 
 __/__/__/src/tiff/libtiff/tif_thunder.o: __/__/__/src/tiff/libtiff/tif_thunder.c.o
@@ -3318,7 +3318,7 @@ __/__/__/src/tiff/libtiff/tif_thunder.o: __/__/__/src/tiff/libtiff/tif_thunder.c
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_thunder.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_thunder.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_thunder.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_thunder.c.o
 
 __/__/__/src/tiff/libtiff/tif_thunder.i: __/__/__/src/tiff/libtiff/tif_thunder.c.i
@@ -3326,7 +3326,7 @@ __/__/__/src/tiff/libtiff/tif_thunder.i: __/__/__/src/tiff/libtiff/tif_thunder.c
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_thunder.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_thunder.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_thunder.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_thunder.c.i
 
 __/__/__/src/tiff/libtiff/tif_thunder.s: __/__/__/src/tiff/libtiff/tif_thunder.c.s
@@ -3334,7 +3334,7 @@ __/__/__/src/tiff/libtiff/tif_thunder.s: __/__/__/src/tiff/libtiff/tif_thunder.c
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_thunder.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_thunder.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_thunder.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_thunder.c.s
 
 __/__/__/src/tiff/libtiff/tif_tile.o: __/__/__/src/tiff/libtiff/tif_tile.c.o
@@ -3342,7 +3342,7 @@ __/__/__/src/tiff/libtiff/tif_tile.o: __/__/__/src/tiff/libtiff/tif_tile.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_tile.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_tile.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_tile.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_tile.c.o
 
 __/__/__/src/tiff/libtiff/tif_tile.i: __/__/__/src/tiff/libtiff/tif_tile.c.i
@@ -3350,7 +3350,7 @@ __/__/__/src/tiff/libtiff/tif_tile.i: __/__/__/src/tiff/libtiff/tif_tile.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_tile.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_tile.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_tile.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_tile.c.i
 
 __/__/__/src/tiff/libtiff/tif_tile.s: __/__/__/src/tiff/libtiff/tif_tile.c.s
@@ -3358,7 +3358,7 @@ __/__/__/src/tiff/libtiff/tif_tile.s: __/__/__/src/tiff/libtiff/tif_tile.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_tile.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_tile.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_tile.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_tile.c.s
 
 __/__/__/src/tiff/libtiff/tif_unix.o: __/__/__/src/tiff/libtiff/tif_unix.c.o
@@ -3366,7 +3366,7 @@ __/__/__/src/tiff/libtiff/tif_unix.o: __/__/__/src/tiff/libtiff/tif_unix.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_unix.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_unix.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_unix.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_unix.c.o
 
 __/__/__/src/tiff/libtiff/tif_unix.i: __/__/__/src/tiff/libtiff/tif_unix.c.i
@@ -3374,7 +3374,7 @@ __/__/__/src/tiff/libtiff/tif_unix.i: __/__/__/src/tiff/libtiff/tif_unix.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_unix.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_unix.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_unix.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_unix.c.i
 
 __/__/__/src/tiff/libtiff/tif_unix.s: __/__/__/src/tiff/libtiff/tif_unix.c.s
@@ -3382,7 +3382,7 @@ __/__/__/src/tiff/libtiff/tif_unix.s: __/__/__/src/tiff/libtiff/tif_unix.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_unix.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_unix.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_unix.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_unix.c.s
 
 __/__/__/src/tiff/libtiff/tif_version.o: __/__/__/src/tiff/libtiff/tif_version.c.o
@@ -3390,7 +3390,7 @@ __/__/__/src/tiff/libtiff/tif_version.o: __/__/__/src/tiff/libtiff/tif_version.c
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_version.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_version.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_version.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_version.c.o
 
 __/__/__/src/tiff/libtiff/tif_version.i: __/__/__/src/tiff/libtiff/tif_version.c.i
@@ -3398,7 +3398,7 @@ __/__/__/src/tiff/libtiff/tif_version.i: __/__/__/src/tiff/libtiff/tif_version.c
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_version.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_version.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_version.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_version.c.i
 
 __/__/__/src/tiff/libtiff/tif_version.s: __/__/__/src/tiff/libtiff/tif_version.c.s
@@ -3406,7 +3406,7 @@ __/__/__/src/tiff/libtiff/tif_version.s: __/__/__/src/tiff/libtiff/tif_version.c
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_version.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_version.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_version.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_version.c.s
 
 __/__/__/src/tiff/libtiff/tif_warning.o: __/__/__/src/tiff/libtiff/tif_warning.c.o
@@ -3414,7 +3414,7 @@ __/__/__/src/tiff/libtiff/tif_warning.o: __/__/__/src/tiff/libtiff/tif_warning.c
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_warning.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_warning.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_warning.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_warning.c.o
 
 __/__/__/src/tiff/libtiff/tif_warning.i: __/__/__/src/tiff/libtiff/tif_warning.c.i
@@ -3422,7 +3422,7 @@ __/__/__/src/tiff/libtiff/tif_warning.i: __/__/__/src/tiff/libtiff/tif_warning.c
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_warning.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_warning.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_warning.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_warning.c.i
 
 __/__/__/src/tiff/libtiff/tif_warning.s: __/__/__/src/tiff/libtiff/tif_warning.c.s
@@ -3430,7 +3430,7 @@ __/__/__/src/tiff/libtiff/tif_warning.s: __/__/__/src/tiff/libtiff/tif_warning.c
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_warning.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_warning.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_warning.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_warning.c.s
 
 __/__/__/src/tiff/libtiff/tif_webp.o: __/__/__/src/tiff/libtiff/tif_webp.c.o
@@ -3438,7 +3438,7 @@ __/__/__/src/tiff/libtiff/tif_webp.o: __/__/__/src/tiff/libtiff/tif_webp.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_webp.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_webp.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_webp.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_webp.c.o
 
 __/__/__/src/tiff/libtiff/tif_webp.i: __/__/__/src/tiff/libtiff/tif_webp.c.i
@@ -3446,7 +3446,7 @@ __/__/__/src/tiff/libtiff/tif_webp.i: __/__/__/src/tiff/libtiff/tif_webp.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_webp.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_webp.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_webp.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_webp.c.i
 
 __/__/__/src/tiff/libtiff/tif_webp.s: __/__/__/src/tiff/libtiff/tif_webp.c.s
@@ -3454,7 +3454,7 @@ __/__/__/src/tiff/libtiff/tif_webp.s: __/__/__/src/tiff/libtiff/tif_webp.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_webp.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_webp.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_webp.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_webp.c.s
 
 __/__/__/src/tiff/libtiff/tif_write.o: __/__/__/src/tiff/libtiff/tif_write.c.o
@@ -3462,7 +3462,7 @@ __/__/__/src/tiff/libtiff/tif_write.o: __/__/__/src/tiff/libtiff/tif_write.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_write.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_write.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_write.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_write.c.o
 
 __/__/__/src/tiff/libtiff/tif_write.i: __/__/__/src/tiff/libtiff/tif_write.c.i
@@ -3470,7 +3470,7 @@ __/__/__/src/tiff/libtiff/tif_write.i: __/__/__/src/tiff/libtiff/tif_write.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_write.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_write.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_write.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_write.c.i
 
 __/__/__/src/tiff/libtiff/tif_write.s: __/__/__/src/tiff/libtiff/tif_write.c.s
@@ -3478,7 +3478,7 @@ __/__/__/src/tiff/libtiff/tif_write.s: __/__/__/src/tiff/libtiff/tif_write.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_write.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_write.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_write.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_write.c.s
 
 __/__/__/src/tiff/libtiff/tif_zip.o: __/__/__/src/tiff/libtiff/tif_zip.c.o
@@ -3486,7 +3486,7 @@ __/__/__/src/tiff/libtiff/tif_zip.o: __/__/__/src/tiff/libtiff/tif_zip.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_zip.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_zip.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_zip.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_zip.c.o
 
 __/__/__/src/tiff/libtiff/tif_zip.i: __/__/__/src/tiff/libtiff/tif_zip.c.i
@@ -3494,7 +3494,7 @@ __/__/__/src/tiff/libtiff/tif_zip.i: __/__/__/src/tiff/libtiff/tif_zip.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_zip.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_zip.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_zip.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_zip.c.i
 
 __/__/__/src/tiff/libtiff/tif_zip.s: __/__/__/src/tiff/libtiff/tif_zip.c.s
@@ -3502,7 +3502,7 @@ __/__/__/src/tiff/libtiff/tif_zip.s: __/__/__/src/tiff/libtiff/tif_zip.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_zip.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_zip.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_zip.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_zip.c.s
 
 __/__/__/src/tiff/libtiff/tif_zstd.o: __/__/__/src/tiff/libtiff/tif_zstd.c.o
@@ -3510,7 +3510,7 @@ __/__/__/src/tiff/libtiff/tif_zstd.o: __/__/__/src/tiff/libtiff/tif_zstd.c.o
 
 # target to build an object file
 __/__/__/src/tiff/libtiff/tif_zstd.c.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_zstd.c.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_zstd.c.o
 .PHONY : __/__/__/src/tiff/libtiff/tif_zstd.c.o
 
 __/__/__/src/tiff/libtiff/tif_zstd.i: __/__/__/src/tiff/libtiff/tif_zstd.c.i
@@ -3518,7 +3518,7 @@ __/__/__/src/tiff/libtiff/tif_zstd.i: __/__/__/src/tiff/libtiff/tif_zstd.c.i
 
 # target to preprocess a source file
 __/__/__/src/tiff/libtiff/tif_zstd.c.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_zstd.c.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_zstd.c.i
 .PHONY : __/__/__/src/tiff/libtiff/tif_zstd.c.i
 
 __/__/__/src/tiff/libtiff/tif_zstd.s: __/__/__/src/tiff/libtiff/tif_zstd.c.s
@@ -3526,7 +3526,7 @@ __/__/__/src/tiff/libtiff/tif_zstd.s: __/__/__/src/tiff/libtiff/tif_zstd.c.s
 
 # target to generate assembly for a file
 __/__/__/src/tiff/libtiff/tif_zstd.c.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_zstd.c.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/build.make dependency/wxWidgets/libs/CMakeFiles/wxtiff.dir/__/__/__/src/tiff/libtiff/tif_zstd.c.s
 .PHONY : __/__/__/src/tiff/libtiff/tif_zstd.c.s
 
 # Help Target
@@ -3970,6 +3970,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

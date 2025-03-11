@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
+CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
+CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/ribbon//CMakeFiles/progress.marks"
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/ribbon/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/ribbon//CMakeFiles/progress.marks"
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/ribbon/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/ribbon/clean
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/ribbon/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/ribbon/preinstall
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/ribbon/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/ribbon/preinstall
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/ribbon/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/rule:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/rule
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/rule
 .PHONY : dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ wxribbon: dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/rule
 
 # fast build rule for target.
 wxribbon/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build
 .PHONY : wxribbon/fast
 
 __/__/__/__/src/ribbon/art_aui.o: __/__/__/__/src/ribbon/art_aui.cpp.o
@@ -180,7 +180,7 @@ __/__/__/__/src/ribbon/art_aui.o: __/__/__/__/src/ribbon/art_aui.cpp.o
 
 # target to build an object file
 __/__/__/__/src/ribbon/art_aui.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/art_aui.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/art_aui.cpp.o
 .PHONY : __/__/__/__/src/ribbon/art_aui.cpp.o
 
 __/__/__/__/src/ribbon/art_aui.i: __/__/__/__/src/ribbon/art_aui.cpp.i
@@ -188,7 +188,7 @@ __/__/__/__/src/ribbon/art_aui.i: __/__/__/__/src/ribbon/art_aui.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/ribbon/art_aui.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/art_aui.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/art_aui.cpp.i
 .PHONY : __/__/__/__/src/ribbon/art_aui.cpp.i
 
 __/__/__/__/src/ribbon/art_aui.s: __/__/__/__/src/ribbon/art_aui.cpp.s
@@ -196,7 +196,7 @@ __/__/__/__/src/ribbon/art_aui.s: __/__/__/__/src/ribbon/art_aui.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/ribbon/art_aui.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/art_aui.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/art_aui.cpp.s
 .PHONY : __/__/__/__/src/ribbon/art_aui.cpp.s
 
 __/__/__/__/src/ribbon/art_internal.o: __/__/__/__/src/ribbon/art_internal.cpp.o
@@ -204,7 +204,7 @@ __/__/__/__/src/ribbon/art_internal.o: __/__/__/__/src/ribbon/art_internal.cpp.o
 
 # target to build an object file
 __/__/__/__/src/ribbon/art_internal.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/art_internal.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/art_internal.cpp.o
 .PHONY : __/__/__/__/src/ribbon/art_internal.cpp.o
 
 __/__/__/__/src/ribbon/art_internal.i: __/__/__/__/src/ribbon/art_internal.cpp.i
@@ -212,7 +212,7 @@ __/__/__/__/src/ribbon/art_internal.i: __/__/__/__/src/ribbon/art_internal.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/ribbon/art_internal.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/art_internal.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/art_internal.cpp.i
 .PHONY : __/__/__/__/src/ribbon/art_internal.cpp.i
 
 __/__/__/__/src/ribbon/art_internal.s: __/__/__/__/src/ribbon/art_internal.cpp.s
@@ -220,7 +220,7 @@ __/__/__/__/src/ribbon/art_internal.s: __/__/__/__/src/ribbon/art_internal.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/ribbon/art_internal.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/art_internal.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/art_internal.cpp.s
 .PHONY : __/__/__/__/src/ribbon/art_internal.cpp.s
 
 __/__/__/__/src/ribbon/art_msw.o: __/__/__/__/src/ribbon/art_msw.cpp.o
@@ -228,7 +228,7 @@ __/__/__/__/src/ribbon/art_msw.o: __/__/__/__/src/ribbon/art_msw.cpp.o
 
 # target to build an object file
 __/__/__/__/src/ribbon/art_msw.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/art_msw.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/art_msw.cpp.o
 .PHONY : __/__/__/__/src/ribbon/art_msw.cpp.o
 
 __/__/__/__/src/ribbon/art_msw.i: __/__/__/__/src/ribbon/art_msw.cpp.i
@@ -236,7 +236,7 @@ __/__/__/__/src/ribbon/art_msw.i: __/__/__/__/src/ribbon/art_msw.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/ribbon/art_msw.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/art_msw.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/art_msw.cpp.i
 .PHONY : __/__/__/__/src/ribbon/art_msw.cpp.i
 
 __/__/__/__/src/ribbon/art_msw.s: __/__/__/__/src/ribbon/art_msw.cpp.s
@@ -244,7 +244,7 @@ __/__/__/__/src/ribbon/art_msw.s: __/__/__/__/src/ribbon/art_msw.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/ribbon/art_msw.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/art_msw.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/art_msw.cpp.s
 .PHONY : __/__/__/__/src/ribbon/art_msw.cpp.s
 
 __/__/__/__/src/ribbon/bar.o: __/__/__/__/src/ribbon/bar.cpp.o
@@ -252,7 +252,7 @@ __/__/__/__/src/ribbon/bar.o: __/__/__/__/src/ribbon/bar.cpp.o
 
 # target to build an object file
 __/__/__/__/src/ribbon/bar.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/bar.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/bar.cpp.o
 .PHONY : __/__/__/__/src/ribbon/bar.cpp.o
 
 __/__/__/__/src/ribbon/bar.i: __/__/__/__/src/ribbon/bar.cpp.i
@@ -260,7 +260,7 @@ __/__/__/__/src/ribbon/bar.i: __/__/__/__/src/ribbon/bar.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/ribbon/bar.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/bar.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/bar.cpp.i
 .PHONY : __/__/__/__/src/ribbon/bar.cpp.i
 
 __/__/__/__/src/ribbon/bar.s: __/__/__/__/src/ribbon/bar.cpp.s
@@ -268,7 +268,7 @@ __/__/__/__/src/ribbon/bar.s: __/__/__/__/src/ribbon/bar.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/ribbon/bar.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/bar.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/bar.cpp.s
 .PHONY : __/__/__/__/src/ribbon/bar.cpp.s
 
 __/__/__/__/src/ribbon/buttonbar.o: __/__/__/__/src/ribbon/buttonbar.cpp.o
@@ -276,7 +276,7 @@ __/__/__/__/src/ribbon/buttonbar.o: __/__/__/__/src/ribbon/buttonbar.cpp.o
 
 # target to build an object file
 __/__/__/__/src/ribbon/buttonbar.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/buttonbar.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/buttonbar.cpp.o
 .PHONY : __/__/__/__/src/ribbon/buttonbar.cpp.o
 
 __/__/__/__/src/ribbon/buttonbar.i: __/__/__/__/src/ribbon/buttonbar.cpp.i
@@ -284,7 +284,7 @@ __/__/__/__/src/ribbon/buttonbar.i: __/__/__/__/src/ribbon/buttonbar.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/ribbon/buttonbar.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/buttonbar.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/buttonbar.cpp.i
 .PHONY : __/__/__/__/src/ribbon/buttonbar.cpp.i
 
 __/__/__/__/src/ribbon/buttonbar.s: __/__/__/__/src/ribbon/buttonbar.cpp.s
@@ -292,7 +292,7 @@ __/__/__/__/src/ribbon/buttonbar.s: __/__/__/__/src/ribbon/buttonbar.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/ribbon/buttonbar.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/buttonbar.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/buttonbar.cpp.s
 .PHONY : __/__/__/__/src/ribbon/buttonbar.cpp.s
 
 __/__/__/__/src/ribbon/control.o: __/__/__/__/src/ribbon/control.cpp.o
@@ -300,7 +300,7 @@ __/__/__/__/src/ribbon/control.o: __/__/__/__/src/ribbon/control.cpp.o
 
 # target to build an object file
 __/__/__/__/src/ribbon/control.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/control.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/control.cpp.o
 .PHONY : __/__/__/__/src/ribbon/control.cpp.o
 
 __/__/__/__/src/ribbon/control.i: __/__/__/__/src/ribbon/control.cpp.i
@@ -308,7 +308,7 @@ __/__/__/__/src/ribbon/control.i: __/__/__/__/src/ribbon/control.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/ribbon/control.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/control.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/control.cpp.i
 .PHONY : __/__/__/__/src/ribbon/control.cpp.i
 
 __/__/__/__/src/ribbon/control.s: __/__/__/__/src/ribbon/control.cpp.s
@@ -316,7 +316,7 @@ __/__/__/__/src/ribbon/control.s: __/__/__/__/src/ribbon/control.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/ribbon/control.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/control.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/control.cpp.s
 .PHONY : __/__/__/__/src/ribbon/control.cpp.s
 
 __/__/__/__/src/ribbon/gallery.o: __/__/__/__/src/ribbon/gallery.cpp.o
@@ -324,7 +324,7 @@ __/__/__/__/src/ribbon/gallery.o: __/__/__/__/src/ribbon/gallery.cpp.o
 
 # target to build an object file
 __/__/__/__/src/ribbon/gallery.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/gallery.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/gallery.cpp.o
 .PHONY : __/__/__/__/src/ribbon/gallery.cpp.o
 
 __/__/__/__/src/ribbon/gallery.i: __/__/__/__/src/ribbon/gallery.cpp.i
@@ -332,7 +332,7 @@ __/__/__/__/src/ribbon/gallery.i: __/__/__/__/src/ribbon/gallery.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/ribbon/gallery.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/gallery.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/gallery.cpp.i
 .PHONY : __/__/__/__/src/ribbon/gallery.cpp.i
 
 __/__/__/__/src/ribbon/gallery.s: __/__/__/__/src/ribbon/gallery.cpp.s
@@ -340,7 +340,7 @@ __/__/__/__/src/ribbon/gallery.s: __/__/__/__/src/ribbon/gallery.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/ribbon/gallery.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/gallery.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/gallery.cpp.s
 .PHONY : __/__/__/__/src/ribbon/gallery.cpp.s
 
 __/__/__/__/src/ribbon/page.o: __/__/__/__/src/ribbon/page.cpp.o
@@ -348,7 +348,7 @@ __/__/__/__/src/ribbon/page.o: __/__/__/__/src/ribbon/page.cpp.o
 
 # target to build an object file
 __/__/__/__/src/ribbon/page.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/page.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/page.cpp.o
 .PHONY : __/__/__/__/src/ribbon/page.cpp.o
 
 __/__/__/__/src/ribbon/page.i: __/__/__/__/src/ribbon/page.cpp.i
@@ -356,7 +356,7 @@ __/__/__/__/src/ribbon/page.i: __/__/__/__/src/ribbon/page.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/ribbon/page.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/page.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/page.cpp.i
 .PHONY : __/__/__/__/src/ribbon/page.cpp.i
 
 __/__/__/__/src/ribbon/page.s: __/__/__/__/src/ribbon/page.cpp.s
@@ -364,7 +364,7 @@ __/__/__/__/src/ribbon/page.s: __/__/__/__/src/ribbon/page.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/ribbon/page.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/page.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/page.cpp.s
 .PHONY : __/__/__/__/src/ribbon/page.cpp.s
 
 __/__/__/__/src/ribbon/panel.o: __/__/__/__/src/ribbon/panel.cpp.o
@@ -372,7 +372,7 @@ __/__/__/__/src/ribbon/panel.o: __/__/__/__/src/ribbon/panel.cpp.o
 
 # target to build an object file
 __/__/__/__/src/ribbon/panel.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/panel.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/panel.cpp.o
 .PHONY : __/__/__/__/src/ribbon/panel.cpp.o
 
 __/__/__/__/src/ribbon/panel.i: __/__/__/__/src/ribbon/panel.cpp.i
@@ -380,7 +380,7 @@ __/__/__/__/src/ribbon/panel.i: __/__/__/__/src/ribbon/panel.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/ribbon/panel.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/panel.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/panel.cpp.i
 .PHONY : __/__/__/__/src/ribbon/panel.cpp.i
 
 __/__/__/__/src/ribbon/panel.s: __/__/__/__/src/ribbon/panel.cpp.s
@@ -388,7 +388,7 @@ __/__/__/__/src/ribbon/panel.s: __/__/__/__/src/ribbon/panel.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/ribbon/panel.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/panel.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/panel.cpp.s
 .PHONY : __/__/__/__/src/ribbon/panel.cpp.s
 
 __/__/__/__/src/ribbon/toolbar.o: __/__/__/__/src/ribbon/toolbar.cpp.o
@@ -396,7 +396,7 @@ __/__/__/__/src/ribbon/toolbar.o: __/__/__/__/src/ribbon/toolbar.cpp.o
 
 # target to build an object file
 __/__/__/__/src/ribbon/toolbar.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/toolbar.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/toolbar.cpp.o
 .PHONY : __/__/__/__/src/ribbon/toolbar.cpp.o
 
 __/__/__/__/src/ribbon/toolbar.i: __/__/__/__/src/ribbon/toolbar.cpp.i
@@ -404,7 +404,7 @@ __/__/__/__/src/ribbon/toolbar.i: __/__/__/__/src/ribbon/toolbar.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/ribbon/toolbar.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/toolbar.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/toolbar.cpp.i
 .PHONY : __/__/__/__/src/ribbon/toolbar.cpp.i
 
 __/__/__/__/src/ribbon/toolbar.s: __/__/__/__/src/ribbon/toolbar.cpp.s
@@ -412,7 +412,7 @@ __/__/__/__/src/ribbon/toolbar.s: __/__/__/__/src/ribbon/toolbar.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/ribbon/toolbar.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/toolbar.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/ribbon/toolbar.cpp.s
 .PHONY : __/__/__/__/src/ribbon/toolbar.cpp.s
 
 __/__/__/__/src/xrc/xh_ribbon.o: __/__/__/__/src/xrc/xh_ribbon.cpp.o
@@ -420,7 +420,7 @@ __/__/__/__/src/xrc/xh_ribbon.o: __/__/__/__/src/xrc/xh_ribbon.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_ribbon.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/xrc/xh_ribbon.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/xrc/xh_ribbon.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_ribbon.cpp.o
 
 __/__/__/__/src/xrc/xh_ribbon.i: __/__/__/__/src/xrc/xh_ribbon.cpp.i
@@ -428,7 +428,7 @@ __/__/__/__/src/xrc/xh_ribbon.i: __/__/__/__/src/xrc/xh_ribbon.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_ribbon.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/xrc/xh_ribbon.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/xrc/xh_ribbon.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_ribbon.cpp.i
 
 __/__/__/__/src/xrc/xh_ribbon.s: __/__/__/__/src/xrc/xh_ribbon.cpp.s
@@ -436,22 +436,22 @@ __/__/__/__/src/xrc/xh_ribbon.s: __/__/__/__/src/xrc/xh_ribbon.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_ribbon.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/xrc/xh_ribbon.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/__/__/__/__/src/xrc/xh_ribbon.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_ribbon.cpp.s
 
 # target to build an object file
 cmake_pch.hxx.pch:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/cmake_pch.hxx.pch
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/cmake_pch.hxx.pch
 .PHONY : cmake_pch.hxx.pch
 
 # target to preprocess a source file
 cmake_pch.hxx.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/cmake_pch.hxx.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/cmake_pch.hxx.i
 .PHONY : cmake_pch.hxx.i
 
 # target to generate assembly for a file
 cmake_pch.hxx.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/cmake_pch.hxx.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/build.make dependency/wxWidgets/libs/ribbon/CMakeFiles/wxribbon.dir/cmake_pch.hxx.s
 .PHONY : cmake_pch.hxx.s
 
 # Help Target
@@ -514,6 +514,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

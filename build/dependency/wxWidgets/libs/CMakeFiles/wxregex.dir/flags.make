@@ -4,7 +4,7 @@
 # compile C with /usr/bin/clang
 C_DEFINES = -DHAVE_CONFIG_H -D_FILE_OFFSET_BITS=64 -D__WX__
 
-C_INCLUDES = -I"/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/lib/wx/include/osx_cocoa-unicode-3.3" -I"/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/include" -I"/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/3rdparty/pcre/src/wx"
+C_INCLUDES = -I"/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/lib/wx/include/osx_cocoa-unicode-3.3" -I"/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/include" -I"/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/3rdparty/pcre/src/wx"
 
 C_FLAGSarm64 = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fPIC -pthread
 

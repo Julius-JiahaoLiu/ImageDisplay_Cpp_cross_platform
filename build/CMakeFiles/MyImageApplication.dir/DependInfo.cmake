@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/src/Main.cpp" "CMakeFiles/MyImageApplication.dir/src/Main.cpp.o" "gcc" "CMakeFiles/MyImageApplication.dir/src/Main.cpp.o.d"
+  "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/src/Main.cpp" "CMakeFiles/MyImageApplication.dir/src/Main.cpp.o" "gcc" "CMakeFiles/MyImageApplication.dir/src/Main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

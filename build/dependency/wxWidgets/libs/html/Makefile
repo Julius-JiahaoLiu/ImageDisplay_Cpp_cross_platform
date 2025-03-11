@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
+CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
+CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/html//CMakeFiles/progress.marks"
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/html/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/html//CMakeFiles/progress.marks"
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/html/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/html/clean
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/html/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/html/preinstall
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/html/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/html/preinstall
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/html/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/rule:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/rule
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/rule
 .PHONY : dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ wxhtml: dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/rule
 
 # fast build rule for target.
 wxhtml/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build
 .PHONY : wxhtml/fast
 
 __/__/__/__/src/generic/htmllbox.o: __/__/__/__/src/generic/htmllbox.cpp.o
@@ -180,7 +180,7 @@ __/__/__/__/src/generic/htmllbox.o: __/__/__/__/src/generic/htmllbox.cpp.o
 
 # target to build an object file
 __/__/__/__/src/generic/htmllbox.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/generic/htmllbox.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/generic/htmllbox.cpp.o
 .PHONY : __/__/__/__/src/generic/htmllbox.cpp.o
 
 __/__/__/__/src/generic/htmllbox.i: __/__/__/__/src/generic/htmllbox.cpp.i
@@ -188,7 +188,7 @@ __/__/__/__/src/generic/htmllbox.i: __/__/__/__/src/generic/htmllbox.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/generic/htmllbox.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/generic/htmllbox.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/generic/htmllbox.cpp.i
 .PHONY : __/__/__/__/src/generic/htmllbox.cpp.i
 
 __/__/__/__/src/generic/htmllbox.s: __/__/__/__/src/generic/htmllbox.cpp.s
@@ -196,7 +196,7 @@ __/__/__/__/src/generic/htmllbox.s: __/__/__/__/src/generic/htmllbox.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/generic/htmllbox.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/generic/htmllbox.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/generic/htmllbox.cpp.s
 .PHONY : __/__/__/__/src/generic/htmllbox.cpp.s
 
 __/__/__/__/src/html/helpctrl.o: __/__/__/__/src/html/helpctrl.cpp.o
@@ -204,7 +204,7 @@ __/__/__/__/src/html/helpctrl.o: __/__/__/__/src/html/helpctrl.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/helpctrl.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpctrl.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpctrl.cpp.o
 .PHONY : __/__/__/__/src/html/helpctrl.cpp.o
 
 __/__/__/__/src/html/helpctrl.i: __/__/__/__/src/html/helpctrl.cpp.i
@@ -212,7 +212,7 @@ __/__/__/__/src/html/helpctrl.i: __/__/__/__/src/html/helpctrl.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/helpctrl.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpctrl.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpctrl.cpp.i
 .PHONY : __/__/__/__/src/html/helpctrl.cpp.i
 
 __/__/__/__/src/html/helpctrl.s: __/__/__/__/src/html/helpctrl.cpp.s
@@ -220,7 +220,7 @@ __/__/__/__/src/html/helpctrl.s: __/__/__/__/src/html/helpctrl.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/helpctrl.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpctrl.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpctrl.cpp.s
 .PHONY : __/__/__/__/src/html/helpctrl.cpp.s
 
 __/__/__/__/src/html/helpdata.o: __/__/__/__/src/html/helpdata.cpp.o
@@ -228,7 +228,7 @@ __/__/__/__/src/html/helpdata.o: __/__/__/__/src/html/helpdata.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/helpdata.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpdata.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpdata.cpp.o
 .PHONY : __/__/__/__/src/html/helpdata.cpp.o
 
 __/__/__/__/src/html/helpdata.i: __/__/__/__/src/html/helpdata.cpp.i
@@ -236,7 +236,7 @@ __/__/__/__/src/html/helpdata.i: __/__/__/__/src/html/helpdata.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/helpdata.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpdata.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpdata.cpp.i
 .PHONY : __/__/__/__/src/html/helpdata.cpp.i
 
 __/__/__/__/src/html/helpdata.s: __/__/__/__/src/html/helpdata.cpp.s
@@ -244,7 +244,7 @@ __/__/__/__/src/html/helpdata.s: __/__/__/__/src/html/helpdata.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/helpdata.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpdata.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpdata.cpp.s
 .PHONY : __/__/__/__/src/html/helpdata.cpp.s
 
 __/__/__/__/src/html/helpdlg.o: __/__/__/__/src/html/helpdlg.cpp.o
@@ -252,7 +252,7 @@ __/__/__/__/src/html/helpdlg.o: __/__/__/__/src/html/helpdlg.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/helpdlg.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpdlg.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpdlg.cpp.o
 .PHONY : __/__/__/__/src/html/helpdlg.cpp.o
 
 __/__/__/__/src/html/helpdlg.i: __/__/__/__/src/html/helpdlg.cpp.i
@@ -260,7 +260,7 @@ __/__/__/__/src/html/helpdlg.i: __/__/__/__/src/html/helpdlg.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/helpdlg.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpdlg.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpdlg.cpp.i
 .PHONY : __/__/__/__/src/html/helpdlg.cpp.i
 
 __/__/__/__/src/html/helpdlg.s: __/__/__/__/src/html/helpdlg.cpp.s
@@ -268,7 +268,7 @@ __/__/__/__/src/html/helpdlg.s: __/__/__/__/src/html/helpdlg.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/helpdlg.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpdlg.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpdlg.cpp.s
 .PHONY : __/__/__/__/src/html/helpdlg.cpp.s
 
 __/__/__/__/src/html/helpfrm.o: __/__/__/__/src/html/helpfrm.cpp.o
@@ -276,7 +276,7 @@ __/__/__/__/src/html/helpfrm.o: __/__/__/__/src/html/helpfrm.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/helpfrm.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpfrm.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpfrm.cpp.o
 .PHONY : __/__/__/__/src/html/helpfrm.cpp.o
 
 __/__/__/__/src/html/helpfrm.i: __/__/__/__/src/html/helpfrm.cpp.i
@@ -284,7 +284,7 @@ __/__/__/__/src/html/helpfrm.i: __/__/__/__/src/html/helpfrm.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/helpfrm.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpfrm.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpfrm.cpp.i
 .PHONY : __/__/__/__/src/html/helpfrm.cpp.i
 
 __/__/__/__/src/html/helpfrm.s: __/__/__/__/src/html/helpfrm.cpp.s
@@ -292,7 +292,7 @@ __/__/__/__/src/html/helpfrm.s: __/__/__/__/src/html/helpfrm.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/helpfrm.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpfrm.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpfrm.cpp.s
 .PHONY : __/__/__/__/src/html/helpfrm.cpp.s
 
 __/__/__/__/src/html/helpwnd.o: __/__/__/__/src/html/helpwnd.cpp.o
@@ -300,7 +300,7 @@ __/__/__/__/src/html/helpwnd.o: __/__/__/__/src/html/helpwnd.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/helpwnd.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpwnd.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpwnd.cpp.o
 .PHONY : __/__/__/__/src/html/helpwnd.cpp.o
 
 __/__/__/__/src/html/helpwnd.i: __/__/__/__/src/html/helpwnd.cpp.i
@@ -308,7 +308,7 @@ __/__/__/__/src/html/helpwnd.i: __/__/__/__/src/html/helpwnd.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/helpwnd.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpwnd.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpwnd.cpp.i
 .PHONY : __/__/__/__/src/html/helpwnd.cpp.i
 
 __/__/__/__/src/html/helpwnd.s: __/__/__/__/src/html/helpwnd.cpp.s
@@ -316,7 +316,7 @@ __/__/__/__/src/html/helpwnd.s: __/__/__/__/src/html/helpwnd.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/helpwnd.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpwnd.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/helpwnd.cpp.s
 .PHONY : __/__/__/__/src/html/helpwnd.cpp.s
 
 __/__/__/__/src/html/htmlcell.o: __/__/__/__/src/html/htmlcell.cpp.o
@@ -324,7 +324,7 @@ __/__/__/__/src/html/htmlcell.o: __/__/__/__/src/html/htmlcell.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/htmlcell.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlcell.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlcell.cpp.o
 .PHONY : __/__/__/__/src/html/htmlcell.cpp.o
 
 __/__/__/__/src/html/htmlcell.i: __/__/__/__/src/html/htmlcell.cpp.i
@@ -332,7 +332,7 @@ __/__/__/__/src/html/htmlcell.i: __/__/__/__/src/html/htmlcell.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/htmlcell.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlcell.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlcell.cpp.i
 .PHONY : __/__/__/__/src/html/htmlcell.cpp.i
 
 __/__/__/__/src/html/htmlcell.s: __/__/__/__/src/html/htmlcell.cpp.s
@@ -340,7 +340,7 @@ __/__/__/__/src/html/htmlcell.s: __/__/__/__/src/html/htmlcell.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/htmlcell.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlcell.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlcell.cpp.s
 .PHONY : __/__/__/__/src/html/htmlcell.cpp.s
 
 __/__/__/__/src/html/htmlfilt.o: __/__/__/__/src/html/htmlfilt.cpp.o
@@ -348,7 +348,7 @@ __/__/__/__/src/html/htmlfilt.o: __/__/__/__/src/html/htmlfilt.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/htmlfilt.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlfilt.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlfilt.cpp.o
 .PHONY : __/__/__/__/src/html/htmlfilt.cpp.o
 
 __/__/__/__/src/html/htmlfilt.i: __/__/__/__/src/html/htmlfilt.cpp.i
@@ -356,7 +356,7 @@ __/__/__/__/src/html/htmlfilt.i: __/__/__/__/src/html/htmlfilt.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/htmlfilt.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlfilt.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlfilt.cpp.i
 .PHONY : __/__/__/__/src/html/htmlfilt.cpp.i
 
 __/__/__/__/src/html/htmlfilt.s: __/__/__/__/src/html/htmlfilt.cpp.s
@@ -364,7 +364,7 @@ __/__/__/__/src/html/htmlfilt.s: __/__/__/__/src/html/htmlfilt.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/htmlfilt.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlfilt.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlfilt.cpp.s
 .PHONY : __/__/__/__/src/html/htmlfilt.cpp.s
 
 __/__/__/__/src/html/htmlpars.o: __/__/__/__/src/html/htmlpars.cpp.o
@@ -372,7 +372,7 @@ __/__/__/__/src/html/htmlpars.o: __/__/__/__/src/html/htmlpars.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/htmlpars.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlpars.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlpars.cpp.o
 .PHONY : __/__/__/__/src/html/htmlpars.cpp.o
 
 __/__/__/__/src/html/htmlpars.i: __/__/__/__/src/html/htmlpars.cpp.i
@@ -380,7 +380,7 @@ __/__/__/__/src/html/htmlpars.i: __/__/__/__/src/html/htmlpars.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/htmlpars.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlpars.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlpars.cpp.i
 .PHONY : __/__/__/__/src/html/htmlpars.cpp.i
 
 __/__/__/__/src/html/htmlpars.s: __/__/__/__/src/html/htmlpars.cpp.s
@@ -388,7 +388,7 @@ __/__/__/__/src/html/htmlpars.s: __/__/__/__/src/html/htmlpars.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/htmlpars.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlpars.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlpars.cpp.s
 .PHONY : __/__/__/__/src/html/htmlpars.cpp.s
 
 __/__/__/__/src/html/htmltag.o: __/__/__/__/src/html/htmltag.cpp.o
@@ -396,7 +396,7 @@ __/__/__/__/src/html/htmltag.o: __/__/__/__/src/html/htmltag.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/htmltag.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmltag.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmltag.cpp.o
 .PHONY : __/__/__/__/src/html/htmltag.cpp.o
 
 __/__/__/__/src/html/htmltag.i: __/__/__/__/src/html/htmltag.cpp.i
@@ -404,7 +404,7 @@ __/__/__/__/src/html/htmltag.i: __/__/__/__/src/html/htmltag.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/htmltag.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmltag.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmltag.cpp.i
 .PHONY : __/__/__/__/src/html/htmltag.cpp.i
 
 __/__/__/__/src/html/htmltag.s: __/__/__/__/src/html/htmltag.cpp.s
@@ -412,7 +412,7 @@ __/__/__/__/src/html/htmltag.s: __/__/__/__/src/html/htmltag.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/htmltag.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmltag.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmltag.cpp.s
 .PHONY : __/__/__/__/src/html/htmltag.cpp.s
 
 __/__/__/__/src/html/htmlwin.o: __/__/__/__/src/html/htmlwin.cpp.o
@@ -420,7 +420,7 @@ __/__/__/__/src/html/htmlwin.o: __/__/__/__/src/html/htmlwin.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/htmlwin.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlwin.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlwin.cpp.o
 .PHONY : __/__/__/__/src/html/htmlwin.cpp.o
 
 __/__/__/__/src/html/htmlwin.i: __/__/__/__/src/html/htmlwin.cpp.i
@@ -428,7 +428,7 @@ __/__/__/__/src/html/htmlwin.i: __/__/__/__/src/html/htmlwin.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/htmlwin.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlwin.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlwin.cpp.i
 .PHONY : __/__/__/__/src/html/htmlwin.cpp.i
 
 __/__/__/__/src/html/htmlwin.s: __/__/__/__/src/html/htmlwin.cpp.s
@@ -436,7 +436,7 @@ __/__/__/__/src/html/htmlwin.s: __/__/__/__/src/html/htmlwin.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/htmlwin.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlwin.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmlwin.cpp.s
 .PHONY : __/__/__/__/src/html/htmlwin.cpp.s
 
 __/__/__/__/src/html/htmprint.o: __/__/__/__/src/html/htmprint.cpp.o
@@ -444,7 +444,7 @@ __/__/__/__/src/html/htmprint.o: __/__/__/__/src/html/htmprint.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/htmprint.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmprint.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmprint.cpp.o
 .PHONY : __/__/__/__/src/html/htmprint.cpp.o
 
 __/__/__/__/src/html/htmprint.i: __/__/__/__/src/html/htmprint.cpp.i
@@ -452,7 +452,7 @@ __/__/__/__/src/html/htmprint.i: __/__/__/__/src/html/htmprint.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/htmprint.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmprint.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmprint.cpp.i
 .PHONY : __/__/__/__/src/html/htmprint.cpp.i
 
 __/__/__/__/src/html/htmprint.s: __/__/__/__/src/html/htmprint.cpp.s
@@ -460,7 +460,7 @@ __/__/__/__/src/html/htmprint.s: __/__/__/__/src/html/htmprint.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/htmprint.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmprint.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/htmprint.cpp.s
 .PHONY : __/__/__/__/src/html/htmprint.cpp.s
 
 __/__/__/__/src/html/m_dflist.o: __/__/__/__/src/html/m_dflist.cpp.o
@@ -468,7 +468,7 @@ __/__/__/__/src/html/m_dflist.o: __/__/__/__/src/html/m_dflist.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/m_dflist.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_dflist.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_dflist.cpp.o
 .PHONY : __/__/__/__/src/html/m_dflist.cpp.o
 
 __/__/__/__/src/html/m_dflist.i: __/__/__/__/src/html/m_dflist.cpp.i
@@ -476,7 +476,7 @@ __/__/__/__/src/html/m_dflist.i: __/__/__/__/src/html/m_dflist.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/m_dflist.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_dflist.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_dflist.cpp.i
 .PHONY : __/__/__/__/src/html/m_dflist.cpp.i
 
 __/__/__/__/src/html/m_dflist.s: __/__/__/__/src/html/m_dflist.cpp.s
@@ -484,7 +484,7 @@ __/__/__/__/src/html/m_dflist.s: __/__/__/__/src/html/m_dflist.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/m_dflist.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_dflist.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_dflist.cpp.s
 .PHONY : __/__/__/__/src/html/m_dflist.cpp.s
 
 __/__/__/__/src/html/m_fonts.o: __/__/__/__/src/html/m_fonts.cpp.o
@@ -492,7 +492,7 @@ __/__/__/__/src/html/m_fonts.o: __/__/__/__/src/html/m_fonts.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/m_fonts.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_fonts.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_fonts.cpp.o
 .PHONY : __/__/__/__/src/html/m_fonts.cpp.o
 
 __/__/__/__/src/html/m_fonts.i: __/__/__/__/src/html/m_fonts.cpp.i
@@ -500,7 +500,7 @@ __/__/__/__/src/html/m_fonts.i: __/__/__/__/src/html/m_fonts.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/m_fonts.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_fonts.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_fonts.cpp.i
 .PHONY : __/__/__/__/src/html/m_fonts.cpp.i
 
 __/__/__/__/src/html/m_fonts.s: __/__/__/__/src/html/m_fonts.cpp.s
@@ -508,7 +508,7 @@ __/__/__/__/src/html/m_fonts.s: __/__/__/__/src/html/m_fonts.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/m_fonts.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_fonts.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_fonts.cpp.s
 .PHONY : __/__/__/__/src/html/m_fonts.cpp.s
 
 __/__/__/__/src/html/m_hline.o: __/__/__/__/src/html/m_hline.cpp.o
@@ -516,7 +516,7 @@ __/__/__/__/src/html/m_hline.o: __/__/__/__/src/html/m_hline.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/m_hline.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_hline.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_hline.cpp.o
 .PHONY : __/__/__/__/src/html/m_hline.cpp.o
 
 __/__/__/__/src/html/m_hline.i: __/__/__/__/src/html/m_hline.cpp.i
@@ -524,7 +524,7 @@ __/__/__/__/src/html/m_hline.i: __/__/__/__/src/html/m_hline.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/m_hline.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_hline.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_hline.cpp.i
 .PHONY : __/__/__/__/src/html/m_hline.cpp.i
 
 __/__/__/__/src/html/m_hline.s: __/__/__/__/src/html/m_hline.cpp.s
@@ -532,7 +532,7 @@ __/__/__/__/src/html/m_hline.s: __/__/__/__/src/html/m_hline.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/m_hline.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_hline.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_hline.cpp.s
 .PHONY : __/__/__/__/src/html/m_hline.cpp.s
 
 __/__/__/__/src/html/m_image.o: __/__/__/__/src/html/m_image.cpp.o
@@ -540,7 +540,7 @@ __/__/__/__/src/html/m_image.o: __/__/__/__/src/html/m_image.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/m_image.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_image.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_image.cpp.o
 .PHONY : __/__/__/__/src/html/m_image.cpp.o
 
 __/__/__/__/src/html/m_image.i: __/__/__/__/src/html/m_image.cpp.i
@@ -548,7 +548,7 @@ __/__/__/__/src/html/m_image.i: __/__/__/__/src/html/m_image.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/m_image.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_image.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_image.cpp.i
 .PHONY : __/__/__/__/src/html/m_image.cpp.i
 
 __/__/__/__/src/html/m_image.s: __/__/__/__/src/html/m_image.cpp.s
@@ -556,7 +556,7 @@ __/__/__/__/src/html/m_image.s: __/__/__/__/src/html/m_image.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/m_image.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_image.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_image.cpp.s
 .PHONY : __/__/__/__/src/html/m_image.cpp.s
 
 __/__/__/__/src/html/m_layout.o: __/__/__/__/src/html/m_layout.cpp.o
@@ -564,7 +564,7 @@ __/__/__/__/src/html/m_layout.o: __/__/__/__/src/html/m_layout.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/m_layout.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_layout.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_layout.cpp.o
 .PHONY : __/__/__/__/src/html/m_layout.cpp.o
 
 __/__/__/__/src/html/m_layout.i: __/__/__/__/src/html/m_layout.cpp.i
@@ -572,7 +572,7 @@ __/__/__/__/src/html/m_layout.i: __/__/__/__/src/html/m_layout.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/m_layout.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_layout.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_layout.cpp.i
 .PHONY : __/__/__/__/src/html/m_layout.cpp.i
 
 __/__/__/__/src/html/m_layout.s: __/__/__/__/src/html/m_layout.cpp.s
@@ -580,7 +580,7 @@ __/__/__/__/src/html/m_layout.s: __/__/__/__/src/html/m_layout.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/m_layout.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_layout.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_layout.cpp.s
 .PHONY : __/__/__/__/src/html/m_layout.cpp.s
 
 __/__/__/__/src/html/m_links.o: __/__/__/__/src/html/m_links.cpp.o
@@ -588,7 +588,7 @@ __/__/__/__/src/html/m_links.o: __/__/__/__/src/html/m_links.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/m_links.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_links.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_links.cpp.o
 .PHONY : __/__/__/__/src/html/m_links.cpp.o
 
 __/__/__/__/src/html/m_links.i: __/__/__/__/src/html/m_links.cpp.i
@@ -596,7 +596,7 @@ __/__/__/__/src/html/m_links.i: __/__/__/__/src/html/m_links.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/m_links.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_links.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_links.cpp.i
 .PHONY : __/__/__/__/src/html/m_links.cpp.i
 
 __/__/__/__/src/html/m_links.s: __/__/__/__/src/html/m_links.cpp.s
@@ -604,7 +604,7 @@ __/__/__/__/src/html/m_links.s: __/__/__/__/src/html/m_links.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/m_links.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_links.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_links.cpp.s
 .PHONY : __/__/__/__/src/html/m_links.cpp.s
 
 __/__/__/__/src/html/m_list.o: __/__/__/__/src/html/m_list.cpp.o
@@ -612,7 +612,7 @@ __/__/__/__/src/html/m_list.o: __/__/__/__/src/html/m_list.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/m_list.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_list.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_list.cpp.o
 .PHONY : __/__/__/__/src/html/m_list.cpp.o
 
 __/__/__/__/src/html/m_list.i: __/__/__/__/src/html/m_list.cpp.i
@@ -620,7 +620,7 @@ __/__/__/__/src/html/m_list.i: __/__/__/__/src/html/m_list.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/m_list.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_list.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_list.cpp.i
 .PHONY : __/__/__/__/src/html/m_list.cpp.i
 
 __/__/__/__/src/html/m_list.s: __/__/__/__/src/html/m_list.cpp.s
@@ -628,7 +628,7 @@ __/__/__/__/src/html/m_list.s: __/__/__/__/src/html/m_list.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/m_list.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_list.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_list.cpp.s
 .PHONY : __/__/__/__/src/html/m_list.cpp.s
 
 __/__/__/__/src/html/m_pre.o: __/__/__/__/src/html/m_pre.cpp.o
@@ -636,7 +636,7 @@ __/__/__/__/src/html/m_pre.o: __/__/__/__/src/html/m_pre.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/m_pre.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_pre.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_pre.cpp.o
 .PHONY : __/__/__/__/src/html/m_pre.cpp.o
 
 __/__/__/__/src/html/m_pre.i: __/__/__/__/src/html/m_pre.cpp.i
@@ -644,7 +644,7 @@ __/__/__/__/src/html/m_pre.i: __/__/__/__/src/html/m_pre.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/m_pre.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_pre.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_pre.cpp.i
 .PHONY : __/__/__/__/src/html/m_pre.cpp.i
 
 __/__/__/__/src/html/m_pre.s: __/__/__/__/src/html/m_pre.cpp.s
@@ -652,7 +652,7 @@ __/__/__/__/src/html/m_pre.s: __/__/__/__/src/html/m_pre.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/m_pre.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_pre.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_pre.cpp.s
 .PHONY : __/__/__/__/src/html/m_pre.cpp.s
 
 __/__/__/__/src/html/m_span.o: __/__/__/__/src/html/m_span.cpp.o
@@ -660,7 +660,7 @@ __/__/__/__/src/html/m_span.o: __/__/__/__/src/html/m_span.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/m_span.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_span.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_span.cpp.o
 .PHONY : __/__/__/__/src/html/m_span.cpp.o
 
 __/__/__/__/src/html/m_span.i: __/__/__/__/src/html/m_span.cpp.i
@@ -668,7 +668,7 @@ __/__/__/__/src/html/m_span.i: __/__/__/__/src/html/m_span.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/m_span.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_span.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_span.cpp.i
 .PHONY : __/__/__/__/src/html/m_span.cpp.i
 
 __/__/__/__/src/html/m_span.s: __/__/__/__/src/html/m_span.cpp.s
@@ -676,7 +676,7 @@ __/__/__/__/src/html/m_span.s: __/__/__/__/src/html/m_span.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/m_span.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_span.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_span.cpp.s
 .PHONY : __/__/__/__/src/html/m_span.cpp.s
 
 __/__/__/__/src/html/m_style.o: __/__/__/__/src/html/m_style.cpp.o
@@ -684,7 +684,7 @@ __/__/__/__/src/html/m_style.o: __/__/__/__/src/html/m_style.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/m_style.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_style.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_style.cpp.o
 .PHONY : __/__/__/__/src/html/m_style.cpp.o
 
 __/__/__/__/src/html/m_style.i: __/__/__/__/src/html/m_style.cpp.i
@@ -692,7 +692,7 @@ __/__/__/__/src/html/m_style.i: __/__/__/__/src/html/m_style.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/m_style.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_style.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_style.cpp.i
 .PHONY : __/__/__/__/src/html/m_style.cpp.i
 
 __/__/__/__/src/html/m_style.s: __/__/__/__/src/html/m_style.cpp.s
@@ -700,7 +700,7 @@ __/__/__/__/src/html/m_style.s: __/__/__/__/src/html/m_style.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/m_style.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_style.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_style.cpp.s
 .PHONY : __/__/__/__/src/html/m_style.cpp.s
 
 __/__/__/__/src/html/m_tables.o: __/__/__/__/src/html/m_tables.cpp.o
@@ -708,7 +708,7 @@ __/__/__/__/src/html/m_tables.o: __/__/__/__/src/html/m_tables.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/m_tables.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_tables.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_tables.cpp.o
 .PHONY : __/__/__/__/src/html/m_tables.cpp.o
 
 __/__/__/__/src/html/m_tables.i: __/__/__/__/src/html/m_tables.cpp.i
@@ -716,7 +716,7 @@ __/__/__/__/src/html/m_tables.i: __/__/__/__/src/html/m_tables.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/m_tables.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_tables.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_tables.cpp.i
 .PHONY : __/__/__/__/src/html/m_tables.cpp.i
 
 __/__/__/__/src/html/m_tables.s: __/__/__/__/src/html/m_tables.cpp.s
@@ -724,7 +724,7 @@ __/__/__/__/src/html/m_tables.s: __/__/__/__/src/html/m_tables.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/m_tables.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_tables.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/m_tables.cpp.s
 .PHONY : __/__/__/__/src/html/m_tables.cpp.s
 
 __/__/__/__/src/html/styleparams.o: __/__/__/__/src/html/styleparams.cpp.o
@@ -732,7 +732,7 @@ __/__/__/__/src/html/styleparams.o: __/__/__/__/src/html/styleparams.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/styleparams.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/styleparams.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/styleparams.cpp.o
 .PHONY : __/__/__/__/src/html/styleparams.cpp.o
 
 __/__/__/__/src/html/styleparams.i: __/__/__/__/src/html/styleparams.cpp.i
@@ -740,7 +740,7 @@ __/__/__/__/src/html/styleparams.i: __/__/__/__/src/html/styleparams.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/styleparams.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/styleparams.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/styleparams.cpp.i
 .PHONY : __/__/__/__/src/html/styleparams.cpp.i
 
 __/__/__/__/src/html/styleparams.s: __/__/__/__/src/html/styleparams.cpp.s
@@ -748,7 +748,7 @@ __/__/__/__/src/html/styleparams.s: __/__/__/__/src/html/styleparams.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/styleparams.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/styleparams.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/styleparams.cpp.s
 .PHONY : __/__/__/__/src/html/styleparams.cpp.s
 
 __/__/__/__/src/html/winpars.o: __/__/__/__/src/html/winpars.cpp.o
@@ -756,7 +756,7 @@ __/__/__/__/src/html/winpars.o: __/__/__/__/src/html/winpars.cpp.o
 
 # target to build an object file
 __/__/__/__/src/html/winpars.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/winpars.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/winpars.cpp.o
 .PHONY : __/__/__/__/src/html/winpars.cpp.o
 
 __/__/__/__/src/html/winpars.i: __/__/__/__/src/html/winpars.cpp.i
@@ -764,7 +764,7 @@ __/__/__/__/src/html/winpars.i: __/__/__/__/src/html/winpars.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/html/winpars.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/winpars.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/winpars.cpp.i
 .PHONY : __/__/__/__/src/html/winpars.cpp.i
 
 __/__/__/__/src/html/winpars.s: __/__/__/__/src/html/winpars.cpp.s
@@ -772,22 +772,22 @@ __/__/__/__/src/html/winpars.s: __/__/__/__/src/html/winpars.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/html/winpars.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/winpars.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/__/__/__/__/src/html/winpars.cpp.s
 .PHONY : __/__/__/__/src/html/winpars.cpp.s
 
 # target to build an object file
 cmake_pch.hxx.pch:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/cmake_pch.hxx.pch
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/cmake_pch.hxx.pch
 .PHONY : cmake_pch.hxx.pch
 
 # target to preprocess a source file
 cmake_pch.hxx.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/cmake_pch.hxx.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/cmake_pch.hxx.i
 .PHONY : cmake_pch.hxx.i
 
 # target to generate assembly for a file
 cmake_pch.hxx.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/cmake_pch.hxx.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/build.make dependency/wxWidgets/libs/html/CMakeFiles/wxhtml.dir/cmake_pch.hxx.s
 .PHONY : cmake_pch.hxx.s
 
 # Help Target
@@ -892,6 +892,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

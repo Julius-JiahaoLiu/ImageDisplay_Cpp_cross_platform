@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
+CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
+CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/xrc//CMakeFiles/progress.marks"
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/xrc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/xrc//CMakeFiles/progress.marks"
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/xrc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/xrc/clean
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/xrc/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/xrc/preinstall
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/xrc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/xrc/preinstall
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/xrc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/rule:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/rule
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/rule
 .PHONY : dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ wxxrc: dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/rule
 
 # fast build rule for target.
 wxxrc/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build
 .PHONY : wxxrc/fast
 
 __/__/__/__/src/xrc/xh_activityindicator.o: __/__/__/__/src/xrc/xh_activityindicator.cpp.o
@@ -180,7 +180,7 @@ __/__/__/__/src/xrc/xh_activityindicator.o: __/__/__/__/src/xrc/xh_activityindic
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_activityindicator.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_activityindicator.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_activityindicator.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_activityindicator.cpp.o
 
 __/__/__/__/src/xrc/xh_activityindicator.i: __/__/__/__/src/xrc/xh_activityindicator.cpp.i
@@ -188,7 +188,7 @@ __/__/__/__/src/xrc/xh_activityindicator.i: __/__/__/__/src/xrc/xh_activityindic
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_activityindicator.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_activityindicator.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_activityindicator.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_activityindicator.cpp.i
 
 __/__/__/__/src/xrc/xh_activityindicator.s: __/__/__/__/src/xrc/xh_activityindicator.cpp.s
@@ -196,7 +196,7 @@ __/__/__/__/src/xrc/xh_activityindicator.s: __/__/__/__/src/xrc/xh_activityindic
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_activityindicator.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_activityindicator.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_activityindicator.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_activityindicator.cpp.s
 
 __/__/__/__/src/xrc/xh_animatctrl.o: __/__/__/__/src/xrc/xh_animatctrl.cpp.o
@@ -204,7 +204,7 @@ __/__/__/__/src/xrc/xh_animatctrl.o: __/__/__/__/src/xrc/xh_animatctrl.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_animatctrl.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_animatctrl.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_animatctrl.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_animatctrl.cpp.o
 
 __/__/__/__/src/xrc/xh_animatctrl.i: __/__/__/__/src/xrc/xh_animatctrl.cpp.i
@@ -212,7 +212,7 @@ __/__/__/__/src/xrc/xh_animatctrl.i: __/__/__/__/src/xrc/xh_animatctrl.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_animatctrl.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_animatctrl.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_animatctrl.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_animatctrl.cpp.i
 
 __/__/__/__/src/xrc/xh_animatctrl.s: __/__/__/__/src/xrc/xh_animatctrl.cpp.s
@@ -220,7 +220,7 @@ __/__/__/__/src/xrc/xh_animatctrl.s: __/__/__/__/src/xrc/xh_animatctrl.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_animatctrl.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_animatctrl.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_animatctrl.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_animatctrl.cpp.s
 
 __/__/__/__/src/xrc/xh_bannerwindow.o: __/__/__/__/src/xrc/xh_bannerwindow.cpp.o
@@ -228,7 +228,7 @@ __/__/__/__/src/xrc/xh_bannerwindow.o: __/__/__/__/src/xrc/xh_bannerwindow.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_bannerwindow.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bannerwindow.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bannerwindow.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_bannerwindow.cpp.o
 
 __/__/__/__/src/xrc/xh_bannerwindow.i: __/__/__/__/src/xrc/xh_bannerwindow.cpp.i
@@ -236,7 +236,7 @@ __/__/__/__/src/xrc/xh_bannerwindow.i: __/__/__/__/src/xrc/xh_bannerwindow.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_bannerwindow.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bannerwindow.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bannerwindow.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_bannerwindow.cpp.i
 
 __/__/__/__/src/xrc/xh_bannerwindow.s: __/__/__/__/src/xrc/xh_bannerwindow.cpp.s
@@ -244,7 +244,7 @@ __/__/__/__/src/xrc/xh_bannerwindow.s: __/__/__/__/src/xrc/xh_bannerwindow.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_bannerwindow.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bannerwindow.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bannerwindow.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_bannerwindow.cpp.s
 
 __/__/__/__/src/xrc/xh_bmp.o: __/__/__/__/src/xrc/xh_bmp.cpp.o
@@ -252,7 +252,7 @@ __/__/__/__/src/xrc/xh_bmp.o: __/__/__/__/src/xrc/xh_bmp.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_bmp.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bmp.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bmp.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_bmp.cpp.o
 
 __/__/__/__/src/xrc/xh_bmp.i: __/__/__/__/src/xrc/xh_bmp.cpp.i
@@ -260,7 +260,7 @@ __/__/__/__/src/xrc/xh_bmp.i: __/__/__/__/src/xrc/xh_bmp.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_bmp.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bmp.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bmp.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_bmp.cpp.i
 
 __/__/__/__/src/xrc/xh_bmp.s: __/__/__/__/src/xrc/xh_bmp.cpp.s
@@ -268,7 +268,7 @@ __/__/__/__/src/xrc/xh_bmp.s: __/__/__/__/src/xrc/xh_bmp.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_bmp.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bmp.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bmp.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_bmp.cpp.s
 
 __/__/__/__/src/xrc/xh_bmpbt.o: __/__/__/__/src/xrc/xh_bmpbt.cpp.o
@@ -276,7 +276,7 @@ __/__/__/__/src/xrc/xh_bmpbt.o: __/__/__/__/src/xrc/xh_bmpbt.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_bmpbt.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bmpbt.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bmpbt.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_bmpbt.cpp.o
 
 __/__/__/__/src/xrc/xh_bmpbt.i: __/__/__/__/src/xrc/xh_bmpbt.cpp.i
@@ -284,7 +284,7 @@ __/__/__/__/src/xrc/xh_bmpbt.i: __/__/__/__/src/xrc/xh_bmpbt.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_bmpbt.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bmpbt.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bmpbt.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_bmpbt.cpp.i
 
 __/__/__/__/src/xrc/xh_bmpbt.s: __/__/__/__/src/xrc/xh_bmpbt.cpp.s
@@ -292,7 +292,7 @@ __/__/__/__/src/xrc/xh_bmpbt.s: __/__/__/__/src/xrc/xh_bmpbt.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_bmpbt.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bmpbt.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bmpbt.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_bmpbt.cpp.s
 
 __/__/__/__/src/xrc/xh_bmpcbox.o: __/__/__/__/src/xrc/xh_bmpcbox.cpp.o
@@ -300,7 +300,7 @@ __/__/__/__/src/xrc/xh_bmpcbox.o: __/__/__/__/src/xrc/xh_bmpcbox.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_bmpcbox.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bmpcbox.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bmpcbox.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_bmpcbox.cpp.o
 
 __/__/__/__/src/xrc/xh_bmpcbox.i: __/__/__/__/src/xrc/xh_bmpcbox.cpp.i
@@ -308,7 +308,7 @@ __/__/__/__/src/xrc/xh_bmpcbox.i: __/__/__/__/src/xrc/xh_bmpcbox.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_bmpcbox.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bmpcbox.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bmpcbox.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_bmpcbox.cpp.i
 
 __/__/__/__/src/xrc/xh_bmpcbox.s: __/__/__/__/src/xrc/xh_bmpcbox.cpp.s
@@ -316,7 +316,7 @@ __/__/__/__/src/xrc/xh_bmpcbox.s: __/__/__/__/src/xrc/xh_bmpcbox.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_bmpcbox.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bmpcbox.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bmpcbox.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_bmpcbox.cpp.s
 
 __/__/__/__/src/xrc/xh_bookctrlbase.o: __/__/__/__/src/xrc/xh_bookctrlbase.cpp.o
@@ -324,7 +324,7 @@ __/__/__/__/src/xrc/xh_bookctrlbase.o: __/__/__/__/src/xrc/xh_bookctrlbase.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_bookctrlbase.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bookctrlbase.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bookctrlbase.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_bookctrlbase.cpp.o
 
 __/__/__/__/src/xrc/xh_bookctrlbase.i: __/__/__/__/src/xrc/xh_bookctrlbase.cpp.i
@@ -332,7 +332,7 @@ __/__/__/__/src/xrc/xh_bookctrlbase.i: __/__/__/__/src/xrc/xh_bookctrlbase.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_bookctrlbase.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bookctrlbase.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bookctrlbase.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_bookctrlbase.cpp.i
 
 __/__/__/__/src/xrc/xh_bookctrlbase.s: __/__/__/__/src/xrc/xh_bookctrlbase.cpp.s
@@ -340,7 +340,7 @@ __/__/__/__/src/xrc/xh_bookctrlbase.s: __/__/__/__/src/xrc/xh_bookctrlbase.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_bookctrlbase.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bookctrlbase.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bookctrlbase.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_bookctrlbase.cpp.s
 
 __/__/__/__/src/xrc/xh_bttn.o: __/__/__/__/src/xrc/xh_bttn.cpp.o
@@ -348,7 +348,7 @@ __/__/__/__/src/xrc/xh_bttn.o: __/__/__/__/src/xrc/xh_bttn.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_bttn.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bttn.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bttn.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_bttn.cpp.o
 
 __/__/__/__/src/xrc/xh_bttn.i: __/__/__/__/src/xrc/xh_bttn.cpp.i
@@ -356,7 +356,7 @@ __/__/__/__/src/xrc/xh_bttn.i: __/__/__/__/src/xrc/xh_bttn.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_bttn.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bttn.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bttn.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_bttn.cpp.i
 
 __/__/__/__/src/xrc/xh_bttn.s: __/__/__/__/src/xrc/xh_bttn.cpp.s
@@ -364,7 +364,7 @@ __/__/__/__/src/xrc/xh_bttn.s: __/__/__/__/src/xrc/xh_bttn.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_bttn.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bttn.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_bttn.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_bttn.cpp.s
 
 __/__/__/__/src/xrc/xh_cald.o: __/__/__/__/src/xrc/xh_cald.cpp.o
@@ -372,7 +372,7 @@ __/__/__/__/src/xrc/xh_cald.o: __/__/__/__/src/xrc/xh_cald.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_cald.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_cald.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_cald.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_cald.cpp.o
 
 __/__/__/__/src/xrc/xh_cald.i: __/__/__/__/src/xrc/xh_cald.cpp.i
@@ -380,7 +380,7 @@ __/__/__/__/src/xrc/xh_cald.i: __/__/__/__/src/xrc/xh_cald.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_cald.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_cald.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_cald.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_cald.cpp.i
 
 __/__/__/__/src/xrc/xh_cald.s: __/__/__/__/src/xrc/xh_cald.cpp.s
@@ -388,7 +388,7 @@ __/__/__/__/src/xrc/xh_cald.s: __/__/__/__/src/xrc/xh_cald.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_cald.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_cald.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_cald.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_cald.cpp.s
 
 __/__/__/__/src/xrc/xh_chckb.o: __/__/__/__/src/xrc/xh_chckb.cpp.o
@@ -396,7 +396,7 @@ __/__/__/__/src/xrc/xh_chckb.o: __/__/__/__/src/xrc/xh_chckb.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_chckb.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_chckb.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_chckb.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_chckb.cpp.o
 
 __/__/__/__/src/xrc/xh_chckb.i: __/__/__/__/src/xrc/xh_chckb.cpp.i
@@ -404,7 +404,7 @@ __/__/__/__/src/xrc/xh_chckb.i: __/__/__/__/src/xrc/xh_chckb.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_chckb.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_chckb.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_chckb.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_chckb.cpp.i
 
 __/__/__/__/src/xrc/xh_chckb.s: __/__/__/__/src/xrc/xh_chckb.cpp.s
@@ -412,7 +412,7 @@ __/__/__/__/src/xrc/xh_chckb.s: __/__/__/__/src/xrc/xh_chckb.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_chckb.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_chckb.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_chckb.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_chckb.cpp.s
 
 __/__/__/__/src/xrc/xh_chckl.o: __/__/__/__/src/xrc/xh_chckl.cpp.o
@@ -420,7 +420,7 @@ __/__/__/__/src/xrc/xh_chckl.o: __/__/__/__/src/xrc/xh_chckl.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_chckl.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_chckl.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_chckl.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_chckl.cpp.o
 
 __/__/__/__/src/xrc/xh_chckl.i: __/__/__/__/src/xrc/xh_chckl.cpp.i
@@ -428,7 +428,7 @@ __/__/__/__/src/xrc/xh_chckl.i: __/__/__/__/src/xrc/xh_chckl.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_chckl.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_chckl.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_chckl.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_chckl.cpp.i
 
 __/__/__/__/src/xrc/xh_chckl.s: __/__/__/__/src/xrc/xh_chckl.cpp.s
@@ -436,7 +436,7 @@ __/__/__/__/src/xrc/xh_chckl.s: __/__/__/__/src/xrc/xh_chckl.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_chckl.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_chckl.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_chckl.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_chckl.cpp.s
 
 __/__/__/__/src/xrc/xh_choic.o: __/__/__/__/src/xrc/xh_choic.cpp.o
@@ -444,7 +444,7 @@ __/__/__/__/src/xrc/xh_choic.o: __/__/__/__/src/xrc/xh_choic.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_choic.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_choic.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_choic.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_choic.cpp.o
 
 __/__/__/__/src/xrc/xh_choic.i: __/__/__/__/src/xrc/xh_choic.cpp.i
@@ -452,7 +452,7 @@ __/__/__/__/src/xrc/xh_choic.i: __/__/__/__/src/xrc/xh_choic.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_choic.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_choic.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_choic.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_choic.cpp.i
 
 __/__/__/__/src/xrc/xh_choic.s: __/__/__/__/src/xrc/xh_choic.cpp.s
@@ -460,7 +460,7 @@ __/__/__/__/src/xrc/xh_choic.s: __/__/__/__/src/xrc/xh_choic.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_choic.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_choic.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_choic.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_choic.cpp.s
 
 __/__/__/__/src/xrc/xh_choicbk.o: __/__/__/__/src/xrc/xh_choicbk.cpp.o
@@ -468,7 +468,7 @@ __/__/__/__/src/xrc/xh_choicbk.o: __/__/__/__/src/xrc/xh_choicbk.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_choicbk.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_choicbk.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_choicbk.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_choicbk.cpp.o
 
 __/__/__/__/src/xrc/xh_choicbk.i: __/__/__/__/src/xrc/xh_choicbk.cpp.i
@@ -476,7 +476,7 @@ __/__/__/__/src/xrc/xh_choicbk.i: __/__/__/__/src/xrc/xh_choicbk.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_choicbk.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_choicbk.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_choicbk.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_choicbk.cpp.i
 
 __/__/__/__/src/xrc/xh_choicbk.s: __/__/__/__/src/xrc/xh_choicbk.cpp.s
@@ -484,7 +484,7 @@ __/__/__/__/src/xrc/xh_choicbk.s: __/__/__/__/src/xrc/xh_choicbk.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_choicbk.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_choicbk.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_choicbk.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_choicbk.cpp.s
 
 __/__/__/__/src/xrc/xh_clrpicker.o: __/__/__/__/src/xrc/xh_clrpicker.cpp.o
@@ -492,7 +492,7 @@ __/__/__/__/src/xrc/xh_clrpicker.o: __/__/__/__/src/xrc/xh_clrpicker.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_clrpicker.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_clrpicker.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_clrpicker.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_clrpicker.cpp.o
 
 __/__/__/__/src/xrc/xh_clrpicker.i: __/__/__/__/src/xrc/xh_clrpicker.cpp.i
@@ -500,7 +500,7 @@ __/__/__/__/src/xrc/xh_clrpicker.i: __/__/__/__/src/xrc/xh_clrpicker.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_clrpicker.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_clrpicker.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_clrpicker.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_clrpicker.cpp.i
 
 __/__/__/__/src/xrc/xh_clrpicker.s: __/__/__/__/src/xrc/xh_clrpicker.cpp.s
@@ -508,7 +508,7 @@ __/__/__/__/src/xrc/xh_clrpicker.s: __/__/__/__/src/xrc/xh_clrpicker.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_clrpicker.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_clrpicker.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_clrpicker.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_clrpicker.cpp.s
 
 __/__/__/__/src/xrc/xh_cmdlinkbn.o: __/__/__/__/src/xrc/xh_cmdlinkbn.cpp.o
@@ -516,7 +516,7 @@ __/__/__/__/src/xrc/xh_cmdlinkbn.o: __/__/__/__/src/xrc/xh_cmdlinkbn.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_cmdlinkbn.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_cmdlinkbn.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_cmdlinkbn.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_cmdlinkbn.cpp.o
 
 __/__/__/__/src/xrc/xh_cmdlinkbn.i: __/__/__/__/src/xrc/xh_cmdlinkbn.cpp.i
@@ -524,7 +524,7 @@ __/__/__/__/src/xrc/xh_cmdlinkbn.i: __/__/__/__/src/xrc/xh_cmdlinkbn.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_cmdlinkbn.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_cmdlinkbn.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_cmdlinkbn.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_cmdlinkbn.cpp.i
 
 __/__/__/__/src/xrc/xh_cmdlinkbn.s: __/__/__/__/src/xrc/xh_cmdlinkbn.cpp.s
@@ -532,7 +532,7 @@ __/__/__/__/src/xrc/xh_cmdlinkbn.s: __/__/__/__/src/xrc/xh_cmdlinkbn.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_cmdlinkbn.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_cmdlinkbn.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_cmdlinkbn.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_cmdlinkbn.cpp.s
 
 __/__/__/__/src/xrc/xh_collpane.o: __/__/__/__/src/xrc/xh_collpane.cpp.o
@@ -540,7 +540,7 @@ __/__/__/__/src/xrc/xh_collpane.o: __/__/__/__/src/xrc/xh_collpane.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_collpane.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_collpane.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_collpane.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_collpane.cpp.o
 
 __/__/__/__/src/xrc/xh_collpane.i: __/__/__/__/src/xrc/xh_collpane.cpp.i
@@ -548,7 +548,7 @@ __/__/__/__/src/xrc/xh_collpane.i: __/__/__/__/src/xrc/xh_collpane.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_collpane.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_collpane.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_collpane.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_collpane.cpp.i
 
 __/__/__/__/src/xrc/xh_collpane.s: __/__/__/__/src/xrc/xh_collpane.cpp.s
@@ -556,7 +556,7 @@ __/__/__/__/src/xrc/xh_collpane.s: __/__/__/__/src/xrc/xh_collpane.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_collpane.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_collpane.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_collpane.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_collpane.cpp.s
 
 __/__/__/__/src/xrc/xh_combo.o: __/__/__/__/src/xrc/xh_combo.cpp.o
@@ -564,7 +564,7 @@ __/__/__/__/src/xrc/xh_combo.o: __/__/__/__/src/xrc/xh_combo.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_combo.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_combo.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_combo.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_combo.cpp.o
 
 __/__/__/__/src/xrc/xh_combo.i: __/__/__/__/src/xrc/xh_combo.cpp.i
@@ -572,7 +572,7 @@ __/__/__/__/src/xrc/xh_combo.i: __/__/__/__/src/xrc/xh_combo.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_combo.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_combo.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_combo.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_combo.cpp.i
 
 __/__/__/__/src/xrc/xh_combo.s: __/__/__/__/src/xrc/xh_combo.cpp.s
@@ -580,7 +580,7 @@ __/__/__/__/src/xrc/xh_combo.s: __/__/__/__/src/xrc/xh_combo.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_combo.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_combo.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_combo.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_combo.cpp.s
 
 __/__/__/__/src/xrc/xh_comboctrl.o: __/__/__/__/src/xrc/xh_comboctrl.cpp.o
@@ -588,7 +588,7 @@ __/__/__/__/src/xrc/xh_comboctrl.o: __/__/__/__/src/xrc/xh_comboctrl.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_comboctrl.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_comboctrl.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_comboctrl.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_comboctrl.cpp.o
 
 __/__/__/__/src/xrc/xh_comboctrl.i: __/__/__/__/src/xrc/xh_comboctrl.cpp.i
@@ -596,7 +596,7 @@ __/__/__/__/src/xrc/xh_comboctrl.i: __/__/__/__/src/xrc/xh_comboctrl.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_comboctrl.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_comboctrl.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_comboctrl.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_comboctrl.cpp.i
 
 __/__/__/__/src/xrc/xh_comboctrl.s: __/__/__/__/src/xrc/xh_comboctrl.cpp.s
@@ -604,7 +604,7 @@ __/__/__/__/src/xrc/xh_comboctrl.s: __/__/__/__/src/xrc/xh_comboctrl.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_comboctrl.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_comboctrl.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_comboctrl.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_comboctrl.cpp.s
 
 __/__/__/__/src/xrc/xh_dataview.o: __/__/__/__/src/xrc/xh_dataview.cpp.o
@@ -612,7 +612,7 @@ __/__/__/__/src/xrc/xh_dataview.o: __/__/__/__/src/xrc/xh_dataview.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_dataview.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_dataview.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_dataview.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_dataview.cpp.o
 
 __/__/__/__/src/xrc/xh_dataview.i: __/__/__/__/src/xrc/xh_dataview.cpp.i
@@ -620,7 +620,7 @@ __/__/__/__/src/xrc/xh_dataview.i: __/__/__/__/src/xrc/xh_dataview.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_dataview.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_dataview.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_dataview.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_dataview.cpp.i
 
 __/__/__/__/src/xrc/xh_dataview.s: __/__/__/__/src/xrc/xh_dataview.cpp.s
@@ -628,7 +628,7 @@ __/__/__/__/src/xrc/xh_dataview.s: __/__/__/__/src/xrc/xh_dataview.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_dataview.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_dataview.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_dataview.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_dataview.cpp.s
 
 __/__/__/__/src/xrc/xh_datectrl.o: __/__/__/__/src/xrc/xh_datectrl.cpp.o
@@ -636,7 +636,7 @@ __/__/__/__/src/xrc/xh_datectrl.o: __/__/__/__/src/xrc/xh_datectrl.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_datectrl.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_datectrl.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_datectrl.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_datectrl.cpp.o
 
 __/__/__/__/src/xrc/xh_datectrl.i: __/__/__/__/src/xrc/xh_datectrl.cpp.i
@@ -644,7 +644,7 @@ __/__/__/__/src/xrc/xh_datectrl.i: __/__/__/__/src/xrc/xh_datectrl.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_datectrl.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_datectrl.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_datectrl.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_datectrl.cpp.i
 
 __/__/__/__/src/xrc/xh_datectrl.s: __/__/__/__/src/xrc/xh_datectrl.cpp.s
@@ -652,7 +652,7 @@ __/__/__/__/src/xrc/xh_datectrl.s: __/__/__/__/src/xrc/xh_datectrl.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_datectrl.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_datectrl.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_datectrl.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_datectrl.cpp.s
 
 __/__/__/__/src/xrc/xh_dirpicker.o: __/__/__/__/src/xrc/xh_dirpicker.cpp.o
@@ -660,7 +660,7 @@ __/__/__/__/src/xrc/xh_dirpicker.o: __/__/__/__/src/xrc/xh_dirpicker.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_dirpicker.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_dirpicker.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_dirpicker.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_dirpicker.cpp.o
 
 __/__/__/__/src/xrc/xh_dirpicker.i: __/__/__/__/src/xrc/xh_dirpicker.cpp.i
@@ -668,7 +668,7 @@ __/__/__/__/src/xrc/xh_dirpicker.i: __/__/__/__/src/xrc/xh_dirpicker.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_dirpicker.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_dirpicker.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_dirpicker.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_dirpicker.cpp.i
 
 __/__/__/__/src/xrc/xh_dirpicker.s: __/__/__/__/src/xrc/xh_dirpicker.cpp.s
@@ -676,7 +676,7 @@ __/__/__/__/src/xrc/xh_dirpicker.s: __/__/__/__/src/xrc/xh_dirpicker.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_dirpicker.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_dirpicker.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_dirpicker.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_dirpicker.cpp.s
 
 __/__/__/__/src/xrc/xh_dlg.o: __/__/__/__/src/xrc/xh_dlg.cpp.o
@@ -684,7 +684,7 @@ __/__/__/__/src/xrc/xh_dlg.o: __/__/__/__/src/xrc/xh_dlg.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_dlg.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_dlg.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_dlg.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_dlg.cpp.o
 
 __/__/__/__/src/xrc/xh_dlg.i: __/__/__/__/src/xrc/xh_dlg.cpp.i
@@ -692,7 +692,7 @@ __/__/__/__/src/xrc/xh_dlg.i: __/__/__/__/src/xrc/xh_dlg.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_dlg.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_dlg.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_dlg.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_dlg.cpp.i
 
 __/__/__/__/src/xrc/xh_dlg.s: __/__/__/__/src/xrc/xh_dlg.cpp.s
@@ -700,7 +700,7 @@ __/__/__/__/src/xrc/xh_dlg.s: __/__/__/__/src/xrc/xh_dlg.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_dlg.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_dlg.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_dlg.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_dlg.cpp.s
 
 __/__/__/__/src/xrc/xh_editlbox.o: __/__/__/__/src/xrc/xh_editlbox.cpp.o
@@ -708,7 +708,7 @@ __/__/__/__/src/xrc/xh_editlbox.o: __/__/__/__/src/xrc/xh_editlbox.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_editlbox.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_editlbox.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_editlbox.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_editlbox.cpp.o
 
 __/__/__/__/src/xrc/xh_editlbox.i: __/__/__/__/src/xrc/xh_editlbox.cpp.i
@@ -716,7 +716,7 @@ __/__/__/__/src/xrc/xh_editlbox.i: __/__/__/__/src/xrc/xh_editlbox.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_editlbox.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_editlbox.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_editlbox.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_editlbox.cpp.i
 
 __/__/__/__/src/xrc/xh_editlbox.s: __/__/__/__/src/xrc/xh_editlbox.cpp.s
@@ -724,7 +724,7 @@ __/__/__/__/src/xrc/xh_editlbox.s: __/__/__/__/src/xrc/xh_editlbox.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_editlbox.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_editlbox.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_editlbox.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_editlbox.cpp.s
 
 __/__/__/__/src/xrc/xh_filectrl.o: __/__/__/__/src/xrc/xh_filectrl.cpp.o
@@ -732,7 +732,7 @@ __/__/__/__/src/xrc/xh_filectrl.o: __/__/__/__/src/xrc/xh_filectrl.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_filectrl.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_filectrl.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_filectrl.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_filectrl.cpp.o
 
 __/__/__/__/src/xrc/xh_filectrl.i: __/__/__/__/src/xrc/xh_filectrl.cpp.i
@@ -740,7 +740,7 @@ __/__/__/__/src/xrc/xh_filectrl.i: __/__/__/__/src/xrc/xh_filectrl.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_filectrl.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_filectrl.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_filectrl.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_filectrl.cpp.i
 
 __/__/__/__/src/xrc/xh_filectrl.s: __/__/__/__/src/xrc/xh_filectrl.cpp.s
@@ -748,7 +748,7 @@ __/__/__/__/src/xrc/xh_filectrl.s: __/__/__/__/src/xrc/xh_filectrl.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_filectrl.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_filectrl.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_filectrl.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_filectrl.cpp.s
 
 __/__/__/__/src/xrc/xh_filepicker.o: __/__/__/__/src/xrc/xh_filepicker.cpp.o
@@ -756,7 +756,7 @@ __/__/__/__/src/xrc/xh_filepicker.o: __/__/__/__/src/xrc/xh_filepicker.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_filepicker.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_filepicker.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_filepicker.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_filepicker.cpp.o
 
 __/__/__/__/src/xrc/xh_filepicker.i: __/__/__/__/src/xrc/xh_filepicker.cpp.i
@@ -764,7 +764,7 @@ __/__/__/__/src/xrc/xh_filepicker.i: __/__/__/__/src/xrc/xh_filepicker.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_filepicker.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_filepicker.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_filepicker.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_filepicker.cpp.i
 
 __/__/__/__/src/xrc/xh_filepicker.s: __/__/__/__/src/xrc/xh_filepicker.cpp.s
@@ -772,7 +772,7 @@ __/__/__/__/src/xrc/xh_filepicker.s: __/__/__/__/src/xrc/xh_filepicker.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_filepicker.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_filepicker.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_filepicker.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_filepicker.cpp.s
 
 __/__/__/__/src/xrc/xh_fontpicker.o: __/__/__/__/src/xrc/xh_fontpicker.cpp.o
@@ -780,7 +780,7 @@ __/__/__/__/src/xrc/xh_fontpicker.o: __/__/__/__/src/xrc/xh_fontpicker.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_fontpicker.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_fontpicker.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_fontpicker.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_fontpicker.cpp.o
 
 __/__/__/__/src/xrc/xh_fontpicker.i: __/__/__/__/src/xrc/xh_fontpicker.cpp.i
@@ -788,7 +788,7 @@ __/__/__/__/src/xrc/xh_fontpicker.i: __/__/__/__/src/xrc/xh_fontpicker.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_fontpicker.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_fontpicker.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_fontpicker.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_fontpicker.cpp.i
 
 __/__/__/__/src/xrc/xh_fontpicker.s: __/__/__/__/src/xrc/xh_fontpicker.cpp.s
@@ -796,7 +796,7 @@ __/__/__/__/src/xrc/xh_fontpicker.s: __/__/__/__/src/xrc/xh_fontpicker.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_fontpicker.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_fontpicker.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_fontpicker.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_fontpicker.cpp.s
 
 __/__/__/__/src/xrc/xh_frame.o: __/__/__/__/src/xrc/xh_frame.cpp.o
@@ -804,7 +804,7 @@ __/__/__/__/src/xrc/xh_frame.o: __/__/__/__/src/xrc/xh_frame.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_frame.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_frame.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_frame.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_frame.cpp.o
 
 __/__/__/__/src/xrc/xh_frame.i: __/__/__/__/src/xrc/xh_frame.cpp.i
@@ -812,7 +812,7 @@ __/__/__/__/src/xrc/xh_frame.i: __/__/__/__/src/xrc/xh_frame.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_frame.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_frame.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_frame.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_frame.cpp.i
 
 __/__/__/__/src/xrc/xh_frame.s: __/__/__/__/src/xrc/xh_frame.cpp.s
@@ -820,7 +820,7 @@ __/__/__/__/src/xrc/xh_frame.s: __/__/__/__/src/xrc/xh_frame.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_frame.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_frame.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_frame.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_frame.cpp.s
 
 __/__/__/__/src/xrc/xh_gauge.o: __/__/__/__/src/xrc/xh_gauge.cpp.o
@@ -828,7 +828,7 @@ __/__/__/__/src/xrc/xh_gauge.o: __/__/__/__/src/xrc/xh_gauge.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_gauge.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_gauge.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_gauge.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_gauge.cpp.o
 
 __/__/__/__/src/xrc/xh_gauge.i: __/__/__/__/src/xrc/xh_gauge.cpp.i
@@ -836,7 +836,7 @@ __/__/__/__/src/xrc/xh_gauge.i: __/__/__/__/src/xrc/xh_gauge.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_gauge.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_gauge.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_gauge.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_gauge.cpp.i
 
 __/__/__/__/src/xrc/xh_gauge.s: __/__/__/__/src/xrc/xh_gauge.cpp.s
@@ -844,7 +844,7 @@ __/__/__/__/src/xrc/xh_gauge.s: __/__/__/__/src/xrc/xh_gauge.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_gauge.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_gauge.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_gauge.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_gauge.cpp.s
 
 __/__/__/__/src/xrc/xh_gdctl.o: __/__/__/__/src/xrc/xh_gdctl.cpp.o
@@ -852,7 +852,7 @@ __/__/__/__/src/xrc/xh_gdctl.o: __/__/__/__/src/xrc/xh_gdctl.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_gdctl.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_gdctl.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_gdctl.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_gdctl.cpp.o
 
 __/__/__/__/src/xrc/xh_gdctl.i: __/__/__/__/src/xrc/xh_gdctl.cpp.i
@@ -860,7 +860,7 @@ __/__/__/__/src/xrc/xh_gdctl.i: __/__/__/__/src/xrc/xh_gdctl.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_gdctl.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_gdctl.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_gdctl.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_gdctl.cpp.i
 
 __/__/__/__/src/xrc/xh_gdctl.s: __/__/__/__/src/xrc/xh_gdctl.cpp.s
@@ -868,7 +868,7 @@ __/__/__/__/src/xrc/xh_gdctl.s: __/__/__/__/src/xrc/xh_gdctl.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_gdctl.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_gdctl.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_gdctl.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_gdctl.cpp.s
 
 __/__/__/__/src/xrc/xh_grid.o: __/__/__/__/src/xrc/xh_grid.cpp.o
@@ -876,7 +876,7 @@ __/__/__/__/src/xrc/xh_grid.o: __/__/__/__/src/xrc/xh_grid.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_grid.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_grid.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_grid.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_grid.cpp.o
 
 __/__/__/__/src/xrc/xh_grid.i: __/__/__/__/src/xrc/xh_grid.cpp.i
@@ -884,7 +884,7 @@ __/__/__/__/src/xrc/xh_grid.i: __/__/__/__/src/xrc/xh_grid.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_grid.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_grid.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_grid.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_grid.cpp.i
 
 __/__/__/__/src/xrc/xh_grid.s: __/__/__/__/src/xrc/xh_grid.cpp.s
@@ -892,7 +892,7 @@ __/__/__/__/src/xrc/xh_grid.s: __/__/__/__/src/xrc/xh_grid.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_grid.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_grid.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_grid.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_grid.cpp.s
 
 __/__/__/__/src/xrc/xh_html.o: __/__/__/__/src/xrc/xh_html.cpp.o
@@ -900,7 +900,7 @@ __/__/__/__/src/xrc/xh_html.o: __/__/__/__/src/xrc/xh_html.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_html.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_html.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_html.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_html.cpp.o
 
 __/__/__/__/src/xrc/xh_html.i: __/__/__/__/src/xrc/xh_html.cpp.i
@@ -908,7 +908,7 @@ __/__/__/__/src/xrc/xh_html.i: __/__/__/__/src/xrc/xh_html.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_html.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_html.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_html.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_html.cpp.i
 
 __/__/__/__/src/xrc/xh_html.s: __/__/__/__/src/xrc/xh_html.cpp.s
@@ -916,7 +916,7 @@ __/__/__/__/src/xrc/xh_html.s: __/__/__/__/src/xrc/xh_html.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_html.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_html.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_html.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_html.cpp.s
 
 __/__/__/__/src/xrc/xh_htmllbox.o: __/__/__/__/src/xrc/xh_htmllbox.cpp.o
@@ -924,7 +924,7 @@ __/__/__/__/src/xrc/xh_htmllbox.o: __/__/__/__/src/xrc/xh_htmllbox.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_htmllbox.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_htmllbox.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_htmllbox.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_htmllbox.cpp.o
 
 __/__/__/__/src/xrc/xh_htmllbox.i: __/__/__/__/src/xrc/xh_htmllbox.cpp.i
@@ -932,7 +932,7 @@ __/__/__/__/src/xrc/xh_htmllbox.i: __/__/__/__/src/xrc/xh_htmllbox.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_htmllbox.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_htmllbox.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_htmllbox.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_htmllbox.cpp.i
 
 __/__/__/__/src/xrc/xh_htmllbox.s: __/__/__/__/src/xrc/xh_htmllbox.cpp.s
@@ -940,7 +940,7 @@ __/__/__/__/src/xrc/xh_htmllbox.s: __/__/__/__/src/xrc/xh_htmllbox.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_htmllbox.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_htmllbox.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_htmllbox.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_htmllbox.cpp.s
 
 __/__/__/__/src/xrc/xh_hyperlink.o: __/__/__/__/src/xrc/xh_hyperlink.cpp.o
@@ -948,7 +948,7 @@ __/__/__/__/src/xrc/xh_hyperlink.o: __/__/__/__/src/xrc/xh_hyperlink.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_hyperlink.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_hyperlink.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_hyperlink.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_hyperlink.cpp.o
 
 __/__/__/__/src/xrc/xh_hyperlink.i: __/__/__/__/src/xrc/xh_hyperlink.cpp.i
@@ -956,7 +956,7 @@ __/__/__/__/src/xrc/xh_hyperlink.i: __/__/__/__/src/xrc/xh_hyperlink.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_hyperlink.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_hyperlink.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_hyperlink.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_hyperlink.cpp.i
 
 __/__/__/__/src/xrc/xh_hyperlink.s: __/__/__/__/src/xrc/xh_hyperlink.cpp.s
@@ -964,7 +964,7 @@ __/__/__/__/src/xrc/xh_hyperlink.s: __/__/__/__/src/xrc/xh_hyperlink.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_hyperlink.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_hyperlink.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_hyperlink.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_hyperlink.cpp.s
 
 __/__/__/__/src/xrc/xh_infobar.o: __/__/__/__/src/xrc/xh_infobar.cpp.o
@@ -972,7 +972,7 @@ __/__/__/__/src/xrc/xh_infobar.o: __/__/__/__/src/xrc/xh_infobar.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_infobar.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_infobar.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_infobar.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_infobar.cpp.o
 
 __/__/__/__/src/xrc/xh_infobar.i: __/__/__/__/src/xrc/xh_infobar.cpp.i
@@ -980,7 +980,7 @@ __/__/__/__/src/xrc/xh_infobar.i: __/__/__/__/src/xrc/xh_infobar.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_infobar.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_infobar.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_infobar.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_infobar.cpp.i
 
 __/__/__/__/src/xrc/xh_infobar.s: __/__/__/__/src/xrc/xh_infobar.cpp.s
@@ -988,7 +988,7 @@ __/__/__/__/src/xrc/xh_infobar.s: __/__/__/__/src/xrc/xh_infobar.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_infobar.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_infobar.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_infobar.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_infobar.cpp.s
 
 __/__/__/__/src/xrc/xh_listb.o: __/__/__/__/src/xrc/xh_listb.cpp.o
@@ -996,7 +996,7 @@ __/__/__/__/src/xrc/xh_listb.o: __/__/__/__/src/xrc/xh_listb.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_listb.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_listb.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_listb.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_listb.cpp.o
 
 __/__/__/__/src/xrc/xh_listb.i: __/__/__/__/src/xrc/xh_listb.cpp.i
@@ -1004,7 +1004,7 @@ __/__/__/__/src/xrc/xh_listb.i: __/__/__/__/src/xrc/xh_listb.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_listb.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_listb.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_listb.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_listb.cpp.i
 
 __/__/__/__/src/xrc/xh_listb.s: __/__/__/__/src/xrc/xh_listb.cpp.s
@@ -1012,7 +1012,7 @@ __/__/__/__/src/xrc/xh_listb.s: __/__/__/__/src/xrc/xh_listb.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_listb.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_listb.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_listb.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_listb.cpp.s
 
 __/__/__/__/src/xrc/xh_listbk.o: __/__/__/__/src/xrc/xh_listbk.cpp.o
@@ -1020,7 +1020,7 @@ __/__/__/__/src/xrc/xh_listbk.o: __/__/__/__/src/xrc/xh_listbk.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_listbk.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_listbk.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_listbk.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_listbk.cpp.o
 
 __/__/__/__/src/xrc/xh_listbk.i: __/__/__/__/src/xrc/xh_listbk.cpp.i
@@ -1028,7 +1028,7 @@ __/__/__/__/src/xrc/xh_listbk.i: __/__/__/__/src/xrc/xh_listbk.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_listbk.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_listbk.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_listbk.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_listbk.cpp.i
 
 __/__/__/__/src/xrc/xh_listbk.s: __/__/__/__/src/xrc/xh_listbk.cpp.s
@@ -1036,7 +1036,7 @@ __/__/__/__/src/xrc/xh_listbk.s: __/__/__/__/src/xrc/xh_listbk.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_listbk.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_listbk.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_listbk.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_listbk.cpp.s
 
 __/__/__/__/src/xrc/xh_listc.o: __/__/__/__/src/xrc/xh_listc.cpp.o
@@ -1044,7 +1044,7 @@ __/__/__/__/src/xrc/xh_listc.o: __/__/__/__/src/xrc/xh_listc.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_listc.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_listc.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_listc.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_listc.cpp.o
 
 __/__/__/__/src/xrc/xh_listc.i: __/__/__/__/src/xrc/xh_listc.cpp.i
@@ -1052,7 +1052,7 @@ __/__/__/__/src/xrc/xh_listc.i: __/__/__/__/src/xrc/xh_listc.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_listc.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_listc.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_listc.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_listc.cpp.i
 
 __/__/__/__/src/xrc/xh_listc.s: __/__/__/__/src/xrc/xh_listc.cpp.s
@@ -1060,7 +1060,7 @@ __/__/__/__/src/xrc/xh_listc.s: __/__/__/__/src/xrc/xh_listc.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_listc.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_listc.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_listc.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_listc.cpp.s
 
 __/__/__/__/src/xrc/xh_mdi.o: __/__/__/__/src/xrc/xh_mdi.cpp.o
@@ -1068,7 +1068,7 @@ __/__/__/__/src/xrc/xh_mdi.o: __/__/__/__/src/xrc/xh_mdi.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_mdi.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_mdi.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_mdi.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_mdi.cpp.o
 
 __/__/__/__/src/xrc/xh_mdi.i: __/__/__/__/src/xrc/xh_mdi.cpp.i
@@ -1076,7 +1076,7 @@ __/__/__/__/src/xrc/xh_mdi.i: __/__/__/__/src/xrc/xh_mdi.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_mdi.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_mdi.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_mdi.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_mdi.cpp.i
 
 __/__/__/__/src/xrc/xh_mdi.s: __/__/__/__/src/xrc/xh_mdi.cpp.s
@@ -1084,7 +1084,7 @@ __/__/__/__/src/xrc/xh_mdi.s: __/__/__/__/src/xrc/xh_mdi.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_mdi.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_mdi.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_mdi.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_mdi.cpp.s
 
 __/__/__/__/src/xrc/xh_menu.o: __/__/__/__/src/xrc/xh_menu.cpp.o
@@ -1092,7 +1092,7 @@ __/__/__/__/src/xrc/xh_menu.o: __/__/__/__/src/xrc/xh_menu.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_menu.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_menu.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_menu.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_menu.cpp.o
 
 __/__/__/__/src/xrc/xh_menu.i: __/__/__/__/src/xrc/xh_menu.cpp.i
@@ -1100,7 +1100,7 @@ __/__/__/__/src/xrc/xh_menu.i: __/__/__/__/src/xrc/xh_menu.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_menu.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_menu.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_menu.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_menu.cpp.i
 
 __/__/__/__/src/xrc/xh_menu.s: __/__/__/__/src/xrc/xh_menu.cpp.s
@@ -1108,7 +1108,7 @@ __/__/__/__/src/xrc/xh_menu.s: __/__/__/__/src/xrc/xh_menu.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_menu.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_menu.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_menu.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_menu.cpp.s
 
 __/__/__/__/src/xrc/xh_notbk.o: __/__/__/__/src/xrc/xh_notbk.cpp.o
@@ -1116,7 +1116,7 @@ __/__/__/__/src/xrc/xh_notbk.o: __/__/__/__/src/xrc/xh_notbk.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_notbk.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_notbk.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_notbk.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_notbk.cpp.o
 
 __/__/__/__/src/xrc/xh_notbk.i: __/__/__/__/src/xrc/xh_notbk.cpp.i
@@ -1124,7 +1124,7 @@ __/__/__/__/src/xrc/xh_notbk.i: __/__/__/__/src/xrc/xh_notbk.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_notbk.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_notbk.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_notbk.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_notbk.cpp.i
 
 __/__/__/__/src/xrc/xh_notbk.s: __/__/__/__/src/xrc/xh_notbk.cpp.s
@@ -1132,7 +1132,7 @@ __/__/__/__/src/xrc/xh_notbk.s: __/__/__/__/src/xrc/xh_notbk.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_notbk.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_notbk.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_notbk.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_notbk.cpp.s
 
 __/__/__/__/src/xrc/xh_odcombo.o: __/__/__/__/src/xrc/xh_odcombo.cpp.o
@@ -1140,7 +1140,7 @@ __/__/__/__/src/xrc/xh_odcombo.o: __/__/__/__/src/xrc/xh_odcombo.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_odcombo.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_odcombo.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_odcombo.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_odcombo.cpp.o
 
 __/__/__/__/src/xrc/xh_odcombo.i: __/__/__/__/src/xrc/xh_odcombo.cpp.i
@@ -1148,7 +1148,7 @@ __/__/__/__/src/xrc/xh_odcombo.i: __/__/__/__/src/xrc/xh_odcombo.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_odcombo.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_odcombo.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_odcombo.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_odcombo.cpp.i
 
 __/__/__/__/src/xrc/xh_odcombo.s: __/__/__/__/src/xrc/xh_odcombo.cpp.s
@@ -1156,7 +1156,7 @@ __/__/__/__/src/xrc/xh_odcombo.s: __/__/__/__/src/xrc/xh_odcombo.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_odcombo.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_odcombo.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_odcombo.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_odcombo.cpp.s
 
 __/__/__/__/src/xrc/xh_panel.o: __/__/__/__/src/xrc/xh_panel.cpp.o
@@ -1164,7 +1164,7 @@ __/__/__/__/src/xrc/xh_panel.o: __/__/__/__/src/xrc/xh_panel.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_panel.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_panel.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_panel.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_panel.cpp.o
 
 __/__/__/__/src/xrc/xh_panel.i: __/__/__/__/src/xrc/xh_panel.cpp.i
@@ -1172,7 +1172,7 @@ __/__/__/__/src/xrc/xh_panel.i: __/__/__/__/src/xrc/xh_panel.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_panel.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_panel.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_panel.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_panel.cpp.i
 
 __/__/__/__/src/xrc/xh_panel.s: __/__/__/__/src/xrc/xh_panel.cpp.s
@@ -1180,7 +1180,7 @@ __/__/__/__/src/xrc/xh_panel.s: __/__/__/__/src/xrc/xh_panel.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_panel.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_panel.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_panel.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_panel.cpp.s
 
 __/__/__/__/src/xrc/xh_propdlg.o: __/__/__/__/src/xrc/xh_propdlg.cpp.o
@@ -1188,7 +1188,7 @@ __/__/__/__/src/xrc/xh_propdlg.o: __/__/__/__/src/xrc/xh_propdlg.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_propdlg.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_propdlg.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_propdlg.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_propdlg.cpp.o
 
 __/__/__/__/src/xrc/xh_propdlg.i: __/__/__/__/src/xrc/xh_propdlg.cpp.i
@@ -1196,7 +1196,7 @@ __/__/__/__/src/xrc/xh_propdlg.i: __/__/__/__/src/xrc/xh_propdlg.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_propdlg.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_propdlg.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_propdlg.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_propdlg.cpp.i
 
 __/__/__/__/src/xrc/xh_propdlg.s: __/__/__/__/src/xrc/xh_propdlg.cpp.s
@@ -1204,7 +1204,7 @@ __/__/__/__/src/xrc/xh_propdlg.s: __/__/__/__/src/xrc/xh_propdlg.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_propdlg.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_propdlg.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_propdlg.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_propdlg.cpp.s
 
 __/__/__/__/src/xrc/xh_radbt.o: __/__/__/__/src/xrc/xh_radbt.cpp.o
@@ -1212,7 +1212,7 @@ __/__/__/__/src/xrc/xh_radbt.o: __/__/__/__/src/xrc/xh_radbt.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_radbt.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_radbt.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_radbt.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_radbt.cpp.o
 
 __/__/__/__/src/xrc/xh_radbt.i: __/__/__/__/src/xrc/xh_radbt.cpp.i
@@ -1220,7 +1220,7 @@ __/__/__/__/src/xrc/xh_radbt.i: __/__/__/__/src/xrc/xh_radbt.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_radbt.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_radbt.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_radbt.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_radbt.cpp.i
 
 __/__/__/__/src/xrc/xh_radbt.s: __/__/__/__/src/xrc/xh_radbt.cpp.s
@@ -1228,7 +1228,7 @@ __/__/__/__/src/xrc/xh_radbt.s: __/__/__/__/src/xrc/xh_radbt.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_radbt.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_radbt.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_radbt.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_radbt.cpp.s
 
 __/__/__/__/src/xrc/xh_radbx.o: __/__/__/__/src/xrc/xh_radbx.cpp.o
@@ -1236,7 +1236,7 @@ __/__/__/__/src/xrc/xh_radbx.o: __/__/__/__/src/xrc/xh_radbx.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_radbx.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_radbx.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_radbx.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_radbx.cpp.o
 
 __/__/__/__/src/xrc/xh_radbx.i: __/__/__/__/src/xrc/xh_radbx.cpp.i
@@ -1244,7 +1244,7 @@ __/__/__/__/src/xrc/xh_radbx.i: __/__/__/__/src/xrc/xh_radbx.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_radbx.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_radbx.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_radbx.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_radbx.cpp.i
 
 __/__/__/__/src/xrc/xh_radbx.s: __/__/__/__/src/xrc/xh_radbx.cpp.s
@@ -1252,7 +1252,7 @@ __/__/__/__/src/xrc/xh_radbx.s: __/__/__/__/src/xrc/xh_radbx.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_radbx.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_radbx.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_radbx.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_radbx.cpp.s
 
 __/__/__/__/src/xrc/xh_scrol.o: __/__/__/__/src/xrc/xh_scrol.cpp.o
@@ -1260,7 +1260,7 @@ __/__/__/__/src/xrc/xh_scrol.o: __/__/__/__/src/xrc/xh_scrol.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_scrol.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_scrol.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_scrol.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_scrol.cpp.o
 
 __/__/__/__/src/xrc/xh_scrol.i: __/__/__/__/src/xrc/xh_scrol.cpp.i
@@ -1268,7 +1268,7 @@ __/__/__/__/src/xrc/xh_scrol.i: __/__/__/__/src/xrc/xh_scrol.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_scrol.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_scrol.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_scrol.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_scrol.cpp.i
 
 __/__/__/__/src/xrc/xh_scrol.s: __/__/__/__/src/xrc/xh_scrol.cpp.s
@@ -1276,7 +1276,7 @@ __/__/__/__/src/xrc/xh_scrol.s: __/__/__/__/src/xrc/xh_scrol.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_scrol.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_scrol.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_scrol.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_scrol.cpp.s
 
 __/__/__/__/src/xrc/xh_scwin.o: __/__/__/__/src/xrc/xh_scwin.cpp.o
@@ -1284,7 +1284,7 @@ __/__/__/__/src/xrc/xh_scwin.o: __/__/__/__/src/xrc/xh_scwin.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_scwin.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_scwin.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_scwin.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_scwin.cpp.o
 
 __/__/__/__/src/xrc/xh_scwin.i: __/__/__/__/src/xrc/xh_scwin.cpp.i
@@ -1292,7 +1292,7 @@ __/__/__/__/src/xrc/xh_scwin.i: __/__/__/__/src/xrc/xh_scwin.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_scwin.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_scwin.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_scwin.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_scwin.cpp.i
 
 __/__/__/__/src/xrc/xh_scwin.s: __/__/__/__/src/xrc/xh_scwin.cpp.s
@@ -1300,7 +1300,7 @@ __/__/__/__/src/xrc/xh_scwin.s: __/__/__/__/src/xrc/xh_scwin.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_scwin.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_scwin.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_scwin.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_scwin.cpp.s
 
 __/__/__/__/src/xrc/xh_simplebook.o: __/__/__/__/src/xrc/xh_simplebook.cpp.o
@@ -1308,7 +1308,7 @@ __/__/__/__/src/xrc/xh_simplebook.o: __/__/__/__/src/xrc/xh_simplebook.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_simplebook.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_simplebook.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_simplebook.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_simplebook.cpp.o
 
 __/__/__/__/src/xrc/xh_simplebook.i: __/__/__/__/src/xrc/xh_simplebook.cpp.i
@@ -1316,7 +1316,7 @@ __/__/__/__/src/xrc/xh_simplebook.i: __/__/__/__/src/xrc/xh_simplebook.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_simplebook.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_simplebook.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_simplebook.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_simplebook.cpp.i
 
 __/__/__/__/src/xrc/xh_simplebook.s: __/__/__/__/src/xrc/xh_simplebook.cpp.s
@@ -1324,7 +1324,7 @@ __/__/__/__/src/xrc/xh_simplebook.s: __/__/__/__/src/xrc/xh_simplebook.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_simplebook.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_simplebook.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_simplebook.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_simplebook.cpp.s
 
 __/__/__/__/src/xrc/xh_sizer.o: __/__/__/__/src/xrc/xh_sizer.cpp.o
@@ -1332,7 +1332,7 @@ __/__/__/__/src/xrc/xh_sizer.o: __/__/__/__/src/xrc/xh_sizer.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_sizer.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_sizer.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_sizer.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_sizer.cpp.o
 
 __/__/__/__/src/xrc/xh_sizer.i: __/__/__/__/src/xrc/xh_sizer.cpp.i
@@ -1340,7 +1340,7 @@ __/__/__/__/src/xrc/xh_sizer.i: __/__/__/__/src/xrc/xh_sizer.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_sizer.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_sizer.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_sizer.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_sizer.cpp.i
 
 __/__/__/__/src/xrc/xh_sizer.s: __/__/__/__/src/xrc/xh_sizer.cpp.s
@@ -1348,7 +1348,7 @@ __/__/__/__/src/xrc/xh_sizer.s: __/__/__/__/src/xrc/xh_sizer.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_sizer.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_sizer.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_sizer.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_sizer.cpp.s
 
 __/__/__/__/src/xrc/xh_slidr.o: __/__/__/__/src/xrc/xh_slidr.cpp.o
@@ -1356,7 +1356,7 @@ __/__/__/__/src/xrc/xh_slidr.o: __/__/__/__/src/xrc/xh_slidr.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_slidr.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_slidr.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_slidr.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_slidr.cpp.o
 
 __/__/__/__/src/xrc/xh_slidr.i: __/__/__/__/src/xrc/xh_slidr.cpp.i
@@ -1364,7 +1364,7 @@ __/__/__/__/src/xrc/xh_slidr.i: __/__/__/__/src/xrc/xh_slidr.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_slidr.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_slidr.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_slidr.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_slidr.cpp.i
 
 __/__/__/__/src/xrc/xh_slidr.s: __/__/__/__/src/xrc/xh_slidr.cpp.s
@@ -1372,7 +1372,7 @@ __/__/__/__/src/xrc/xh_slidr.s: __/__/__/__/src/xrc/xh_slidr.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_slidr.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_slidr.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_slidr.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_slidr.cpp.s
 
 __/__/__/__/src/xrc/xh_spin.o: __/__/__/__/src/xrc/xh_spin.cpp.o
@@ -1380,7 +1380,7 @@ __/__/__/__/src/xrc/xh_spin.o: __/__/__/__/src/xrc/xh_spin.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_spin.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_spin.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_spin.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_spin.cpp.o
 
 __/__/__/__/src/xrc/xh_spin.i: __/__/__/__/src/xrc/xh_spin.cpp.i
@@ -1388,7 +1388,7 @@ __/__/__/__/src/xrc/xh_spin.i: __/__/__/__/src/xrc/xh_spin.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_spin.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_spin.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_spin.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_spin.cpp.i
 
 __/__/__/__/src/xrc/xh_spin.s: __/__/__/__/src/xrc/xh_spin.cpp.s
@@ -1396,7 +1396,7 @@ __/__/__/__/src/xrc/xh_spin.s: __/__/__/__/src/xrc/xh_spin.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_spin.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_spin.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_spin.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_spin.cpp.s
 
 __/__/__/__/src/xrc/xh_split.o: __/__/__/__/src/xrc/xh_split.cpp.o
@@ -1404,7 +1404,7 @@ __/__/__/__/src/xrc/xh_split.o: __/__/__/__/src/xrc/xh_split.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_split.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_split.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_split.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_split.cpp.o
 
 __/__/__/__/src/xrc/xh_split.i: __/__/__/__/src/xrc/xh_split.cpp.i
@@ -1412,7 +1412,7 @@ __/__/__/__/src/xrc/xh_split.i: __/__/__/__/src/xrc/xh_split.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_split.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_split.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_split.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_split.cpp.i
 
 __/__/__/__/src/xrc/xh_split.s: __/__/__/__/src/xrc/xh_split.cpp.s
@@ -1420,7 +1420,7 @@ __/__/__/__/src/xrc/xh_split.s: __/__/__/__/src/xrc/xh_split.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_split.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_split.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_split.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_split.cpp.s
 
 __/__/__/__/src/xrc/xh_srchctrl.o: __/__/__/__/src/xrc/xh_srchctrl.cpp.o
@@ -1428,7 +1428,7 @@ __/__/__/__/src/xrc/xh_srchctrl.o: __/__/__/__/src/xrc/xh_srchctrl.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_srchctrl.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_srchctrl.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_srchctrl.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_srchctrl.cpp.o
 
 __/__/__/__/src/xrc/xh_srchctrl.i: __/__/__/__/src/xrc/xh_srchctrl.cpp.i
@@ -1436,7 +1436,7 @@ __/__/__/__/src/xrc/xh_srchctrl.i: __/__/__/__/src/xrc/xh_srchctrl.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_srchctrl.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_srchctrl.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_srchctrl.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_srchctrl.cpp.i
 
 __/__/__/__/src/xrc/xh_srchctrl.s: __/__/__/__/src/xrc/xh_srchctrl.cpp.s
@@ -1444,7 +1444,7 @@ __/__/__/__/src/xrc/xh_srchctrl.s: __/__/__/__/src/xrc/xh_srchctrl.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_srchctrl.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_srchctrl.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_srchctrl.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_srchctrl.cpp.s
 
 __/__/__/__/src/xrc/xh_statbar.o: __/__/__/__/src/xrc/xh_statbar.cpp.o
@@ -1452,7 +1452,7 @@ __/__/__/__/src/xrc/xh_statbar.o: __/__/__/__/src/xrc/xh_statbar.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_statbar.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_statbar.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_statbar.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_statbar.cpp.o
 
 __/__/__/__/src/xrc/xh_statbar.i: __/__/__/__/src/xrc/xh_statbar.cpp.i
@@ -1460,7 +1460,7 @@ __/__/__/__/src/xrc/xh_statbar.i: __/__/__/__/src/xrc/xh_statbar.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_statbar.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_statbar.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_statbar.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_statbar.cpp.i
 
 __/__/__/__/src/xrc/xh_statbar.s: __/__/__/__/src/xrc/xh_statbar.cpp.s
@@ -1468,7 +1468,7 @@ __/__/__/__/src/xrc/xh_statbar.s: __/__/__/__/src/xrc/xh_statbar.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_statbar.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_statbar.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_statbar.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_statbar.cpp.s
 
 __/__/__/__/src/xrc/xh_stbmp.o: __/__/__/__/src/xrc/xh_stbmp.cpp.o
@@ -1476,7 +1476,7 @@ __/__/__/__/src/xrc/xh_stbmp.o: __/__/__/__/src/xrc/xh_stbmp.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_stbmp.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_stbmp.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_stbmp.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_stbmp.cpp.o
 
 __/__/__/__/src/xrc/xh_stbmp.i: __/__/__/__/src/xrc/xh_stbmp.cpp.i
@@ -1484,7 +1484,7 @@ __/__/__/__/src/xrc/xh_stbmp.i: __/__/__/__/src/xrc/xh_stbmp.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_stbmp.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_stbmp.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_stbmp.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_stbmp.cpp.i
 
 __/__/__/__/src/xrc/xh_stbmp.s: __/__/__/__/src/xrc/xh_stbmp.cpp.s
@@ -1492,7 +1492,7 @@ __/__/__/__/src/xrc/xh_stbmp.s: __/__/__/__/src/xrc/xh_stbmp.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_stbmp.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_stbmp.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_stbmp.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_stbmp.cpp.s
 
 __/__/__/__/src/xrc/xh_stbox.o: __/__/__/__/src/xrc/xh_stbox.cpp.o
@@ -1500,7 +1500,7 @@ __/__/__/__/src/xrc/xh_stbox.o: __/__/__/__/src/xrc/xh_stbox.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_stbox.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_stbox.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_stbox.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_stbox.cpp.o
 
 __/__/__/__/src/xrc/xh_stbox.i: __/__/__/__/src/xrc/xh_stbox.cpp.i
@@ -1508,7 +1508,7 @@ __/__/__/__/src/xrc/xh_stbox.i: __/__/__/__/src/xrc/xh_stbox.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_stbox.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_stbox.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_stbox.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_stbox.cpp.i
 
 __/__/__/__/src/xrc/xh_stbox.s: __/__/__/__/src/xrc/xh_stbox.cpp.s
@@ -1516,7 +1516,7 @@ __/__/__/__/src/xrc/xh_stbox.s: __/__/__/__/src/xrc/xh_stbox.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_stbox.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_stbox.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_stbox.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_stbox.cpp.s
 
 __/__/__/__/src/xrc/xh_stlin.o: __/__/__/__/src/xrc/xh_stlin.cpp.o
@@ -1524,7 +1524,7 @@ __/__/__/__/src/xrc/xh_stlin.o: __/__/__/__/src/xrc/xh_stlin.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_stlin.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_stlin.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_stlin.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_stlin.cpp.o
 
 __/__/__/__/src/xrc/xh_stlin.i: __/__/__/__/src/xrc/xh_stlin.cpp.i
@@ -1532,7 +1532,7 @@ __/__/__/__/src/xrc/xh_stlin.i: __/__/__/__/src/xrc/xh_stlin.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_stlin.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_stlin.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_stlin.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_stlin.cpp.i
 
 __/__/__/__/src/xrc/xh_stlin.s: __/__/__/__/src/xrc/xh_stlin.cpp.s
@@ -1540,7 +1540,7 @@ __/__/__/__/src/xrc/xh_stlin.s: __/__/__/__/src/xrc/xh_stlin.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_stlin.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_stlin.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_stlin.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_stlin.cpp.s
 
 __/__/__/__/src/xrc/xh_sttxt.o: __/__/__/__/src/xrc/xh_sttxt.cpp.o
@@ -1548,7 +1548,7 @@ __/__/__/__/src/xrc/xh_sttxt.o: __/__/__/__/src/xrc/xh_sttxt.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_sttxt.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_sttxt.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_sttxt.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_sttxt.cpp.o
 
 __/__/__/__/src/xrc/xh_sttxt.i: __/__/__/__/src/xrc/xh_sttxt.cpp.i
@@ -1556,7 +1556,7 @@ __/__/__/__/src/xrc/xh_sttxt.i: __/__/__/__/src/xrc/xh_sttxt.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_sttxt.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_sttxt.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_sttxt.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_sttxt.cpp.i
 
 __/__/__/__/src/xrc/xh_sttxt.s: __/__/__/__/src/xrc/xh_sttxt.cpp.s
@@ -1564,7 +1564,7 @@ __/__/__/__/src/xrc/xh_sttxt.s: __/__/__/__/src/xrc/xh_sttxt.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_sttxt.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_sttxt.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_sttxt.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_sttxt.cpp.s
 
 __/__/__/__/src/xrc/xh_text.o: __/__/__/__/src/xrc/xh_text.cpp.o
@@ -1572,7 +1572,7 @@ __/__/__/__/src/xrc/xh_text.o: __/__/__/__/src/xrc/xh_text.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_text.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_text.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_text.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_text.cpp.o
 
 __/__/__/__/src/xrc/xh_text.i: __/__/__/__/src/xrc/xh_text.cpp.i
@@ -1580,7 +1580,7 @@ __/__/__/__/src/xrc/xh_text.i: __/__/__/__/src/xrc/xh_text.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_text.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_text.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_text.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_text.cpp.i
 
 __/__/__/__/src/xrc/xh_text.s: __/__/__/__/src/xrc/xh_text.cpp.s
@@ -1588,7 +1588,7 @@ __/__/__/__/src/xrc/xh_text.s: __/__/__/__/src/xrc/xh_text.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_text.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_text.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_text.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_text.cpp.s
 
 __/__/__/__/src/xrc/xh_tglbtn.o: __/__/__/__/src/xrc/xh_tglbtn.cpp.o
@@ -1596,7 +1596,7 @@ __/__/__/__/src/xrc/xh_tglbtn.o: __/__/__/__/src/xrc/xh_tglbtn.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_tglbtn.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_tglbtn.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_tglbtn.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_tglbtn.cpp.o
 
 __/__/__/__/src/xrc/xh_tglbtn.i: __/__/__/__/src/xrc/xh_tglbtn.cpp.i
@@ -1604,7 +1604,7 @@ __/__/__/__/src/xrc/xh_tglbtn.i: __/__/__/__/src/xrc/xh_tglbtn.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_tglbtn.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_tglbtn.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_tglbtn.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_tglbtn.cpp.i
 
 __/__/__/__/src/xrc/xh_tglbtn.s: __/__/__/__/src/xrc/xh_tglbtn.cpp.s
@@ -1612,7 +1612,7 @@ __/__/__/__/src/xrc/xh_tglbtn.s: __/__/__/__/src/xrc/xh_tglbtn.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_tglbtn.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_tglbtn.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_tglbtn.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_tglbtn.cpp.s
 
 __/__/__/__/src/xrc/xh_timectrl.o: __/__/__/__/src/xrc/xh_timectrl.cpp.o
@@ -1620,7 +1620,7 @@ __/__/__/__/src/xrc/xh_timectrl.o: __/__/__/__/src/xrc/xh_timectrl.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_timectrl.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_timectrl.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_timectrl.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_timectrl.cpp.o
 
 __/__/__/__/src/xrc/xh_timectrl.i: __/__/__/__/src/xrc/xh_timectrl.cpp.i
@@ -1628,7 +1628,7 @@ __/__/__/__/src/xrc/xh_timectrl.i: __/__/__/__/src/xrc/xh_timectrl.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_timectrl.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_timectrl.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_timectrl.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_timectrl.cpp.i
 
 __/__/__/__/src/xrc/xh_timectrl.s: __/__/__/__/src/xrc/xh_timectrl.cpp.s
@@ -1636,7 +1636,7 @@ __/__/__/__/src/xrc/xh_timectrl.s: __/__/__/__/src/xrc/xh_timectrl.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_timectrl.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_timectrl.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_timectrl.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_timectrl.cpp.s
 
 __/__/__/__/src/xrc/xh_toolb.o: __/__/__/__/src/xrc/xh_toolb.cpp.o
@@ -1644,7 +1644,7 @@ __/__/__/__/src/xrc/xh_toolb.o: __/__/__/__/src/xrc/xh_toolb.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_toolb.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_toolb.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_toolb.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_toolb.cpp.o
 
 __/__/__/__/src/xrc/xh_toolb.i: __/__/__/__/src/xrc/xh_toolb.cpp.i
@@ -1652,7 +1652,7 @@ __/__/__/__/src/xrc/xh_toolb.i: __/__/__/__/src/xrc/xh_toolb.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_toolb.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_toolb.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_toolb.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_toolb.cpp.i
 
 __/__/__/__/src/xrc/xh_toolb.s: __/__/__/__/src/xrc/xh_toolb.cpp.s
@@ -1660,7 +1660,7 @@ __/__/__/__/src/xrc/xh_toolb.s: __/__/__/__/src/xrc/xh_toolb.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_toolb.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_toolb.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_toolb.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_toolb.cpp.s
 
 __/__/__/__/src/xrc/xh_toolbk.o: __/__/__/__/src/xrc/xh_toolbk.cpp.o
@@ -1668,7 +1668,7 @@ __/__/__/__/src/xrc/xh_toolbk.o: __/__/__/__/src/xrc/xh_toolbk.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_toolbk.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_toolbk.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_toolbk.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_toolbk.cpp.o
 
 __/__/__/__/src/xrc/xh_toolbk.i: __/__/__/__/src/xrc/xh_toolbk.cpp.i
@@ -1676,7 +1676,7 @@ __/__/__/__/src/xrc/xh_toolbk.i: __/__/__/__/src/xrc/xh_toolbk.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_toolbk.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_toolbk.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_toolbk.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_toolbk.cpp.i
 
 __/__/__/__/src/xrc/xh_toolbk.s: __/__/__/__/src/xrc/xh_toolbk.cpp.s
@@ -1684,7 +1684,7 @@ __/__/__/__/src/xrc/xh_toolbk.s: __/__/__/__/src/xrc/xh_toolbk.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_toolbk.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_toolbk.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_toolbk.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_toolbk.cpp.s
 
 __/__/__/__/src/xrc/xh_tree.o: __/__/__/__/src/xrc/xh_tree.cpp.o
@@ -1692,7 +1692,7 @@ __/__/__/__/src/xrc/xh_tree.o: __/__/__/__/src/xrc/xh_tree.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_tree.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_tree.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_tree.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_tree.cpp.o
 
 __/__/__/__/src/xrc/xh_tree.i: __/__/__/__/src/xrc/xh_tree.cpp.i
@@ -1700,7 +1700,7 @@ __/__/__/__/src/xrc/xh_tree.i: __/__/__/__/src/xrc/xh_tree.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_tree.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_tree.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_tree.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_tree.cpp.i
 
 __/__/__/__/src/xrc/xh_tree.s: __/__/__/__/src/xrc/xh_tree.cpp.s
@@ -1708,7 +1708,7 @@ __/__/__/__/src/xrc/xh_tree.s: __/__/__/__/src/xrc/xh_tree.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_tree.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_tree.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_tree.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_tree.cpp.s
 
 __/__/__/__/src/xrc/xh_treebk.o: __/__/__/__/src/xrc/xh_treebk.cpp.o
@@ -1716,7 +1716,7 @@ __/__/__/__/src/xrc/xh_treebk.o: __/__/__/__/src/xrc/xh_treebk.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_treebk.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_treebk.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_treebk.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_treebk.cpp.o
 
 __/__/__/__/src/xrc/xh_treebk.i: __/__/__/__/src/xrc/xh_treebk.cpp.i
@@ -1724,7 +1724,7 @@ __/__/__/__/src/xrc/xh_treebk.i: __/__/__/__/src/xrc/xh_treebk.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_treebk.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_treebk.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_treebk.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_treebk.cpp.i
 
 __/__/__/__/src/xrc/xh_treebk.s: __/__/__/__/src/xrc/xh_treebk.cpp.s
@@ -1732,7 +1732,7 @@ __/__/__/__/src/xrc/xh_treebk.s: __/__/__/__/src/xrc/xh_treebk.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_treebk.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_treebk.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_treebk.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_treebk.cpp.s
 
 __/__/__/__/src/xrc/xh_unkwn.o: __/__/__/__/src/xrc/xh_unkwn.cpp.o
@@ -1740,7 +1740,7 @@ __/__/__/__/src/xrc/xh_unkwn.o: __/__/__/__/src/xrc/xh_unkwn.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_unkwn.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_unkwn.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_unkwn.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_unkwn.cpp.o
 
 __/__/__/__/src/xrc/xh_unkwn.i: __/__/__/__/src/xrc/xh_unkwn.cpp.i
@@ -1748,7 +1748,7 @@ __/__/__/__/src/xrc/xh_unkwn.i: __/__/__/__/src/xrc/xh_unkwn.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_unkwn.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_unkwn.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_unkwn.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_unkwn.cpp.i
 
 __/__/__/__/src/xrc/xh_unkwn.s: __/__/__/__/src/xrc/xh_unkwn.cpp.s
@@ -1756,7 +1756,7 @@ __/__/__/__/src/xrc/xh_unkwn.s: __/__/__/__/src/xrc/xh_unkwn.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_unkwn.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_unkwn.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_unkwn.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_unkwn.cpp.s
 
 __/__/__/__/src/xrc/xh_wizrd.o: __/__/__/__/src/xrc/xh_wizrd.cpp.o
@@ -1764,7 +1764,7 @@ __/__/__/__/src/xrc/xh_wizrd.o: __/__/__/__/src/xrc/xh_wizrd.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_wizrd.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_wizrd.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_wizrd.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_wizrd.cpp.o
 
 __/__/__/__/src/xrc/xh_wizrd.i: __/__/__/__/src/xrc/xh_wizrd.cpp.i
@@ -1772,7 +1772,7 @@ __/__/__/__/src/xrc/xh_wizrd.i: __/__/__/__/src/xrc/xh_wizrd.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_wizrd.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_wizrd.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_wizrd.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_wizrd.cpp.i
 
 __/__/__/__/src/xrc/xh_wizrd.s: __/__/__/__/src/xrc/xh_wizrd.cpp.s
@@ -1780,7 +1780,7 @@ __/__/__/__/src/xrc/xh_wizrd.s: __/__/__/__/src/xrc/xh_wizrd.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_wizrd.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_wizrd.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xh_wizrd.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_wizrd.cpp.s
 
 __/__/__/__/src/xrc/xmlres.o: __/__/__/__/src/xrc/xmlres.cpp.o
@@ -1788,7 +1788,7 @@ __/__/__/__/src/xrc/xmlres.o: __/__/__/__/src/xrc/xmlres.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xmlres.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xmlres.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xmlres.cpp.o
 .PHONY : __/__/__/__/src/xrc/xmlres.cpp.o
 
 __/__/__/__/src/xrc/xmlres.i: __/__/__/__/src/xrc/xmlres.cpp.i
@@ -1796,7 +1796,7 @@ __/__/__/__/src/xrc/xmlres.i: __/__/__/__/src/xrc/xmlres.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xmlres.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xmlres.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xmlres.cpp.i
 .PHONY : __/__/__/__/src/xrc/xmlres.cpp.i
 
 __/__/__/__/src/xrc/xmlres.s: __/__/__/__/src/xrc/xmlres.cpp.s
@@ -1804,7 +1804,7 @@ __/__/__/__/src/xrc/xmlres.s: __/__/__/__/src/xrc/xmlres.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xmlres.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xmlres.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xmlres.cpp.s
 .PHONY : __/__/__/__/src/xrc/xmlres.cpp.s
 
 __/__/__/__/src/xrc/xmlrsall.o: __/__/__/__/src/xrc/xmlrsall.cpp.o
@@ -1812,7 +1812,7 @@ __/__/__/__/src/xrc/xmlrsall.o: __/__/__/__/src/xrc/xmlrsall.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xmlrsall.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xmlrsall.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xmlrsall.cpp.o
 .PHONY : __/__/__/__/src/xrc/xmlrsall.cpp.o
 
 __/__/__/__/src/xrc/xmlrsall.i: __/__/__/__/src/xrc/xmlrsall.cpp.i
@@ -1820,7 +1820,7 @@ __/__/__/__/src/xrc/xmlrsall.i: __/__/__/__/src/xrc/xmlrsall.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xmlrsall.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xmlrsall.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xmlrsall.cpp.i
 .PHONY : __/__/__/__/src/xrc/xmlrsall.cpp.i
 
 __/__/__/__/src/xrc/xmlrsall.s: __/__/__/__/src/xrc/xmlrsall.cpp.s
@@ -1828,22 +1828,22 @@ __/__/__/__/src/xrc/xmlrsall.s: __/__/__/__/src/xrc/xmlrsall.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xmlrsall.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xmlrsall.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/__/__/__/__/src/xrc/xmlrsall.cpp.s
 .PHONY : __/__/__/__/src/xrc/xmlrsall.cpp.s
 
 # target to build an object file
 cmake_pch.hxx.pch:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/cmake_pch.hxx.pch
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/cmake_pch.hxx.pch
 .PHONY : cmake_pch.hxx.pch
 
 # target to preprocess a source file
 cmake_pch.hxx.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/cmake_pch.hxx.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/cmake_pch.hxx.i
 .PHONY : cmake_pch.hxx.i
 
 # target to generate assembly for a file
 cmake_pch.hxx.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/cmake_pch.hxx.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/build.make dependency/wxWidgets/libs/xrc/CMakeFiles/wxxrc.dir/cmake_pch.hxx.s
 .PHONY : cmake_pch.hxx.s
 
 # Help Target
@@ -2080,6 +2080,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

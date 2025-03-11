@@ -13,7 +13,6 @@
             "compilerPath": "/opt/homebrew/opt/llvm/bin/clang++",
             "cStandard": "c17",
             "intelliSenseMode": "macos-clang-arm64",
-            "configurationProvider": "ms-vscode.cmake-tools",
             "cppStandard": "c++17"
         }
     ],

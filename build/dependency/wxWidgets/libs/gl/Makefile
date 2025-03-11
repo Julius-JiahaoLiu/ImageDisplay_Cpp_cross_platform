@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
+CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
+CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/gl//CMakeFiles/progress.marks"
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/gl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/gl//CMakeFiles/progress.marks"
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/gl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/gl/clean
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/gl/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/gl/preinstall
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/gl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/gl/preinstall
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/gl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/rule:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/rule
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/rule
 .PHONY : dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ wxgl: dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/rule
 
 # fast build rule for target.
 wxgl/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build
 .PHONY : wxgl/fast
 
 __/__/__/__/src/common/glcmn.o: __/__/__/__/src/common/glcmn.cpp.o
@@ -180,7 +180,7 @@ __/__/__/__/src/common/glcmn.o: __/__/__/__/src/common/glcmn.cpp.o
 
 # target to build an object file
 __/__/__/__/src/common/glcmn.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/__/__/__/__/src/common/glcmn.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/__/__/__/__/src/common/glcmn.cpp.o
 .PHONY : __/__/__/__/src/common/glcmn.cpp.o
 
 __/__/__/__/src/common/glcmn.i: __/__/__/__/src/common/glcmn.cpp.i
@@ -188,7 +188,7 @@ __/__/__/__/src/common/glcmn.i: __/__/__/__/src/common/glcmn.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/common/glcmn.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/__/__/__/__/src/common/glcmn.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/__/__/__/__/src/common/glcmn.cpp.i
 .PHONY : __/__/__/__/src/common/glcmn.cpp.i
 
 __/__/__/__/src/common/glcmn.s: __/__/__/__/src/common/glcmn.cpp.s
@@ -196,7 +196,7 @@ __/__/__/__/src/common/glcmn.s: __/__/__/__/src/common/glcmn.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/common/glcmn.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/__/__/__/__/src/common/glcmn.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/__/__/__/__/src/common/glcmn.cpp.s
 .PHONY : __/__/__/__/src/common/glcmn.cpp.s
 
 __/__/__/__/src/osx/cocoa/glcanvas.o: __/__/__/__/src/osx/cocoa/glcanvas.mm.o
@@ -204,7 +204,7 @@ __/__/__/__/src/osx/cocoa/glcanvas.o: __/__/__/__/src/osx/cocoa/glcanvas.mm.o
 
 # target to build an object file
 __/__/__/__/src/osx/cocoa/glcanvas.mm.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/__/__/__/__/src/osx/cocoa/glcanvas.mm.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/__/__/__/__/src/osx/cocoa/glcanvas.mm.o
 .PHONY : __/__/__/__/src/osx/cocoa/glcanvas.mm.o
 
 __/__/__/__/src/osx/glcanvas_osx.o: __/__/__/__/src/osx/glcanvas_osx.cpp.o
@@ -212,7 +212,7 @@ __/__/__/__/src/osx/glcanvas_osx.o: __/__/__/__/src/osx/glcanvas_osx.cpp.o
 
 # target to build an object file
 __/__/__/__/src/osx/glcanvas_osx.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/__/__/__/__/src/osx/glcanvas_osx.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/__/__/__/__/src/osx/glcanvas_osx.cpp.o
 .PHONY : __/__/__/__/src/osx/glcanvas_osx.cpp.o
 
 __/__/__/__/src/osx/glcanvas_osx.i: __/__/__/__/src/osx/glcanvas_osx.cpp.i
@@ -220,7 +220,7 @@ __/__/__/__/src/osx/glcanvas_osx.i: __/__/__/__/src/osx/glcanvas_osx.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/osx/glcanvas_osx.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/__/__/__/__/src/osx/glcanvas_osx.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/__/__/__/__/src/osx/glcanvas_osx.cpp.i
 .PHONY : __/__/__/__/src/osx/glcanvas_osx.cpp.i
 
 __/__/__/__/src/osx/glcanvas_osx.s: __/__/__/__/src/osx/glcanvas_osx.cpp.s
@@ -228,22 +228,22 @@ __/__/__/__/src/osx/glcanvas_osx.s: __/__/__/__/src/osx/glcanvas_osx.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/osx/glcanvas_osx.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/__/__/__/__/src/osx/glcanvas_osx.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/__/__/__/__/src/osx/glcanvas_osx.cpp.s
 .PHONY : __/__/__/__/src/osx/glcanvas_osx.cpp.s
 
 # target to build an object file
 cmake_pch.hxx.pch:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/cmake_pch.hxx.pch
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/cmake_pch.hxx.pch
 .PHONY : cmake_pch.hxx.pch
 
 # target to preprocess a source file
 cmake_pch.hxx.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/cmake_pch.hxx.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/cmake_pch.hxx.i
 .PHONY : cmake_pch.hxx.i
 
 # target to generate assembly for a file
 cmake_pch.hxx.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/cmake_pch.hxx.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/build.make dependency/wxWidgets/libs/gl/CMakeFiles/wxgl.dir/cmake_pch.hxx.s
 .PHONY : cmake_pch.hxx.s
 
 # Help Target
@@ -280,6 +280,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

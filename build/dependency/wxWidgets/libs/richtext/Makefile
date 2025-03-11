@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
+CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
+CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/richtext//CMakeFiles/progress.marks"
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/richtext/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/richtext//CMakeFiles/progress.marks"
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/richtext/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/richtext/clean
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/richtext/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/richtext/preinstall
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/richtext/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/richtext/preinstall
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/richtext/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/rule:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/rule
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/rule
 .PHONY : dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ wxrichtext: dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/rule
 
 # fast build rule for target.
 wxrichtext/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build
 .PHONY : wxrichtext/fast
 
 __/__/__/__/src/richtext/richtextbuffer.o: __/__/__/__/src/richtext/richtextbuffer.cpp.o
@@ -180,7 +180,7 @@ __/__/__/__/src/richtext/richtextbuffer.o: __/__/__/__/src/richtext/richtextbuff
 
 # target to build an object file
 __/__/__/__/src/richtext/richtextbuffer.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextbuffer.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextbuffer.cpp.o
 .PHONY : __/__/__/__/src/richtext/richtextbuffer.cpp.o
 
 __/__/__/__/src/richtext/richtextbuffer.i: __/__/__/__/src/richtext/richtextbuffer.cpp.i
@@ -188,7 +188,7 @@ __/__/__/__/src/richtext/richtextbuffer.i: __/__/__/__/src/richtext/richtextbuff
 
 # target to preprocess a source file
 __/__/__/__/src/richtext/richtextbuffer.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextbuffer.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextbuffer.cpp.i
 .PHONY : __/__/__/__/src/richtext/richtextbuffer.cpp.i
 
 __/__/__/__/src/richtext/richtextbuffer.s: __/__/__/__/src/richtext/richtextbuffer.cpp.s
@@ -196,7 +196,7 @@ __/__/__/__/src/richtext/richtextbuffer.s: __/__/__/__/src/richtext/richtextbuff
 
 # target to generate assembly for a file
 __/__/__/__/src/richtext/richtextbuffer.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextbuffer.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextbuffer.cpp.s
 .PHONY : __/__/__/__/src/richtext/richtextbuffer.cpp.s
 
 __/__/__/__/src/richtext/richtextctrl.o: __/__/__/__/src/richtext/richtextctrl.cpp.o
@@ -204,7 +204,7 @@ __/__/__/__/src/richtext/richtextctrl.o: __/__/__/__/src/richtext/richtextctrl.c
 
 # target to build an object file
 __/__/__/__/src/richtext/richtextctrl.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextctrl.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextctrl.cpp.o
 .PHONY : __/__/__/__/src/richtext/richtextctrl.cpp.o
 
 __/__/__/__/src/richtext/richtextctrl.i: __/__/__/__/src/richtext/richtextctrl.cpp.i
@@ -212,7 +212,7 @@ __/__/__/__/src/richtext/richtextctrl.i: __/__/__/__/src/richtext/richtextctrl.c
 
 # target to preprocess a source file
 __/__/__/__/src/richtext/richtextctrl.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextctrl.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextctrl.cpp.i
 .PHONY : __/__/__/__/src/richtext/richtextctrl.cpp.i
 
 __/__/__/__/src/richtext/richtextctrl.s: __/__/__/__/src/richtext/richtextctrl.cpp.s
@@ -220,7 +220,7 @@ __/__/__/__/src/richtext/richtextctrl.s: __/__/__/__/src/richtext/richtextctrl.c
 
 # target to generate assembly for a file
 __/__/__/__/src/richtext/richtextctrl.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextctrl.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextctrl.cpp.s
 .PHONY : __/__/__/__/src/richtext/richtextctrl.cpp.s
 
 __/__/__/__/src/richtext/richtextformatdlg.o: __/__/__/__/src/richtext/richtextformatdlg.cpp.o
@@ -228,7 +228,7 @@ __/__/__/__/src/richtext/richtextformatdlg.o: __/__/__/__/src/richtext/richtextf
 
 # target to build an object file
 __/__/__/__/src/richtext/richtextformatdlg.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextformatdlg.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextformatdlg.cpp.o
 .PHONY : __/__/__/__/src/richtext/richtextformatdlg.cpp.o
 
 __/__/__/__/src/richtext/richtextformatdlg.i: __/__/__/__/src/richtext/richtextformatdlg.cpp.i
@@ -236,7 +236,7 @@ __/__/__/__/src/richtext/richtextformatdlg.i: __/__/__/__/src/richtext/richtextf
 
 # target to preprocess a source file
 __/__/__/__/src/richtext/richtextformatdlg.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextformatdlg.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextformatdlg.cpp.i
 .PHONY : __/__/__/__/src/richtext/richtextformatdlg.cpp.i
 
 __/__/__/__/src/richtext/richtextformatdlg.s: __/__/__/__/src/richtext/richtextformatdlg.cpp.s
@@ -244,7 +244,7 @@ __/__/__/__/src/richtext/richtextformatdlg.s: __/__/__/__/src/richtext/richtextf
 
 # target to generate assembly for a file
 __/__/__/__/src/richtext/richtextformatdlg.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextformatdlg.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextformatdlg.cpp.s
 .PHONY : __/__/__/__/src/richtext/richtextformatdlg.cpp.s
 
 __/__/__/__/src/richtext/richtexthtml.o: __/__/__/__/src/richtext/richtexthtml.cpp.o
@@ -252,7 +252,7 @@ __/__/__/__/src/richtext/richtexthtml.o: __/__/__/__/src/richtext/richtexthtml.c
 
 # target to build an object file
 __/__/__/__/src/richtext/richtexthtml.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtexthtml.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtexthtml.cpp.o
 .PHONY : __/__/__/__/src/richtext/richtexthtml.cpp.o
 
 __/__/__/__/src/richtext/richtexthtml.i: __/__/__/__/src/richtext/richtexthtml.cpp.i
@@ -260,7 +260,7 @@ __/__/__/__/src/richtext/richtexthtml.i: __/__/__/__/src/richtext/richtexthtml.c
 
 # target to preprocess a source file
 __/__/__/__/src/richtext/richtexthtml.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtexthtml.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtexthtml.cpp.i
 .PHONY : __/__/__/__/src/richtext/richtexthtml.cpp.i
 
 __/__/__/__/src/richtext/richtexthtml.s: __/__/__/__/src/richtext/richtexthtml.cpp.s
@@ -268,7 +268,7 @@ __/__/__/__/src/richtext/richtexthtml.s: __/__/__/__/src/richtext/richtexthtml.c
 
 # target to generate assembly for a file
 __/__/__/__/src/richtext/richtexthtml.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtexthtml.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtexthtml.cpp.s
 .PHONY : __/__/__/__/src/richtext/richtexthtml.cpp.s
 
 __/__/__/__/src/richtext/richtextimagedlg.o: __/__/__/__/src/richtext/richtextimagedlg.cpp.o
@@ -276,7 +276,7 @@ __/__/__/__/src/richtext/richtextimagedlg.o: __/__/__/__/src/richtext/richtextim
 
 # target to build an object file
 __/__/__/__/src/richtext/richtextimagedlg.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextimagedlg.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextimagedlg.cpp.o
 .PHONY : __/__/__/__/src/richtext/richtextimagedlg.cpp.o
 
 __/__/__/__/src/richtext/richtextimagedlg.i: __/__/__/__/src/richtext/richtextimagedlg.cpp.i
@@ -284,7 +284,7 @@ __/__/__/__/src/richtext/richtextimagedlg.i: __/__/__/__/src/richtext/richtextim
 
 # target to preprocess a source file
 __/__/__/__/src/richtext/richtextimagedlg.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextimagedlg.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextimagedlg.cpp.i
 .PHONY : __/__/__/__/src/richtext/richtextimagedlg.cpp.i
 
 __/__/__/__/src/richtext/richtextimagedlg.s: __/__/__/__/src/richtext/richtextimagedlg.cpp.s
@@ -292,7 +292,7 @@ __/__/__/__/src/richtext/richtextimagedlg.s: __/__/__/__/src/richtext/richtextim
 
 # target to generate assembly for a file
 __/__/__/__/src/richtext/richtextimagedlg.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextimagedlg.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextimagedlg.cpp.s
 .PHONY : __/__/__/__/src/richtext/richtextimagedlg.cpp.s
 
 __/__/__/__/src/richtext/richtextprint.o: __/__/__/__/src/richtext/richtextprint.cpp.o
@@ -300,7 +300,7 @@ __/__/__/__/src/richtext/richtextprint.o: __/__/__/__/src/richtext/richtextprint
 
 # target to build an object file
 __/__/__/__/src/richtext/richtextprint.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextprint.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextprint.cpp.o
 .PHONY : __/__/__/__/src/richtext/richtextprint.cpp.o
 
 __/__/__/__/src/richtext/richtextprint.i: __/__/__/__/src/richtext/richtextprint.cpp.i
@@ -308,7 +308,7 @@ __/__/__/__/src/richtext/richtextprint.i: __/__/__/__/src/richtext/richtextprint
 
 # target to preprocess a source file
 __/__/__/__/src/richtext/richtextprint.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextprint.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextprint.cpp.i
 .PHONY : __/__/__/__/src/richtext/richtextprint.cpp.i
 
 __/__/__/__/src/richtext/richtextprint.s: __/__/__/__/src/richtext/richtextprint.cpp.s
@@ -316,7 +316,7 @@ __/__/__/__/src/richtext/richtextprint.s: __/__/__/__/src/richtext/richtextprint
 
 # target to generate assembly for a file
 __/__/__/__/src/richtext/richtextprint.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextprint.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextprint.cpp.s
 .PHONY : __/__/__/__/src/richtext/richtextprint.cpp.s
 
 __/__/__/__/src/richtext/richtextstyledlg.o: __/__/__/__/src/richtext/richtextstyledlg.cpp.o
@@ -324,7 +324,7 @@ __/__/__/__/src/richtext/richtextstyledlg.o: __/__/__/__/src/richtext/richtextst
 
 # target to build an object file
 __/__/__/__/src/richtext/richtextstyledlg.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextstyledlg.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextstyledlg.cpp.o
 .PHONY : __/__/__/__/src/richtext/richtextstyledlg.cpp.o
 
 __/__/__/__/src/richtext/richtextstyledlg.i: __/__/__/__/src/richtext/richtextstyledlg.cpp.i
@@ -332,7 +332,7 @@ __/__/__/__/src/richtext/richtextstyledlg.i: __/__/__/__/src/richtext/richtextst
 
 # target to preprocess a source file
 __/__/__/__/src/richtext/richtextstyledlg.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextstyledlg.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextstyledlg.cpp.i
 .PHONY : __/__/__/__/src/richtext/richtextstyledlg.cpp.i
 
 __/__/__/__/src/richtext/richtextstyledlg.s: __/__/__/__/src/richtext/richtextstyledlg.cpp.s
@@ -340,7 +340,7 @@ __/__/__/__/src/richtext/richtextstyledlg.s: __/__/__/__/src/richtext/richtextst
 
 # target to generate assembly for a file
 __/__/__/__/src/richtext/richtextstyledlg.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextstyledlg.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextstyledlg.cpp.s
 .PHONY : __/__/__/__/src/richtext/richtextstyledlg.cpp.s
 
 __/__/__/__/src/richtext/richtextstyles.o: __/__/__/__/src/richtext/richtextstyles.cpp.o
@@ -348,7 +348,7 @@ __/__/__/__/src/richtext/richtextstyles.o: __/__/__/__/src/richtext/richtextstyl
 
 # target to build an object file
 __/__/__/__/src/richtext/richtextstyles.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextstyles.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextstyles.cpp.o
 .PHONY : __/__/__/__/src/richtext/richtextstyles.cpp.o
 
 __/__/__/__/src/richtext/richtextstyles.i: __/__/__/__/src/richtext/richtextstyles.cpp.i
@@ -356,7 +356,7 @@ __/__/__/__/src/richtext/richtextstyles.i: __/__/__/__/src/richtext/richtextstyl
 
 # target to preprocess a source file
 __/__/__/__/src/richtext/richtextstyles.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextstyles.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextstyles.cpp.i
 .PHONY : __/__/__/__/src/richtext/richtextstyles.cpp.i
 
 __/__/__/__/src/richtext/richtextstyles.s: __/__/__/__/src/richtext/richtextstyles.cpp.s
@@ -364,7 +364,7 @@ __/__/__/__/src/richtext/richtextstyles.s: __/__/__/__/src/richtext/richtextstyl
 
 # target to generate assembly for a file
 __/__/__/__/src/richtext/richtextstyles.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextstyles.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextstyles.cpp.s
 .PHONY : __/__/__/__/src/richtext/richtextstyles.cpp.s
 
 __/__/__/__/src/richtext/richtextsymboldlg.o: __/__/__/__/src/richtext/richtextsymboldlg.cpp.o
@@ -372,7 +372,7 @@ __/__/__/__/src/richtext/richtextsymboldlg.o: __/__/__/__/src/richtext/richtexts
 
 # target to build an object file
 __/__/__/__/src/richtext/richtextsymboldlg.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextsymboldlg.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextsymboldlg.cpp.o
 .PHONY : __/__/__/__/src/richtext/richtextsymboldlg.cpp.o
 
 __/__/__/__/src/richtext/richtextsymboldlg.i: __/__/__/__/src/richtext/richtextsymboldlg.cpp.i
@@ -380,7 +380,7 @@ __/__/__/__/src/richtext/richtextsymboldlg.i: __/__/__/__/src/richtext/richtexts
 
 # target to preprocess a source file
 __/__/__/__/src/richtext/richtextsymboldlg.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextsymboldlg.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextsymboldlg.cpp.i
 .PHONY : __/__/__/__/src/richtext/richtextsymboldlg.cpp.i
 
 __/__/__/__/src/richtext/richtextsymboldlg.s: __/__/__/__/src/richtext/richtextsymboldlg.cpp.s
@@ -388,7 +388,7 @@ __/__/__/__/src/richtext/richtextsymboldlg.s: __/__/__/__/src/richtext/richtexts
 
 # target to generate assembly for a file
 __/__/__/__/src/richtext/richtextsymboldlg.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextsymboldlg.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextsymboldlg.cpp.s
 .PHONY : __/__/__/__/src/richtext/richtextsymboldlg.cpp.s
 
 __/__/__/__/src/richtext/richtextxml.o: __/__/__/__/src/richtext/richtextxml.cpp.o
@@ -396,7 +396,7 @@ __/__/__/__/src/richtext/richtextxml.o: __/__/__/__/src/richtext/richtextxml.cpp
 
 # target to build an object file
 __/__/__/__/src/richtext/richtextxml.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextxml.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextxml.cpp.o
 .PHONY : __/__/__/__/src/richtext/richtextxml.cpp.o
 
 __/__/__/__/src/richtext/richtextxml.i: __/__/__/__/src/richtext/richtextxml.cpp.i
@@ -404,7 +404,7 @@ __/__/__/__/src/richtext/richtextxml.i: __/__/__/__/src/richtext/richtextxml.cpp
 
 # target to preprocess a source file
 __/__/__/__/src/richtext/richtextxml.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextxml.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextxml.cpp.i
 .PHONY : __/__/__/__/src/richtext/richtextxml.cpp.i
 
 __/__/__/__/src/richtext/richtextxml.s: __/__/__/__/src/richtext/richtextxml.cpp.s
@@ -412,7 +412,7 @@ __/__/__/__/src/richtext/richtextxml.s: __/__/__/__/src/richtext/richtextxml.cpp
 
 # target to generate assembly for a file
 __/__/__/__/src/richtext/richtextxml.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextxml.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/richtext/richtextxml.cpp.s
 .PHONY : __/__/__/__/src/richtext/richtextxml.cpp.s
 
 __/__/__/__/src/xrc/xh_richtext.o: __/__/__/__/src/xrc/xh_richtext.cpp.o
@@ -420,7 +420,7 @@ __/__/__/__/src/xrc/xh_richtext.o: __/__/__/__/src/xrc/xh_richtext.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_richtext.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/xrc/xh_richtext.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/xrc/xh_richtext.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_richtext.cpp.o
 
 __/__/__/__/src/xrc/xh_richtext.i: __/__/__/__/src/xrc/xh_richtext.cpp.i
@@ -428,7 +428,7 @@ __/__/__/__/src/xrc/xh_richtext.i: __/__/__/__/src/xrc/xh_richtext.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_richtext.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/xrc/xh_richtext.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/xrc/xh_richtext.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_richtext.cpp.i
 
 __/__/__/__/src/xrc/xh_richtext.s: __/__/__/__/src/xrc/xh_richtext.cpp.s
@@ -436,22 +436,22 @@ __/__/__/__/src/xrc/xh_richtext.s: __/__/__/__/src/xrc/xh_richtext.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_richtext.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/xrc/xh_richtext.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/__/__/__/__/src/xrc/xh_richtext.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_richtext.cpp.s
 
 # target to build an object file
 cmake_pch.hxx.pch:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/cmake_pch.hxx.pch
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/cmake_pch.hxx.pch
 .PHONY : cmake_pch.hxx.pch
 
 # target to preprocess a source file
 cmake_pch.hxx.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/cmake_pch.hxx.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/cmake_pch.hxx.i
 .PHONY : cmake_pch.hxx.i
 
 # target to generate assembly for a file
 cmake_pch.hxx.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/cmake_pch.hxx.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/build.make dependency/wxWidgets/libs/richtext/CMakeFiles/wxrichtext.dir/cmake_pch.hxx.s
 .PHONY : cmake_pch.hxx.s
 
 # Help Target
@@ -514,6 +514,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

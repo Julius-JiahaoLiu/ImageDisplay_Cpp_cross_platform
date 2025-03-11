@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
+CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
+CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
 
 # Include any dependencies generated for this target.
 include dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/depend.make
@@ -73,18 +73,18 @@ dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/codegen:
 .PHONY : dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/codegen
 
 dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.o: dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/flags.make
-dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.o: /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/utils/wxrc/wxrc.cpp
+dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.o: /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/utils/wxrc/wxrc.cpp
 dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.o: dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.o"
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/utils" && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.o -MF CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.o.d -o CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.o -c "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/utils/wxrc/wxrc.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.o"
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/utils" && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.o -MF CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.o.d -o CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.o -c "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/utils/wxrc/wxrc.cpp"
 
 dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.i"
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/utils" && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/utils/wxrc/wxrc.cpp" > CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/utils" && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/utils/wxrc/wxrc.cpp" > CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.i
 
 dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.s"
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/utils" && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/utils/wxrc/wxrc.cpp" -o CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/utils" && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/utils/wxrc/wxrc.cpp" -o CMakeFiles/wxrc.dir/__/__/__/utils/wxrc/wxrc.cpp.s
 
 # Object files for target wxrc
 wxrc_OBJECTS = \
@@ -98,18 +98,18 @@ dependency/wxWidgets/lib/wxrc-3.3: dependency/wxWidgets/utils/CMakeFiles/wxrc.di
 dependency/wxWidgets/lib/wxrc-3.3: dependency/wxWidgets/lib/libwx_baseu_xml-3.3.0.0.0.dylib
 dependency/wxWidgets/lib/wxrc-3.3: dependency/wxWidgets/lib/libwx_baseu-3.3.0.0.0.dylib
 dependency/wxWidgets/lib/wxrc-3.3: dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../lib/wxrc-3.3"
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/utils" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wxrc.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../lib/wxrc-3.3"
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/utils" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wxrc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/build: dependency/wxWidgets/lib/wxrc-3.3
 .PHONY : dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/build
 
 dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/clean:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/utils" && $(CMAKE_COMMAND) -P CMakeFiles/wxrc.dir/cmake_clean.cmake
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/utils" && $(CMAKE_COMMAND) -P CMakeFiles/wxrc.dir/cmake_clean.cmake
 .PHONY : dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/clean
 
 dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/depend:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/build/cmake/utils" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/utils" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/build/cmake/utils" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/utils" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : dependency/wxWidgets/utils/CMakeFiles/wxrc.dir/depend
 

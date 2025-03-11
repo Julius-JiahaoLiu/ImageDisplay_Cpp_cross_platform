@@ -1,5 +1,5 @@
 dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/mips/filter_msa_intrinsics.c.o: \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/mips/filter_msa_intrinsics.c \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/mips/filter_msa_intrinsics.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/cdefs.h \
@@ -45,7 +45,7 @@ dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/mips/filter_msa_
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_types/_uint64_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/mips/../pngpriv.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/mips/../pngpriv.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/wait.h \
@@ -91,10 +91,10 @@ dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/mips/filter_msa_
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/secure/_string.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/mips/../pnglibconf.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/mips/../pngprefix.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/mips/../png.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/mips/../pngconf.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/mips/../pnglibconf.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/mips/../pngprefix.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/mips/../png.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/mips/../pngconf.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/machine/limits.h \
@@ -119,7 +119,7 @@ dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/mips/filter_msa_
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/math.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/mips/../pngstruct.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/mips/../pngstruct.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/zlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/zconf.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/types.h \
@@ -170,5 +170,5 @@ dependency/wxWidgets/libs/CMakeFiles/wxpng.dir/__/__/__/src/png/mips/filter_msa_
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_select.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_uuid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/gethostuuid.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/mips/../pnginfo.h \
-  /Users/liujiahao/Documents/CSCI\ 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/mips/../pngdebug.h
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/mips/../pnginfo.h \
+  /Users/liujiahao/Documents/CSCI\ 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/png/mips/../pngdebug.h

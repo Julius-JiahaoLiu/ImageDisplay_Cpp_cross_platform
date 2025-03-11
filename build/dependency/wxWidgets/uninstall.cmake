@@ -7,11 +7,11 @@
 # Licence:     wxWindows licence
 #############################################################################
 
-if(NOT EXISTS "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: /Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/install_manifest.txt")
+if(NOT EXISTS "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: /Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/install_manifest.txt")
 endif()
 
-file(READ "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/install_manifest.txt" files)
+file(READ "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 list(APPEND files /usr/local/bin/wx-config;/usr/local/bin/wxrc)
 foreach(file ${files})

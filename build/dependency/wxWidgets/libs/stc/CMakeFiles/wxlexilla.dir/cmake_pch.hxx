@@ -2,5 +2,5 @@
 
 #pragma clang system_header
 #ifdef __cplusplus
-#include "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/stc/scintilla/include/Scintilla.h"
+#include "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/dependency/wxWidgets/src/stc/scintilla/include/Scintilla.h"
 #endif // __cplusplus

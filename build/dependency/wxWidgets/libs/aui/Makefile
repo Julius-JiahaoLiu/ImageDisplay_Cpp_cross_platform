@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
+CMAKE_SOURCE_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
+CMAKE_BINARY_DIR = "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/aui//CMakeFiles/progress.marks"
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/aui/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/dependency/wxWidgets/libs/aui//CMakeFiles/progress.marks"
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/aui/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/aui/clean
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/aui/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/aui/preinstall
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/aui/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/aui/preinstall
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/aui/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/rule:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/rule
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/rule
 .PHONY : dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ wxaui: dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/rule
 
 # fast build rule for target.
 wxaui/fast:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build
 .PHONY : wxaui/fast
 
 __/__/__/__/src/aui/auibar.o: __/__/__/__/src/aui/auibar.cpp.o
@@ -180,7 +180,7 @@ __/__/__/__/src/aui/auibar.o: __/__/__/__/src/aui/auibar.cpp.o
 
 # target to build an object file
 __/__/__/__/src/aui/auibar.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/auibar.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/auibar.cpp.o
 .PHONY : __/__/__/__/src/aui/auibar.cpp.o
 
 __/__/__/__/src/aui/auibar.i: __/__/__/__/src/aui/auibar.cpp.i
@@ -188,7 +188,7 @@ __/__/__/__/src/aui/auibar.i: __/__/__/__/src/aui/auibar.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/aui/auibar.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/auibar.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/auibar.cpp.i
 .PHONY : __/__/__/__/src/aui/auibar.cpp.i
 
 __/__/__/__/src/aui/auibar.s: __/__/__/__/src/aui/auibar.cpp.s
@@ -196,7 +196,7 @@ __/__/__/__/src/aui/auibar.s: __/__/__/__/src/aui/auibar.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/aui/auibar.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/auibar.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/auibar.cpp.s
 .PHONY : __/__/__/__/src/aui/auibar.cpp.s
 
 __/__/__/__/src/aui/auibook.o: __/__/__/__/src/aui/auibook.cpp.o
@@ -204,7 +204,7 @@ __/__/__/__/src/aui/auibook.o: __/__/__/__/src/aui/auibook.cpp.o
 
 # target to build an object file
 __/__/__/__/src/aui/auibook.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/auibook.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/auibook.cpp.o
 .PHONY : __/__/__/__/src/aui/auibook.cpp.o
 
 __/__/__/__/src/aui/auibook.i: __/__/__/__/src/aui/auibook.cpp.i
@@ -212,7 +212,7 @@ __/__/__/__/src/aui/auibook.i: __/__/__/__/src/aui/auibook.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/aui/auibook.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/auibook.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/auibook.cpp.i
 .PHONY : __/__/__/__/src/aui/auibook.cpp.i
 
 __/__/__/__/src/aui/auibook.s: __/__/__/__/src/aui/auibook.cpp.s
@@ -220,7 +220,7 @@ __/__/__/__/src/aui/auibook.s: __/__/__/__/src/aui/auibook.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/aui/auibook.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/auibook.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/auibook.cpp.s
 .PHONY : __/__/__/__/src/aui/auibook.cpp.s
 
 __/__/__/__/src/aui/dockart.o: __/__/__/__/src/aui/dockart.cpp.o
@@ -228,7 +228,7 @@ __/__/__/__/src/aui/dockart.o: __/__/__/__/src/aui/dockart.cpp.o
 
 # target to build an object file
 __/__/__/__/src/aui/dockart.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/dockart.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/dockart.cpp.o
 .PHONY : __/__/__/__/src/aui/dockart.cpp.o
 
 __/__/__/__/src/aui/dockart.i: __/__/__/__/src/aui/dockart.cpp.i
@@ -236,7 +236,7 @@ __/__/__/__/src/aui/dockart.i: __/__/__/__/src/aui/dockart.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/aui/dockart.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/dockart.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/dockart.cpp.i
 .PHONY : __/__/__/__/src/aui/dockart.cpp.i
 
 __/__/__/__/src/aui/dockart.s: __/__/__/__/src/aui/dockart.cpp.s
@@ -244,7 +244,7 @@ __/__/__/__/src/aui/dockart.s: __/__/__/__/src/aui/dockart.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/aui/dockart.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/dockart.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/dockart.cpp.s
 .PHONY : __/__/__/__/src/aui/dockart.cpp.s
 
 __/__/__/__/src/aui/floatpane.o: __/__/__/__/src/aui/floatpane.cpp.o
@@ -252,7 +252,7 @@ __/__/__/__/src/aui/floatpane.o: __/__/__/__/src/aui/floatpane.cpp.o
 
 # target to build an object file
 __/__/__/__/src/aui/floatpane.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/floatpane.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/floatpane.cpp.o
 .PHONY : __/__/__/__/src/aui/floatpane.cpp.o
 
 __/__/__/__/src/aui/floatpane.i: __/__/__/__/src/aui/floatpane.cpp.i
@@ -260,7 +260,7 @@ __/__/__/__/src/aui/floatpane.i: __/__/__/__/src/aui/floatpane.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/aui/floatpane.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/floatpane.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/floatpane.cpp.i
 .PHONY : __/__/__/__/src/aui/floatpane.cpp.i
 
 __/__/__/__/src/aui/floatpane.s: __/__/__/__/src/aui/floatpane.cpp.s
@@ -268,7 +268,7 @@ __/__/__/__/src/aui/floatpane.s: __/__/__/__/src/aui/floatpane.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/aui/floatpane.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/floatpane.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/floatpane.cpp.s
 .PHONY : __/__/__/__/src/aui/floatpane.cpp.s
 
 __/__/__/__/src/aui/framemanager.o: __/__/__/__/src/aui/framemanager.cpp.o
@@ -276,7 +276,7 @@ __/__/__/__/src/aui/framemanager.o: __/__/__/__/src/aui/framemanager.cpp.o
 
 # target to build an object file
 __/__/__/__/src/aui/framemanager.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/framemanager.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/framemanager.cpp.o
 .PHONY : __/__/__/__/src/aui/framemanager.cpp.o
 
 __/__/__/__/src/aui/framemanager.i: __/__/__/__/src/aui/framemanager.cpp.i
@@ -284,7 +284,7 @@ __/__/__/__/src/aui/framemanager.i: __/__/__/__/src/aui/framemanager.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/aui/framemanager.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/framemanager.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/framemanager.cpp.i
 .PHONY : __/__/__/__/src/aui/framemanager.cpp.i
 
 __/__/__/__/src/aui/framemanager.s: __/__/__/__/src/aui/framemanager.cpp.s
@@ -292,7 +292,7 @@ __/__/__/__/src/aui/framemanager.s: __/__/__/__/src/aui/framemanager.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/aui/framemanager.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/framemanager.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/framemanager.cpp.s
 .PHONY : __/__/__/__/src/aui/framemanager.cpp.s
 
 __/__/__/__/src/aui/tabart.o: __/__/__/__/src/aui/tabart.cpp.o
@@ -300,7 +300,7 @@ __/__/__/__/src/aui/tabart.o: __/__/__/__/src/aui/tabart.cpp.o
 
 # target to build an object file
 __/__/__/__/src/aui/tabart.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/tabart.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/tabart.cpp.o
 .PHONY : __/__/__/__/src/aui/tabart.cpp.o
 
 __/__/__/__/src/aui/tabart.i: __/__/__/__/src/aui/tabart.cpp.i
@@ -308,7 +308,7 @@ __/__/__/__/src/aui/tabart.i: __/__/__/__/src/aui/tabart.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/aui/tabart.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/tabart.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/tabart.cpp.i
 .PHONY : __/__/__/__/src/aui/tabart.cpp.i
 
 __/__/__/__/src/aui/tabart.s: __/__/__/__/src/aui/tabart.cpp.s
@@ -316,7 +316,7 @@ __/__/__/__/src/aui/tabart.s: __/__/__/__/src/aui/tabart.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/aui/tabart.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/tabart.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/tabart.cpp.s
 .PHONY : __/__/__/__/src/aui/tabart.cpp.s
 
 __/__/__/__/src/aui/tabmdi.o: __/__/__/__/src/aui/tabmdi.cpp.o
@@ -324,7 +324,7 @@ __/__/__/__/src/aui/tabmdi.o: __/__/__/__/src/aui/tabmdi.cpp.o
 
 # target to build an object file
 __/__/__/__/src/aui/tabmdi.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/tabmdi.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/tabmdi.cpp.o
 .PHONY : __/__/__/__/src/aui/tabmdi.cpp.o
 
 __/__/__/__/src/aui/tabmdi.i: __/__/__/__/src/aui/tabmdi.cpp.i
@@ -332,7 +332,7 @@ __/__/__/__/src/aui/tabmdi.i: __/__/__/__/src/aui/tabmdi.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/aui/tabmdi.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/tabmdi.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/tabmdi.cpp.i
 .PHONY : __/__/__/__/src/aui/tabmdi.cpp.i
 
 __/__/__/__/src/aui/tabmdi.s: __/__/__/__/src/aui/tabmdi.cpp.s
@@ -340,7 +340,7 @@ __/__/__/__/src/aui/tabmdi.s: __/__/__/__/src/aui/tabmdi.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/aui/tabmdi.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/tabmdi.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/aui/tabmdi.cpp.s
 .PHONY : __/__/__/__/src/aui/tabmdi.cpp.s
 
 __/__/__/__/src/xrc/xh_aui.o: __/__/__/__/src/xrc/xh_aui.cpp.o
@@ -348,7 +348,7 @@ __/__/__/__/src/xrc/xh_aui.o: __/__/__/__/src/xrc/xh_aui.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_aui.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/xrc/xh_aui.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/xrc/xh_aui.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_aui.cpp.o
 
 __/__/__/__/src/xrc/xh_aui.i: __/__/__/__/src/xrc/xh_aui.cpp.i
@@ -356,7 +356,7 @@ __/__/__/__/src/xrc/xh_aui.i: __/__/__/__/src/xrc/xh_aui.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_aui.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/xrc/xh_aui.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/xrc/xh_aui.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_aui.cpp.i
 
 __/__/__/__/src/xrc/xh_aui.s: __/__/__/__/src/xrc/xh_aui.cpp.s
@@ -364,7 +364,7 @@ __/__/__/__/src/xrc/xh_aui.s: __/__/__/__/src/xrc/xh_aui.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_aui.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/xrc/xh_aui.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/xrc/xh_aui.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_aui.cpp.s
 
 __/__/__/__/src/xrc/xh_auitoolb.o: __/__/__/__/src/xrc/xh_auitoolb.cpp.o
@@ -372,7 +372,7 @@ __/__/__/__/src/xrc/xh_auitoolb.o: __/__/__/__/src/xrc/xh_auitoolb.cpp.o
 
 # target to build an object file
 __/__/__/__/src/xrc/xh_auitoolb.cpp.o:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/xrc/xh_auitoolb.cpp.o
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/xrc/xh_auitoolb.cpp.o
 .PHONY : __/__/__/__/src/xrc/xh_auitoolb.cpp.o
 
 __/__/__/__/src/xrc/xh_auitoolb.i: __/__/__/__/src/xrc/xh_auitoolb.cpp.i
@@ -380,7 +380,7 @@ __/__/__/__/src/xrc/xh_auitoolb.i: __/__/__/__/src/xrc/xh_auitoolb.cpp.i
 
 # target to preprocess a source file
 __/__/__/__/src/xrc/xh_auitoolb.cpp.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/xrc/xh_auitoolb.cpp.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/xrc/xh_auitoolb.cpp.i
 .PHONY : __/__/__/__/src/xrc/xh_auitoolb.cpp.i
 
 __/__/__/__/src/xrc/xh_auitoolb.s: __/__/__/__/src/xrc/xh_auitoolb.cpp.s
@@ -388,22 +388,22 @@ __/__/__/__/src/xrc/xh_auitoolb.s: __/__/__/__/src/xrc/xh_auitoolb.cpp.s
 
 # target to generate assembly for a file
 __/__/__/__/src/xrc/xh_auitoolb.cpp.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/xrc/xh_auitoolb.cpp.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/__/__/__/__/src/xrc/xh_auitoolb.cpp.s
 .PHONY : __/__/__/__/src/xrc/xh_auitoolb.cpp.s
 
 # target to build an object file
 cmake_pch.hxx.pch:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/cmake_pch.hxx.pch
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/cmake_pch.hxx.pch
 .PHONY : cmake_pch.hxx.pch
 
 # target to preprocess a source file
 cmake_pch.hxx.i:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/cmake_pch.hxx.i
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/cmake_pch.hxx.i
 .PHONY : cmake_pch.hxx.i
 
 # target to generate assembly for a file
 cmake_pch.hxx.s:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/cmake_pch.hxx.s
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(MAKE) $(MAKESILENT) -f dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/build.make dependency/wxWidgets/libs/aui/CMakeFiles/wxaui.dir/cmake_pch.hxx.s
 .PHONY : cmake_pch.hxx.s
 
 # Help Target
@@ -460,6 +460,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/liujiahao/Documents/CSCI 576/PA1/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/liujiahao/Documents/CSCI 576/PAs/CSCI-576-starter-code-main/ImageDisplay_Cpp_cross_platform/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
