@@ -9,6 +9,7 @@
 #include <cfloat>
 #include <numeric>
 #include <chrono> // Include the chrono library for timing measurements
+#include <random>
 
 using namespace std;
 namespace fs = std::filesystem;
@@ -341,7 +342,7 @@ VectorData computeCentroid(const vector<VectorData> &points, const vector<int> &
   return centroid;
 }
 
-vector<VectorData> centroidsInitialization(int K, int M, int channelCnt)
+vector<VectorData> centroidsInitializationUniform(int K, int M, int channelCnt)
 {
   /* Step 1: Initialize K centroids uniformly in [0, 255]^M
     M being a perfect square (e.g., M = 4 = 2x2, M = 9 = 3x3) suggests a natural grid structure.
@@ -377,6 +378,30 @@ vector<VectorData> centroidsInitialization(int K, int M, int channelCnt)
       centroidIdx++;
     }
   }
+  return centroids;
+}
+
+vector<VectorData> centroidsInitializationRandom(int K, int M, int channelCnt)
+{
+  /* True uniform initialization: Each centroid is uniformly sampled in the [0,255]^M space.
+    This method works for any M and does not assume it is a perfect square. */
+  vector<VectorData> centroids(K, {vector<vector<double>>(M, vector<double>(channelCnt, 0.0))});
+
+  random_device rd;
+  mt19937 gen(rd());                                  // Random number generator
+  uniform_real_distribution<double> dist(0.0, 255.0); // Uniform distribution in [0, 255]
+
+  for (int i = 0; i < K; i++)
+  {
+    for (int m = 0; m < M; m++)
+    {
+      for (int k = 0; k < channelCnt; k++)
+      {
+        centroids[i].vec[m][k] = dist(gen); // Random initialization in the range [0, 255]
+      }
+    }
+  }
+
   return centroids;
 }
 
@@ -418,11 +443,11 @@ pair<vector<int>, vector<VectorData>> kMeansClustering(const vector<VectorData> 
     exit(1);
   }
 
-  int N = vectors.size();                                                   // Number of vectors
-  int M = vectors[0].vec.size();                                            // Dimension of each vector
-  int channelCnt = vectors[0].vec[0].size();                                // Number of channels
-  vector<VectorData> centroids = centroidsInitialization(K, M, channelCnt); // Initialize centroids
-  vector<int> assignments(N, -1);                                           // Cluster assignment for each vector
+  int N = vectors.size();                                                         // Number of vectors
+  int M = vectors[0].vec.size();                                                  // Dimension of each vector
+  int channelCnt = vectors[0].vec[0].size();                                      // Number of channels
+  vector<VectorData> centroids = centroidsInitializationRandom(K, M, channelCnt); // Initialize centroids
+  vector<int> assignments(N, -1);                                                 // Cluster assignment for each vector
 
   // Iterate until convergence or max iterations
   bool changed = true;
