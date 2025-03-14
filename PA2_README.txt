@@ -23,23 +23,26 @@ Detailed Explanation:
 	(1) read the image data with unsigned char *inData = readImageData(imagePath, width = 352, height = 288);
       where the imagePath ending with ".raw" was converted to RGBRGB as well with same pixel value for three channels.
 
-	(2) vector<VectorData> vectorSpace = buildVectorSpace(inData, width, height, blockWidth, blockHeight, channelCnt);
+	(2) vector<VectorData> vectorSpace = buildVectorSpaceAndFrequency(inData, width = 352, height = 288, blockWidth, blockHeight, channelCnt, vectorFreq);
       where width is 352 and height is 288 by default.
       blockWidth and blockHeight is base on input vectorSize M. i.e. [2, 1] for M = 2, and [sqrt(M), sqrt(M)] for perfect square number M > 2.
       channelCnt is 1 for ".raw" file and 3 for ".rgb" file.
       this returns the vector space for all blocks with each vector element contains 3 or 1 channel data, i.e. the defined VectorData is a vector of M vector<double>, each of size channelCnt;
+      Also returns an unordered_map for frequency count of all vectors in the space;
 
-   (3) auto [assignments, centroids] = kMeansClustering(vectorSpace, vectorNumber, 200);
-      It first initialize all centroids uniformly in the hypercube [0, 255]^(channelCnt * vectorNumber). 
-      Then use meanSquareDistance to find the nearest centroid for each vector point and record this assigned centroid.
+   (3) vector<VectorData> centroids = centroidsInitializationWithFrequency(vectorFreq, vectorNumber);
+      this use the unordered_map build above to initialize the centroids by choosing K VectorData with highest frequency.
+
+   (4) vector<int> assignments = kMeansClustering(vectorSpace, centroids, 200);
+      this use meanSquareDistance to find the nearest centroid for each vector point and record this assigned centroid.
       Update the centroids for each clusters.
       Continue above two steps until there is no change to the assigned centroid for each vector and the meanSquareDistance change of centroids is less than convergenceThreshold = 1e-9.
       (The program would output the current centroids pixel value whenever the iteration % 50 == 0 and the final centroids after termination.)
 
-	(4) vectorQuantization(compressedData, vectorSpace.size(), assignments, centroids, channelCnt, blocksPerRow, blockWidth, blockHeight, width, height);
+	(5) vectorQuantization(compressedData, vectorSpace.size(), assignments, centroids, channelCnt, blocksPerRow, blockWidth, blockHeight, width, height);
       It would map and update the pixel value for each block of size M into the pixel value of their assigned centroid.
       Display the original inData and compressedData side by side in MyFrame initialization. 
 
-   PS: I would record the time consumed for (1) + (2) and (3) + (4) process, and output them in following format:
-      Time taken for Reading Image Data and Building Vector Space: XXX milliseconds
+   PS: I would record the time consumed for (1) ~ (3) and (4) ~ (5) process, and output them in following format:
+      Time taken for Reading Image Data, Building Vector Space and Initializing Centroids:: XXX milliseconds
       Time taken for K-Means Clustering and Vector Quantization: XXX milliseconds
